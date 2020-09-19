@@ -36,7 +36,7 @@ if ($pc) {
     } elseif (preg_match('#^BT(28|29|43|60)#', $pc) || in_array($pc, $postcodes)) {
         $link = 'https://www.nidirect.gov.uk/articles/coronavirus-covid-19-regulations-and-localised-restrictions';
         $text = str_replace('/', '/<wbr>', $link);
-        $results[] = "The area is in a local lockdown.<br><small>Source and more info: <a href='$link'>$text</a>.</small>";
+        $results[] = "The area has local restrictions. <br><small>Source and more info: <a href='$link'>$text</a>.</small>";
         $cls[] = 'warn';
     } else {
         $data = mapit_call('postcode/' . urlencode($pc));
@@ -114,15 +114,15 @@ function matching_area($data, $council, $ward=null) {
 
     if (array_key_exists($ward, $areas)) {
         $area = $areas[$ward];
-        $result = $data[$ward]['name'] . " ward is in a local lockdown.<br><small>Source and more info: <a href='$area[link]'>$area[text]</a>.</small>";
+        $result = $data[$ward]['name'] . " ward has local restrictions.<br><small>Source and more info: <a href='$area[link]'>$area[text]</a>.</small>";
         $cls[] = 'warn';
     } elseif (array_key_exists($council, $areas)) {
         $area = $areas[$council];
         if (array_key_exists('future', $area) && date('Y-m-d') < date('Y-m-d', $area['future'])) {
-            $result = $data[$council]['name'] . " will be in a local lockdown from <strong>" . date('jS F', $area['future']) . '</strong>';
+            $result = $data[$council]['name'] . " will have local restrictions from <strong>" . date('jS F', $area['future']) . '</strong>';
             $cls[] = 'info';
         } else {
-            $result = $data[$council]['name'] . " is in a local lockdown";
+            $result = $data[$council]['name'] . " has local restrictions.";
             $cls[] = 'warn';
         }
         $result .= ".<br><small>Source and more info: <a href='$area[link]'>$area[text]</a>.</small>";
@@ -134,9 +134,9 @@ function matching_area($data, $council, $ward=null) {
         $cls[] = 'error';
     } else {
         if ($council) {
-            $result = $data[$council]['name'] . ' is not currently in a local lockdown.';
+            $result = $data[$council]['name'] . ' must follow the current national restrictions but does not currently have additional local restrictions.';
         } else {
-            $result = "That postcode is not currently in a local lockdown.";
+            $result = "That location must follow the current national restrictions but does not currently have additional local restrictions.";
         }
         $cls[] = 'ok';
     }
