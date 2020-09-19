@@ -16,6 +16,9 @@ while ($row = fgetcsv($fp)) {
     if (count($row) > 2) {
         $areas[$id]['future'] = strtotime($row[2]);
     }
+    if (strpos($row[1], 'www.gov.uk') && !strpos($row[1], 'birmingham') && !strpos($row[1], '/news/')) {
+        $areas[$id]['extra'] = 'Do note the bit hidden many paragraphs down advising you should not &ldquo;socialise with people you do not live with, unless they&rsquo;re in your support bubble, in any public venue&rdquo;.';
+    }
 }
 fclose($fp);
 
@@ -138,6 +141,18 @@ function matching_area($data, $council, $ward=null) {
         } else {
             $result = "That postcode is not currently in a local lockdown.";
         }
+        $country = $data[$council]['country'];
+        if ($country == 'E') {
+            $link = 'https://www.gov.uk/government/publications/coronavirus-outbreak-faqs-what-you-can-and-cant-do/coronavirus-outbreak-faqs-what-you-can-and-cant-do';
+        } elseif ($country == 'W') {
+            $link = 'https://gov.wales/coronavirus';
+        } elseif ($country == 'S') {
+            $link = 'https://www.gov.scot/publications/coronavirus-covid-19-what-you-can-and-cannot-do/';
+        } elseif ($country == 'N') {
+            $link = 'https://www.nidirect.gov.uk/campaigns/coronavirus-covid-19';
+        }
+        $text = str_replace('/', '/<wbr>', $link);
+        $result .= "<br><small>National lockdown guidance: <a href='$link'>$text</a>.</small>";
         $cls[] = 'ok';
     }
     $results[] = $result;
