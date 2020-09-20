@@ -63,7 +63,7 @@ if ($results) {
 <small>(an API to provide postcode to council lookup, take a look)</small>
 to look up the council or ward for your postcode, and then tells you if
 that is currently in a localised lockdown.
-<small>It was last updated at <strong>11pm on 18th September 2020</strong>.</small>
+<small>It was last updated at <strong>10pm on 20th September 2020</strong>.</small>
 </p>
 
 <div align="center" style="background-color: #eee; padding: 0.5em;">
