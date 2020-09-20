@@ -18,7 +18,6 @@ function load_areas() {
         $id = intval($row[0]);
         $areas[$id] = [
             'link' => $row[1],
-            'text' => str_replace('/', '/<wbr>', $row[1]),
         ];
         if (count($row) > 2) {
             $areas[$id]['future'] = strtotime($row[2]);
@@ -138,4 +137,9 @@ $key = trim(file_get_contents($dir . '/KEY'));
 function mapit_call($url) {
     global $key;
     return json_decode(file_get_contents('https://mapit.mysociety.org/' . $url . '?api_key=' . $key), true);
+}
+
+function link_wbr($link) {
+    $text = str_replace('/', '/<wbr>', $link);
+    return "<a href='$link'>$text</a>";
 }
