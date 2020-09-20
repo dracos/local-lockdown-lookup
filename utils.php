@@ -1,10 +1,18 @@
 <?php
 
+$dir = dirname(__FILE__);
+
 # CSV is MapIt ID and government link of local lockdown areas
 function load_areas() {
-    global $areas;
+    global $areas, $dir;
     $areas = [];
-    $fp = fopen(dirname(__FILE__) . '/areas.csv', 'r');
+    $csv_mt = filemtime($dir . '/areas.csv');
+    $php_mt = @filemtime($dir . '/cache/areas.php');
+    if ($php_mt >= $csv_mt) {
+        include_once $dir . '/cache/areas.php';
+        return;
+    }
+    $fp = fopen($dir . '/areas.csv', 'r');
     fgetcsv($fp);
     while ($row = fgetcsv($fp)) {
         $id = intval($row[0]);
@@ -19,6 +27,13 @@ function load_areas() {
             $areas[$id]['extra'] = 'Do note the bit hidden many paragraphs down advising you should not &ldquo;socialise with people you do not live with, unless they&rsquo;re in your support bubble, in any public venue&rdquo;.';
         }
     }
+    fclose($fp);
+
+    $fp = fopen($dir . '/cache/areas.php', 'w');
+    fwrite($fp, "<?php\n");
+    fwrite($fp, '$areas = ');
+    fwrite($fp, var_export($areas, true));
+    fwrite($fp, ";\n");
     fclose($fp);
 }
 
@@ -118,7 +133,7 @@ function canonicalise_postcode($pc) {
     return $pc;
 }
 
-$key = trim(file_get_contents(dirname(__FILE__) . '/KEY'));
+$key = trim(file_get_contents($dir . '/KEY'));
 
 function mapit_call($url) {
     global $key;
