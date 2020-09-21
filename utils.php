@@ -82,7 +82,8 @@ many have campaigned for this over the years; the government do have access to b
 data and could make a tool like this that worked even for those postcodes.</p>
 
 <li>If I am unable to keep this up to date, I will immediately remove it and
-leave only these links to the various UK government sites:
+leave only these links to the various UK government sites.
+You can also use those links if you do not want to provide a postcode.
 <ul>
 <li><a href="https://www.gov.uk/government/collections/local-restrictions-areas-with-an-outbreak-of-coronavirus-covid-19">England</a>
 <li><a href="https://www.nidirect.gov.uk/articles/coronavirus-covid-19-regulations-and-localised-restrictions">Northern Ireland</a>
@@ -119,6 +120,31 @@ function validate_postcode ($postcode) {
         preg_match("/^[$fst][$sec][$num0][$num]\s*[$nom][$in][$in]$/i", $postcode) ||
         preg_match("/^[$fst][$num0][$thd]\s*[$nom][$in][$in]$/i", $postcode) ||
         preg_match("/^[$fst][$sec][$num0][$fth]\s*[$nom][$in][$in]$/i", $postcode)) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function validate_partial_postcode ($postcode) {
+    // Our test postcode
+    if (preg_match("/^zz9/i", $postcode))
+        return true;
+
+    // See http://www.govtalk.gov.uk/gdsc/html/noframes/PostCode-2-1-Release.htm
+    $fst = 'ABCDEFGHIJKLMNOPRSTUWYZ';
+    $sec = 'ABCDEFGHJKLMNOPQRSTUVWXY';
+    $thd = 'ABCDEFGHJKSTUW';
+    $fth = 'ABEHMNPRVWXY';
+    $num0 = '123456789'; # Technically allowed in spec, but none exist
+    $num = '0123456789';
+
+    if (preg_match("/^[$fst][$num0]$/i", $postcode) ||
+        preg_match("/^[$fst][$num0][$num]$/i", $postcode) ||
+        preg_match("/^[$fst][$sec][$num]$/i", $postcode) ||
+        preg_match("/^[$fst][$sec][$num0][$num]$/i", $postcode) ||
+        preg_match("/^[$fst][$num0][$thd]$/i", $postcode) ||
+        preg_match("/^[$fst][$sec][$num0][$fth]$/i", $postcode)) {
         return true;
     } else {
         return false;
