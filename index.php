@@ -83,7 +83,10 @@ function matching_area($data, $id) {
 
     $area = $areas[$id];
     $result = $data[$id]['name'];
-    if (array_key_exists('future', $area) && date('Y-m-d') < date('Y-m-d', $area['future'])) {
+    if ($area['future'] && is_string($area['future'])) {
+        $result .= " will have local restrictions from <strong>" . $area['future'] . '</strong>';
+        $cls[] = 'info';
+    } elseif ($area['future'] && date('Y-m-d') < date('Y-m-d', $area['future'])) {
         $result .= " will have local restrictions from <strong>" . date('jS F', $area['future']) . '</strong>';
         $cls[] = 'info';
     } else {
