@@ -25,7 +25,7 @@ $special_postcodes = [
 ];
 $special_areas = [
     'JE' => [ 'info', 'https://www.gov.je/Health/Coronavirus/Pages/index.aspx', 'Jersey has some social restrictions.' ],
-    'GY' => [ 'ok', 'https://covid19.gov.gg/', 'Guernsey and Alderney have no social restrictions, but has rules on quarantine on arrival.' ],
+    'GY' => [ 'ok', 'https://covid19.gov.gg/', 'Guernsey, Alderney and Sark have no social restrictions, but have rules on quarantine on arrival.' ],
     'IM' => [ 'ok', 'https://covid19.gov.im/', 'The Isle of Man has lifted social distancing measures.' ],
 ];
 
@@ -35,6 +35,8 @@ $cls = [];
 $pc = array_key_exists('pc', $_GET) ? $_GET['pc'] : '';
 if ($pc) {
     $pc = canonicalise_postcode($pc);
+    $pc2 = substr($pc, 0, 2);
+    $pc3 = substr($pc, 0, 3);
     if (array_key_exists($pc, $special_postcodes)) {
         $result = $special_postcodes[$pc][2];
         if ($special_postcodes[$pc][1]) {
@@ -43,14 +45,13 @@ if ($pc) {
         }
         $cls[] = $special_postcodes[$pc][0];
         $results[] = $result;
-    } elseif (array_key_exists(substr($pc, 0, 2), $special_areas)) {
-        $part = substr($pc, 0, 2);
-        $cls[] = $special_areas[$part][0];
-        $link = $special_areas[$part][1];
-        $result = $special_areas[$part][2];
+    } elseif (array_key_exists($pc2, $special_areas)) {
+        $cls[] = $special_areas[$pc2][0];
+        $link = $special_areas[$pc2][1];
+        $result = $special_areas[$pc2][2];
         $result .= "<br><small>See the current guidance: " . link_wbr($link) . ".</small>";
         $results[] = $result;
-    } elseif (preg_match('#^RE1#', $pc)) {
+    } elseif ($pc3 == 'RE1') {
         $cls[] = 'ok';
         $results[] = 'The crew of the mining ship Red Dwarf should worry more about holo-viruses and Epideme.';
     } elseif (!validate_postcode($pc)) {
