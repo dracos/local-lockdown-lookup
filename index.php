@@ -6,7 +6,6 @@ require 'utils.php';
 
 load_areas();
 load_special();
-$postcodes = explode("\n", file_get_contents('bt-postcodes.txt'));;
 
 $results = [];
 $cls = [];
@@ -30,14 +29,6 @@ if ($pc) {
             $results[] = 'We did not recognise that postcode, sorry.';
         }
         $cls[] = 'error';
-    } elseif (date('Y-m-d H:i') < '2020-09-22 18:00' && (preg_match('#^BT(28|29|43|60)#', $pc) || in_array($pc, $postcodes))) {
-        $link = 'https://www.nidirect.gov.uk/articles/coronavirus-covid-19-regulations-and-localised-restrictions';
-        $results[] = "The area has local restrictions.<br><small>Source and more info: " . link_wbr($link) . ".</small>";
-        $cls[] = 'warn';
-    } elseif (date('Y-m-d H:i') < '2020-09-22 18:00' && preg_match('#^BT#', $pc)) {
-        $link = 'https://www.nidirect.gov.uk/articles/coronavirus-covid-19-regulations-and-localised-restrictions';
-        $results[] = "Northern Ireland will have further restrictions from 6pm today.<br><small>Source and more info: " . link_wbr($link) . ".</small>";
-        $cls[] = 'info';
     } else {
         $data = mapit_call('postcode/' . urlencode($pc));
         $council = $data['shortcuts']['council'];
@@ -98,11 +89,10 @@ function check_area($data, $council, $ward=null) {
     } elseif (array_key_exists($council, $areas)) {
         $result = matching_area($data, $council);
     } else {
-        $result = preg_match('#^BT#', $pc) ? "That area" : $data[$council]['name'];
-        $result .= ' does not currently have additional local restrictions.';
+        $result = $data[$council]['name'] . ' does not currently have additional local restrictions.';
         $link = national_guidance($data[$council]['country']);
         $result .= "<br><small>See the current national guidance: " . link_wbr($link) . ".</small>";
-        $cls[] = 'ok';
+        $cls[] = 'info';
     }
     $results[] = $result;
 }
