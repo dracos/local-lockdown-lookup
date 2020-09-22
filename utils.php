@@ -59,9 +59,9 @@ if ($results) {
 ?>
 <p style="font-size: 125%">This postcode lookup uses <a href="https://mapit.mysociety.org/">MapIt</a>
 <small>(an API to provide postcode to council lookup, take a look)</small>
-to look up the council or ward for your postcode, and then tells you if
-that is currently in a localised lockdown.
-<small>It was last updated at <strong>11am on 22nd September 2020</strong>.</small>
+to look up the council and ward for your postcode, and then tells you if
+there are currently any nationally-imposed local restrictions.
+<br><small>It was last updated at <strong>2:36pm on 22nd September 2020</strong>.</small>
 </p>
 
 <div align="center" style="background-color: #eee; padding: 0.5em;">
@@ -77,7 +77,12 @@ that is currently in a localised lockdown.
 <li>A few postcodes cross council boundaries, and this tool will return the result for
 the centroid of the postcode. Sadly better data is not available as open data, though
 many have campaigned for this over the years; the government do have access to better
-data and could make a tool like this that worked even for those postcodes.</p>
+data and could make a tool like this that worked even for those postcodes.
+
+<li>Local authorities may also have put in place local restrictions I don&rsquo;t know
+about from the national pages. Do check your council&rsquo;s website, and
+please feel free to let me know on
+<a href="https://github.com/dracos/local-lockdown-lookup">GitHub</a> and I can get them included.
 
 <li>If I am unable to keep this up to date, I will immediately remove it and
 leave only these links to the various UK government sites.
