@@ -2,32 +2,11 @@
 
 $title = 'Local Lockdown Lookup';
 require 'site.inc';
-
 require 'utils.php';
 
-# CSV is MapIt ID and government link of local lockdown areas
 load_areas();
-
-# A file containing all the NI postcodes in lockdown, also see check below
+load_special();
 $postcodes = explode("\n", file_get_contents('bt-postcodes.txt'));;
-$special_postcodes = [
-    'ASCN 1ZZ' => [ 'info', 'https://www.ascension.gov.ac/government/news', 'Ascension Island is at Level 1 AMBER.' ],
-    'BIQQ 1ZZ' => [ 'ok', 'https://www.bas.ac.uk/media-post/update-on-2020-21-antarctic-field-season-responding-to-covid-19-pandemic/', 'The British Antarctic Survey is currently COVID-19 free.' ],
-    'BBND 1ZZ' => [ 'ok', 'https://www.afgsc.af.mil/News/Article-Display/Article/2323616/maintaining-bomber-lethality-readiness-during-covid-19/', 'Diego Garcia is quarantining everyone.' ],
-    'FIQQ 1ZZ' => [ 'ok', 'https://fig.gov.fk/covid-19/', 'The Falkland Islands have no cases, and quarantines all arrivals.' ],
-    'PCRN 1ZZ' => [ 'ok', 'https://www.visitpitcairn.pn/covid19/', 'Pitcairn Island has never had any coronavirus; no-one but residents and essential staff are allowed to visit until at least 31st March 2021.' ],
-    'SIQQ 1ZZ' => [ 'ok', 'http://www.gov.gs/july-20/', 'South Georgia remains free from COVID-19.' ],
-    'STHL 1ZZ' => [ 'ok', 'https://www.sainthelena.gov.sh/coronavirus-covid-19-live-qa/', 'St Helena is COVID-19 free; visitors must quarantine.' ],
-    'TDCU 1ZZ' => [ 'ok', 'https://www.tristandc.com/coronavirusnews.php', 'Tristan da Cunha is currently free of COVID-19.', ],
-    'TKCA 1ZZ' => [ 'info', 'https://www.gov.tc/moh/coronavirus/', 'The Turks and Caicos Islands have national restrictions.' ],
-    'SANTA1' => [ 'ok', '', 'Father Christmas&rsquo;s workshop is free of COVID-19.' ],
-    'XM4 5HQ' => [ 'ok', '', 'Father Christmas&rsquo;s workshop is free of COVID-19.' ],
-];
-$special_areas = [
-    'JE' => [ 'info', 'https://www.gov.je/Health/Coronavirus/Pages/index.aspx', 'Jersey has some social restrictions.' ],
-    'GY' => [ 'ok', 'https://covid19.gov.gg/', 'Guernsey, Alderney and Sark have no social restrictions, but have rules on quarantine on arrival.' ],
-    'IM' => [ 'ok', 'https://covid19.gov.im/', 'The Isle of Man has lifted social distancing measures.' ],
-];
 
 $results = [];
 $cls = [];
@@ -38,19 +17,9 @@ if ($pc) {
     $pc2 = substr($pc, 0, 2);
     $pc3 = substr($pc, 0, 3);
     if (array_key_exists($pc, $special_postcodes)) {
-        $result = $special_postcodes[$pc][2];
-        if ($special_postcodes[$pc][1]) {
-            $link = $special_postcodes[$pc][1];
-            $result .= "<br><small>See the current guidance: " . link_wbr($link) . ".</small>";
-        }
-        $cls[] = $special_postcodes[$pc][0];
-        $results[] = $result;
+        special_result($special_postcodes[$pc]);
     } elseif (array_key_exists($pc2, $special_areas)) {
-        $cls[] = $special_areas[$pc2][0];
-        $link = $special_areas[$pc2][1];
-        $result = $special_areas[$pc2][2];
-        $result .= "<br><small>See the current guidance: " . link_wbr($link) . ".</small>";
-        $results[] = $result;
+        special_result($special_areas[$pc2]);
     } elseif ($pc3 == 'RE1') {
         $cls[] = 'ok';
         $results[] = 'The crew of the mining ship Red Dwarf should worry more about holo-viruses and Epideme.';
@@ -105,6 +74,17 @@ function matching_area($data, $id) {
         $result .= ' <small>' . $area['extra'] . '</small>';
     }
     return $result;
+}
+
+function special_result($r) {
+    global $results, $cls;
+    $result = $r[2];
+    if ($r[1]) {
+        $link = $r[1];
+        $result .= "<br><small>See the current guidance: " . link_wbr($link) . ".</small>";
+    }
+    $cls[] = $r[0];
+    $results[] = $result;
 }
 
 function check_area($data, $council, $ward=null) {
