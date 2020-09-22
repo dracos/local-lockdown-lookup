@@ -84,11 +84,13 @@ function matching_area($data, $id) {
 
     $area = $areas[$id];
     $result = $data[$id]['name'];
-    if ($area['future'] && is_string($area['future'])) {
-        $result .= " will have local restrictions from <strong>" . $area['future'] . '</strong>';
-        $cls[] = 'info';
-    } elseif ($area['future'] && date('Y-m-d') < date('Y-m-d', $area['future'])) {
-        $result .= " will have local restrictions from <strong>" . date('jS F', $area['future']) . '</strong>';
+    if ($area['future'] && time() < $area['future']) {
+        $date = date('jS F', $area['future']);
+        $hour = date('H:i', $area['future']);
+        if ($hour != '00:00') {
+            $date = "$hour on $date";
+        }
+        $result .= " will have local restrictions from <strong>$date</strong>";
         $cls[] = 'info';
     } else {
         $result .= " has local restrictions";

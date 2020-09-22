@@ -18,9 +18,8 @@ function load_areas() {
         $id = intval($row[0]);
         $areas[$id] = [
             'link' => $row[1],
+            'future' => strtotime($row[2]),
         ];
-        $f = strtotime($row[2]);
-        $areas[$id]['future'] = $f ? $f : $row[2];
         if (strpos($row[1], 'www.gov.uk') && !strpos($row[1], 'birmingham') && !strpos($row[1], '/news/')) {
             $areas[$id]['extra'] = 'Do note the bit hidden many paragraphs down advising you should not &ldquo;socialise with people you do not live with, unless they&rsquo;re in your support bubble, in any public venue&rdquo;.';
         }
