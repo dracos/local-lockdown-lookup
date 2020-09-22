@@ -61,10 +61,14 @@ if ($pc) {
             $results[] = 'We did not recognise that postcode, sorry.';
         }
         $cls[] = 'error';
-    } elseif (preg_match('#^BT(28|29|43|60)#', $pc) || in_array($pc, $postcodes)) {
+    } elseif (date('Y-m-d H:i') < '2020-09-22 18:00' && (preg_match('#^BT(28|29|43|60)#', $pc) || in_array($pc, $postcodes))) {
         $link = 'https://www.nidirect.gov.uk/articles/coronavirus-covid-19-regulations-and-localised-restrictions';
         $results[] = "The area has local restrictions.<br><small>Source and more info: " . link_wbr($link) . ".</small>";
         $cls[] = 'warn';
+    } elseif (date('Y-m-d H:i') < '2020-09-22 18:00' && preg_match('#^BT#', $pc)) {
+        $link = 'https://www.nidirect.gov.uk/articles/coronavirus-covid-19-regulations-and-localised-restrictions';
+        $results[] = "Northern Ireland will have further restrictions from 6pm today.<br><small>Source and more info: " . link_wbr($link) . ".</small>";
+        $cls[] = 'info';
     } else {
         $data = mapit_call('postcode/' . urlencode($pc));
         $council = $data['shortcuts']['council'];
@@ -128,7 +132,7 @@ function national_guidance($country) {
         'E' => 'https://www.gov.uk/government/publications/coronavirus-outbreak-faqs-what-you-can-and-cant-do/coronavirus-outbreak-faqs-what-you-can-and-cant-do',
         'W' => 'https://gov.wales/coronavirus',
         'S' => 'https://www.gov.scot/publications/coronavirus-covid-19-what-you-can-and-cannot-do/',
-        'N' => 'https://www.nidirect.gov.uk/campaigns/coronavirus-covid-19',
+        'N' => 'https://www.nidirect.gov.uk/articles/coronavirus-covid-19-regulations-guidance-what-restrictions-mean-you',
     ];
     return $guidance[$country];
 }
