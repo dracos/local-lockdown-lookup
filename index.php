@@ -33,10 +33,14 @@ if ($pc) {
         $data = mapit_call('postcode/' . urlencode($pc));
         $council = $data['shortcuts']['council'];
         $ward = $data['shortcuts']['ward'];
-        # If two-tier, we want the district, not the county.
-        if (!is_int($council)) { $council = $council['district']; }
-        if (!is_int($ward)) { $ward = $ward['district']; }
-        check_area($data['areas'], $council, $ward);
+        if (!is_int($council)) {
+            $match = check_area($data['areas'], $council['county'], $ward['county']);
+            if (!$match) {
+                check_area($data['areas'], $council['district'], $ward['district']);
+            }
+        } else {
+            check_area($data['areas'], $council, $ward);
+        }
     }
 }
 
@@ -81,6 +85,7 @@ function special_result($r) {
 function check_area($data, $council, $ward=null) {
     global $results, $cls, $areas, $pc;
 
+    $match = 1;
     if (!$data) {
         $result = 'That postcode did not return a result, sorry.';
         $cls[] = 'error';
@@ -89,12 +94,14 @@ function check_area($data, $council, $ward=null) {
     } elseif (array_key_exists($council, $areas)) {
         $result = matching_area($data, $council);
     } else {
+        $match = 0;
         $result = $data[$council]['name'] . ' does not currently have additional local restrictions.';
         $link = national_guidance($data[$council]['country']);
         $result .= "<br><small>See the current national guidance: " . link_wbr($link) . ".</small>";
         $cls[] = 'info';
     }
     $results[] = $result;
+    return $match;
 }
 
 function national_guidance($country) {
