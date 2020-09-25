@@ -34,9 +34,9 @@ if ($pc) {
         $council = $data['shortcuts']['council'];
         $ward = $data['shortcuts']['ward'];
         if (!is_int($council)) {
-            $match = check_area($data['areas'], $council['county'], $ward['county']);
+            $match = check_area($data['areas'], $council['district'], $ward['district']);
             if (!$match) {
-                check_area($data['areas'], $council['district'], $ward['district']);
+                $match = check_area($data['areas'], $council['county'], $ward['county'], false);
             }
         } else {
             check_area($data['areas'], $council, $ward);
@@ -85,7 +85,7 @@ function special_result($r) {
     $results[] = $result;
 }
 
-function check_area($data, $council, $ward=null) {
+function check_area($data, $council, $ward=null, $showinfo=true) {
     global $results, $cls, $areas, $pc;
 
     $match = 1;
@@ -96,7 +96,7 @@ function check_area($data, $council, $ward=null) {
         $result = matching_area($data, $ward);
     } elseif (array_key_exists($council, $areas)) {
         $result = matching_area($data, $council);
-    } else {
+    } elseif ($showinfo) {
         $match = 0;
         $result = $data[$council]['name'] . ' does not currently have additional local restrictions.';
         $link = national_guidance($data[$council]['country']);
