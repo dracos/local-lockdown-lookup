@@ -62,7 +62,8 @@ function output() {
 ?>
 
 <style>
-.res { color: #fff; margin: 0; padding: 0.5em; font-size: 150%; }
+.res { color: #fff; margin: 0; padding: 0.5em; font-size: 150%;
+    overflow: auto; }
 .res-warn { background-color: #d34; }
 .res-info { background-color: #29b; }
 .res-error { color: #000; background-color: #fb1; }
@@ -84,7 +85,7 @@ if ($results) {
 <small>(an API to provide postcode to council lookup, take a look)</small>
 to look up the council and ward for your postcode, and then tells you if
 there are currently any nationally-imposed local restrictions.
-<br><small>It was last updated at <strong>2:36pm on 22nd September 2020</strong>.</small>
+<br><small>It was last updated at <strong>1pm on 25th September 2020</strong>.</small>
 </p>
 
 <div align="center" style="background-color: #eee; padding: 0.5em;">

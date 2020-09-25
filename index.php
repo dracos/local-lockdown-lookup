@@ -52,6 +52,9 @@ function matching_area($data, $id) {
 
     $area = $areas[$id];
     $result = $data[$id]['name'];
+    if (strpos($area['link'], 'llanelli') > 0) {
+        $result .= '<img align="right" src="llanelli.png" alt="" width=200>';
+    }
     if ($area['future'] && time() < $area['future']) {
         $date = date('jS F', $area['future']);
         $hour = date('H:i', $area['future']);
