@@ -1,7 +1,4 @@
 MapIt ID,URL,Start date
-2526,https://www.gov.uk/government/news/new-restrictions-for-wigan-stockport-blackpool-and-leeds-as-coronavirus-cases-increase,2020-09-26
-2540,https://www.gov.uk/government/news/new-restrictions-for-wigan-stockport-blackpool-and-leeds-as-coronavirus-cases-increase,2020-09-26
-2547,https://www.gov.uk/government/news/new-restrictions-for-wigan-stockport-blackpool-and-leeds-as-coronavirus-cases-increase,2020-09-26
 2553,https://www.gov.uk/government/news/new-restrictions-for-wigan-stockport-blackpool-and-leeds-as-coronavirus-cases-increase,2020-09-26
 2514,https://www.gov.uk/guidance/birmingham-sandwell-and-solihull-local-restrictions#local-restrictions,
 2535,https://www.gov.uk/guidance/birmingham-sandwell-and-solihull-local-restrictions#local-restrictions,
@@ -17,6 +14,8 @@ MapIt ID,URL,Start date
 2534,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,
 2543,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,
 2544,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,
+2540,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,2020-09-26
+2547,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,2020-09-26
 2223,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,
 2529,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,
 2530,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,
@@ -24,8 +23,8 @@ MapIt ID,URL,Start date
 2523,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,
 2542,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,
 2248,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,
-2639,https://gov.wales/coronavirus,2020-09-27 18:00
-2549,https://gov.wales/coronavirus,2020-09-27 18:00
+2639,https://gov.wales/cardiff-council-area-lockdown-frequently-asked-questions,2020-09-27 18:00
+2549,https://gov.wales/swansea-council-area-lockdown-frequently-asked-questions,2020-09-27 18:00
 12702,http://newsroom.carmarthenshire.gov.wales/2020/09/coronavirus/local-covid-19-rules-in-llanelli-area/,2020-09-26 18:00
 12686,http://newsroom.carmarthenshire.gov.wales/2020/09/coronavirus/local-covid-19-rules-in-llanelli-area/,2020-09-26 18:00
 12684,http://newsroom.carmarthenshire.gov.wales/2020/09/coronavirus/local-covid-19-rules-in-llanelli-area/,2020-09-26 18:00
@@ -77,3 +76,4 @@ MapIt ID,URL,Start date
 2524,https://www.gov.uk/guidance/west-yorkshire-local-restrictions#local-restrictions,
 2516,https://www.gov.uk/guidance/west-yorkshire-local-restrictions#local-restrictions,
 2518,https://www.gov.uk/guidance/west-yorkshire-local-restrictions#local-restrictions,
+2526,https://www.gov.uk/guidance/west-yorkshire-local-restrictions#local-restrictions,2020-09-26
