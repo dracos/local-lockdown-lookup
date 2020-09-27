@@ -85,7 +85,7 @@ if ($results) {
 <small>(an API to provide postcode to council lookup, take a look)</small>
 to look up the council and ward for your postcode, and then tells you if
 there are currently any nationally-imposed local restrictions.
-<br><small>It was last updated at <strong>6:30pm on 25th September 2020</strong>.</small>
+<br><small>It was last updated at <strong>4:30pm on 27th September 2020</strong>.</small>
 </p>
 
 <div align="center" style="background-color: #eee; padding: 0.5em;">
