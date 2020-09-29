@@ -100,9 +100,9 @@ there are currently any nationally-imposed local restrictions.
 <p><a href="#" id="geolocate_link">Use your location</a></p>
 </div>
 
-<p>Data last updated at <strong>4:30pm on 27th September 2020</strong>,
-with the <a href="https://gov.wales/written-statement-local-coronavirus-restrictions-update-1">Welsh changes
-starting 28th September</a>.</p>
+<p>Data last updated at <strong>7:25pm on 29th September 2020</strong>,
+with the <a href="https://gov.wales/local-coronavirus-restrictions-introduced-control-outbreaks-north-wales">news
+about new restrictions in North Wales from Thursday</a>.</p>
 
 <h3>Notes</h3>
 <ol>
