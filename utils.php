@@ -62,6 +62,7 @@ function output() {
 ?>
 
 <style>
+.lll-form-wrapper { background-color: #eee; padding: 0.5em; }
 .res { color: #fff; margin: 0; padding: 0.5em; font-size: 150%;
     overflow: auto; }
 .res-warn { background-color: #d34; }
@@ -88,12 +89,13 @@ there are currently any nationally-imposed local restrictions.
 <br><small>It was last updated at <strong>4:30pm on 27th September 2020</strong>.</small>
 </p>
 
-<div align="center" style="background-color: #eee; padding: 0.5em;">
-        <form method="get" action="/made/local-lockdown-lookup/">
+<div align="center" class="lll-form-wrapper">
+        <form id="lll-form" method="get" action="/made/local-lockdown-lookup/">
             <p style="font-size:150%"><label for="pc" style="display:inline">Postcode:</label>
                 <input type="text" size=10 maxlength=10 name="pc" id="pc" value="<?=htmlspecialchars($pc) ?>">
                 <input type="submit" value="Look up">
         </form>
+<p><a href="#" id="geolocate_link">Use your location</a></p>
 </div>
 
 <h3>Notes</h3>
@@ -102,6 +104,11 @@ there are currently any nationally-imposed local restrictions.
 the centroid of the postcode. Sadly better data is not available as open data, though
 many have campaigned for this over the years; the government do have access to better
 data and could make a tool like this that worked even for those postcodes.
+
+<li>You can also enter lat,lon if you don&rsquo;t have a postcode, or use the
+&ldquo;Use your location&rdquo; button. Any locations and postcodes are not stored
+anywhere apart from the server&rsquo;s log file which is automatically archived each
+week and then automatically deleted after ten weeks.
 
 <li>Local authorities may also have put in place local restrictions I don&rsquo;t know
 about from the national pages. Do check your council&rsquo;s website, and
@@ -127,6 +134,38 @@ provide you with estimated risk level of various activities.
 MODify your socializing: Masked, Outdoors, Distanced.
 
 </ol>
+
+<script>
+(function(){
+    var link = document.getElementById('geolocate_link');
+    if ('geolocation' in navigator && window.addEventListener) {
+        link.addEventListener('click', function(e) {
+            var link = this;
+            e.preventDefault();
+            link.className += ' loading';
+            navigator.geolocation.getCurrentPosition(
+                function(pos) {
+                    link.className = link.className.replace(/loading/, ' ');
+                    var latitude = pos.coords.latitude.toFixed(6);
+                    var longitude = pos.coords.longitude.toFixed(6);
+                    document.getElementById('pc').value = latitude + ',' + longitude;
+                    document.getElementById('lll-form').submit();
+                },
+                function(err) {
+                    link.className = link.className.replace(/loading/, ' ');
+                    link.innerHTML = 'Unable to retrieve your location';
+                },
+                {
+                    enableHighAccuracy: true,
+                    timeout: 10000
+                }
+            );
+        });
+    } else {
+        link.style.display = 'none';
+    }
+})();
+</script>
 
 <?php
 }
