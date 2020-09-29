@@ -10,36 +10,59 @@ load_special();
 $results = [];
 $cls = [];
 
-$pc = array_key_exists('pc', $_GET) ? $_GET['pc'] : '';
+$pc = array_key_exists('pc', $_REQUEST) ? $_REQUEST['pc'] : '';
 if ($pc) {
-    $pc = canonicalise_postcode($pc);
-    $pc2 = substr($pc, 0, 2);
-    $pc3 = substr($pc, 0, 3);
-    if (array_key_exists($pc, $special_postcodes)) {
-        special_result($special_postcodes[$pc]);
-    } elseif (array_key_exists($pc2, $special_areas)) {
-        special_result($special_areas[$pc2]);
-    } elseif ($pc3 == 'RE1') {
-        $cls[] = 'ok';
-        $results[] = 'The crew of the mining ship Red Dwarf should worry more about holo-viruses and Epideme.';
-    } elseif (!validate_postcode($pc)) {
-        if (validate_partial_postcode($pc)) {
-            $results[] = 'A partial postcode is not enough to provide an accurate result, I&rsquo;m afraid.';
-        } else {
-            $results[] = 'We did not recognise that postcode, sorry.';
-        }
-        $cls[] = 'error';
-    } else {
-        $data = mapit_call('postcode/' . urlencode($pc));
-        $council = $data['shortcuts']['council'];
-        $ward = $data['shortcuts']['ward'];
-        if (!is_int($council)) {
-            $match = check_area($data['areas'], $council['district'], $ward['district']);
-            if (!$match) {
-                $match = check_area($data['areas'], $council['county'], $ward['county'], false);
+    if (preg_match('#^([0-9.-]+)\s*,\s*([0-9.-]+)$#', $pc, $m)) {
+        $data = mapit_call("point/4326/$m[2],$m[1]");
+        $council = null; $ward = null;
+        $county = null; $ced = null;
+        foreach ($data as $id => $area) {
+            if ($area['type'] == 'CTY') { $county = $area['id']; }
+            if ($area['type'] == 'CED') { $ced = $area['id']; }
+            if (in_array($area['type'], ['MTD','COI','LGD','LBO','DIS','UTA'])) {
+                $council = $area['id'];
             }
+            if (in_array($area['type'], ['MTW','COP','LGE','LBW','DIW','UTE','UTW'])) {
+                $ward = $area['id'];
+            }
+        }
+        $match = false;
+        if ($council && $ward) {
+            $match = check_area($data, $council, $ward);
+        }
+        if ($county && $ced && !$match) {
+            check_area($data, $county, $ced, false);
+        }
+    } else {
+        $pc = canonicalise_postcode($pc);
+        $pc2 = substr($pc, 0, 2);
+        $pc3 = substr($pc, 0, 3);
+        if (array_key_exists($pc, $special_postcodes)) {
+            special_result($special_postcodes[$pc]);
+        } elseif (array_key_exists($pc2, $special_areas)) {
+            special_result($special_areas[$pc2]);
+        } elseif ($pc3 == 'RE1') {
+            $cls[] = 'ok';
+            $results[] = 'The crew of the mining ship Red Dwarf should worry more about holo-viruses and Epideme.';
+        } elseif (!validate_postcode($pc)) {
+            if (validate_partial_postcode($pc)) {
+                $results[] = 'A partial postcode is not enough to provide an accurate result, I&rsquo;m afraid.';
+            } else {
+                $results[] = 'We did not recognise that postcode, sorry.';
+            }
+            $cls[] = 'error';
         } else {
-            check_area($data['areas'], $council, $ward);
+            $data = mapit_call('postcode/' . urlencode($pc));
+            $council = $data['shortcuts']['council'];
+            $ward = $data['shortcuts']['ward'];
+            if (!is_int($council)) {
+                $match = check_area($data['areas'], $council['district'], $ward['district']);
+                if (!$match) {
+                    $match = check_area($data['areas'], $council['county'], $ward['county'], false);
+                }
+            } else {
+                check_area($data['areas'], $council, $ward);
+            }
         }
     }
 }

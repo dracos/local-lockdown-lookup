@@ -81,9 +81,9 @@ if ($results) {
     }
 }
 ?>
-<p style="font-size: 125%">This postcode lookup uses <a href="https://mapit.mysociety.org/">MapIt</a>
-<small>(an API to provide postcode to council lookup, take a look)</small>
-to look up the council and ward for your postcode, and then tells you if
+<p style="font-size: 125%">This lookup uses <a href="https://mapit.mysociety.org/">MapIt</a>
+<small>(an API to provide postcode/point to council lookup, take a look)</small>
+to look up the council and ward for the location, and then tells you if
 there are currently any nationally-imposed local restrictions.
 <br><small>It was last updated at <strong>4:30pm on 27th September 2020</strong>.</small>
 </p>
