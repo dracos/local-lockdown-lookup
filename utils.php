@@ -35,7 +35,7 @@ function load_areas() {
 }
 
 function load_special() {
-    global $special_postcodes, $psecial_areas;
+    global $special_postcodes, $special_areas;
 
     $special_postcodes = [
         'ASCN 1ZZ' => [ 'info', 'https://www.ascension.gov.ac/government/news', 'Ascension Island is at Level 1 AMBER.' ],
