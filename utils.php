@@ -86,7 +86,6 @@ if ($results) {
 <small>(an API to provide postcode/point to council lookup, take a look)</small>
 to look up the council and ward for the location, and then tells you if
 there are currently any nationally-imposed local restrictions.
-<br><small>It was last updated at <strong>4:30pm on 27th September 2020</strong>.</small>
 </p>
 
 <div align="center" class="lll-form-wrapper">
@@ -97,6 +96,10 @@ there are currently any nationally-imposed local restrictions.
         </form>
 <p><a href="#" id="geolocate_link">Use your location</a></p>
 </div>
+
+<p>Data last updated at <strong>4:30pm on 27th September 2020</strong>,
+with the <a href="https://gov.wales/written-statement-local-coronavirus-restrictions-update-1">Welsh changes
+starting 28th September</a>.</p>
 
 <h3>Notes</h3>
 <ol>
