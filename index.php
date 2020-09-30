@@ -1,5 +1,9 @@
 <?php
 
+if (array_key_exists('govuk', $_GET)) {
+    $style = 'govuk-frontend-3.9.1.min.css';
+}
+
 $title = 'Local Lockdown Lookup';
 require 'site.inc';
 require 'utils.php';

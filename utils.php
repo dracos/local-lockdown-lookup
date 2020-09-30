@@ -65,7 +65,15 @@ function output() {
 ?>
 
 <style>
-.lll-form-wrapper { background-color: #eee; padding: 0.5em; }
+.lll-form-wrapper {
+<?php if (array_key_exists('govuk', $_GET)) { ?>
+    padding-left: 2em;
+<?php } else { ?>
+    padding: 0.5em;
+    background-color: #eee;
+    text-align: center;
+<?php } ?>
+}
 .res { color: #fff; margin: 0; padding: 0.5em; font-size: 150%;
     overflow: auto; }
 .res-warn { background-color: #d34; }
@@ -91,13 +99,29 @@ to look up the council and ward for the location, and then tells you if
 there are currently any nationally-imposed local restrictions.
 </p>
 
-<div align="center" class="lll-form-wrapper">
+<div class="lll-form-wrapper">
         <form id="lll-form" method="get" action="/made/local-lockdown-lookup/">
-            <p style="font-size:150%"><label for="pc" style="display:inline">Postcode:</label>
+<?php if (array_key_exists('govuk', $_GET)) { ?>
+<input type="hidden" name="govuk" value="1">
+        <div class="govuk-form-group">
+            <label class="govuk-label govuk-label--l" for="pc">Please enter a postcode below</label>
+            <div id="event-name-hint" class="govuk-hint">
+                <a href="#" id="geolocate_link">Or use your location</a>
+            </div>
+            <input class="govuk-input govuk-input--width-10" type="text" size=10 maxlength=10 name="pc" id="pc" value="<?=htmlspecialchars($pc) ?>">
+        </div>
+        <div class="govuk-form-group">
+            <input type="submit" value="Look up" class="govuk-button">
+        </div>
+        </form>
+<?php } else { ?>
+            <p style="font-size:150%">
+                <label for="pc" style="display:inline">Postcode:</label>
                 <input type="text" size=10 maxlength=10 name="pc" id="pc" value="<?=htmlspecialchars($pc) ?>">
                 <input type="submit" value="Look up">
         </form>
 <p><a href="#" id="geolocate_link">Use your location</a></p>
+<?php } ?>
 </div>
 
 <p>Data last updated at <strong>7:25pm on 29th September 2020</strong>,
