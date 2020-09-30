@@ -75,10 +75,10 @@ output();
 footer();
 
 function matching_area($data, $id) {
-    global $areas, $cls;
+    global $areas, $cls, $parliament;
 
     $area = $areas[$id];
-    $result = $data[$id]['name'];
+    $result = '<big>' . $data[$id]['name'];
     if ($area['future'] && time() < $area['future']) {
         $date = date('jS F', $area['future']);
         $hour = date('H:i', $area['future']);
@@ -91,10 +91,46 @@ function matching_area($data, $id) {
         $result .= " has local restrictions";
         $cls[] = 'warn';
     }
-    $result .= ".<br><small>Source and more info: " . link_wbr($area['link']) . ".</small>";
-    if (array_key_exists('extra', $area)) {
-        $result .= ' <small>' . $area['extra'] . '</small>';
+    $result .= '.</big>';
+
+    $parl_id = $id;
+    if (strpos($area['link'], 'llanelli') > -1) { $parl_id = 'Llanelli'; }
+    if ($props = $parliament[$parl_id]) {
+        $result .= '<div>';
+        $local = [];
+        $national = [];
+        if ($props['local_ruleofsix']) $local[] = 'Rule of six';
+        if ($props['local_householdmixing']) $local[] = 'Household mixing';
+        if ($props['local_stayinglocal']) $local[] = 'Entering/leaving local area';
+        if ($props['local_stayinghome']) $local[] = 'Leaving your home';
+        if ($props['local_notstayingaway']) $local[] = 'Not staying away';
+        if ($props['local_businessclosures']) $local[] = 'Business closures';
+        if ($props['local_openinghours']) $local[] = 'Opening hours';
+        if ($props['national_ruleofsix']) $national[] = 'Rule of six';
+        if ($props['national_householdmixing']) $national[] = 'Household mixing';
+        if ($props['national_stayinglocal']) $national[] = 'Staying local';
+        if ($props['national_stayinghome']) $national[] = 'Entering/leaving local area';
+        if ($props['national_notstayingaway']) $national[] = 'Not staying away';
+        if ($props['national_businessclosures']) $national[] = 'Business closures';
+        if ($props['national_openinghours']) $national[] = 'Opening hours';
+        if ($local) {
+            $result .= '<div style="float:left; width:50%"><p><a href="' . $props['url_local'] . '">Local restrictions</a> apply for: <ul><li>' . join('<li>', $local) . '</ul></div>';
+        }
+        if ($national) {
+            $result .= '<div style="float:left;width:50%"><p><a href="' . $props['url_national'] . '">National restrictions</a> apply for: <ul><li>' . join('<li>', $national) . '</ul></div>';
+        }
+        $result .= '</div>';
     }
+
+    $result .= "<p><small>Source and more info: " . link_wbr($area['link']) . ".";
+    if ($props = $parliament[$parl_id]) {
+        $result .= ' Thanks to Parliament for the summary data.';
+    }
+    if (array_key_exists('extra', $area)) {
+        $result .= ' ' . $area['extra'];
+    }
+    $result .= '</small></p>';
+
     return $result;
 }
 

@@ -38,7 +38,9 @@ function load_areas() {
 }
 
 function load_special() {
-    global $special_postcodes, $special_areas;
+    global $dir, $special_postcodes, $special_areas, $parliament;
+
+    @include_once $dir . '/cache/parliament.php';
 
     $special_postcodes = [
         'ASCN 1ZZ' => [ 'info', 'https://www.ascension.gov.ac/government/news', 'Ascension Island is at Level 1 AMBER.' ],
@@ -74,8 +76,9 @@ function output() {
     text-align: center;
 <?php } ?>
 }
-.res { color: #fff; margin: 0; padding: 0.5em; font-size: 150%;
+.res { color: #fff; margin: 0; padding: 0.5em; font-size: 1.2em;
     overflow: auto; }
+.res big { font-size: 125%; }
 .res-warn { background-color: #d34; }
 .res-info { background-color: #29b; }
 .res-error { color: #000; background-color: #fb1; }
@@ -89,7 +92,7 @@ if ($results) {
     print "<h2>" . htmlspecialchars($pc);
     print "</h2>";
     foreach ($results as $i => $result) {
-        print "<p class='res res-$cls[$i]'>$result</p>";
+        print "<div class='res res-$cls[$i]'>$result</div>";
     }
 }
 ?>
@@ -124,9 +127,10 @@ there are currently any nationally-imposed local restrictions.
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>7:25pm on 29th September 2020</strong>,
-with the <a href="https://gov.wales/local-coronavirus-restrictions-introduced-control-outbreaks-north-wales">news
-about new restrictions in North Wales from Thursday</a>.</p>
+<p>Data last updated at <strong>7:25pm on 30th September 2020</strong>,
+with summary data from Parliament&rsquo;s
+<a href="https://visual.parliament.uk/research/visualisations/coronavirus-restrictions-map/">map visualisation</a> (3MB) of the restrictions.
+</p>
 
 <h3>Notes</h3>
 <ol>
