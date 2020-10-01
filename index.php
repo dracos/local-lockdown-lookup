@@ -79,7 +79,10 @@ function matching_area($data, $id) {
 
     $area = $areas[$id];
     $result = '<big>' . $data[$id]['name'];
-    if ($area['future'] && time() < $area['future']) {
+    if ($area['future'] && $area['future'] == 'future') {
+        $result .= " will have local restrictions at some point soon";
+        $cls[] = 'info';
+    } elseif ($area['future'] && time() < $area['future']) {
         $date = date('jS F', $area['future']);
         $hour = date('H:i', $area['future']);
         if ($hour != '00:00') {

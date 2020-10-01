@@ -18,7 +18,7 @@ function load_areas() {
         $id = intval($row[0]);
         $areas[$id] = [
             'link' => $row[1],
-            'future' => strtotime($row[2]),
+            'future' => $row[2] == 'future' ? $row[2] : strtotime($row[2]),
         ];
         if (strpos($row[1], 'www.gov.uk') && !strpos($row[1], 'birmingham') && !strpos($row[1], '/news/')) {
             $areas[$id]['extra'] = 'Do note the bit hidden many paragraphs down advising you should not &ldquo;socialise with people you do not live with, unless they&rsquo;re in your support bubble, in any public venue&rdquo;.';
@@ -127,9 +127,8 @@ there are currently any nationally-imposed local restrictions.
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>7:25pm on 30th September 2020</strong>,
-with summary data from Parliament&rsquo;s
-<a href="https://visual.parliament.uk/research/visualisations/coronavirus-restrictions-map/">map visualisation</a> (3MB) of the restrictions.
+<p>Data last updated at <strong>11:30am on 1st October 2020</strong>,
+with information about forthcoming Hartlepool/Middlesbrough restrictions.
 </p>
 
 <h3>Notes</h3>

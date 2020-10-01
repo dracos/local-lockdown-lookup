@@ -1,5 +1,4 @@
 MapIt ID,URL,Start date
-2553,https://www.gov.uk/guidance/north-west-england-local-restrictions,2020-09-26
 2514,https://www.gov.uk/guidance/birmingham-sandwell-and-solihull-local-restrictions#local-restrictions,
 2535,https://www.gov.uk/guidance/birmingham-sandwell-and-solihull-local-restrictions#local-restrictions,
 2538,https://www.gov.uk/guidance/birmingham-sandwell-and-solihull-local-restrictions#local-restrictions,
@@ -23,28 +22,29 @@ MapIt ID,URL,Start date
 2523,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,
 2542,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,
 2248,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,
-2368,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2366,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2360,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2361,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2362,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2363,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2364,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2365,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2366,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2367,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2368,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2369,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2370,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2371,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2527,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2548,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2525,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2541,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2536,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2580,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2618,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
-2552,https://www.gov.uk/guidance/north-west-england-local-restrictions#local-restrictions,
+2360,https://www.gov.uk/guidance/north-west-england-local-restrictions,
+2361,https://www.gov.uk/guidance/north-west-england-local-restrictions,
+2362,https://www.gov.uk/guidance/north-west-england-local-restrictions,
+2363,https://www.gov.uk/guidance/north-west-england-local-restrictions,
+2364,https://www.gov.uk/guidance/north-west-england-local-restrictions,
+2365,https://www.gov.uk/guidance/north-west-england-local-restrictions,
+2366,https://www.gov.uk/guidance/north-west-england-local-restrictions,
+2367,https://www.gov.uk/guidance/north-west-england-local-restrictions,
+2368,https://www.gov.uk/guidance/north-west-england-local-restrictions,
+2369,https://www.gov.uk/guidance/north-west-england-local-restrictions,
+2370,https://www.gov.uk/guidance/north-west-england-local-restrictions,
+2371,https://www.gov.uk/guidance/north-west-england-local-restrictions,
+2580,https://www.gov.uk/guidance/north-west-england-local-restrictions,,Halton
+2525,https://www.gov.uk/guidance/north-west-england-local-restrictions,,Knowsley
+2527,https://www.gov.uk/guidance/north-west-england-local-restrictions,,Liverpool
+2536,https://www.gov.uk/guidance/north-west-england-local-restrictions,,Sefton
+2541,https://www.gov.uk/guidance/north-west-england-local-restrictions,,St Helens
+2548,https://www.gov.uk/guidance/north-west-england-local-restrictions,,Wirral
+2552,https://www.gov.uk/guidance/north-west-england-local-restrictions,,Blackburn with Darwen
+2553,https://www.gov.uk/guidance/north-west-england-local-restrictions,2020-09-26,Blackpool
+2618,https://www.gov.uk/guidance/north-west-england-local-restrictions,,Warrington
+2581,https://news.sky.com/story/coronavirus-restrictions-announced-for-liverpool-warrington-hartlepool-and-middlesbrough-12086656,future,Hartlepool
+2586,https://news.sky.com/story/coronavirus-restrictions-announced-for-liverpool-warrington-hartlepool-and-middlesbrough-12086656,future,Middlesbrough
 2524,https://www.gov.uk/guidance/west-yorkshire-local-restrictions#local-restrictions,
 2516,https://www.gov.uk/guidance/west-yorkshire-local-restrictions#local-restrictions,
 2518,https://www.gov.uk/guidance/west-yorkshire-local-restrictions#local-restrictions,
