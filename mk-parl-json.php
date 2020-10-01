@@ -4,7 +4,17 @@ if (php_sapi_name() !== 'cli') { exit; }
 
 require 'utils.php';
 
-$data = json_decode(file_get_contents($argv[1]), 1);
+$base = 'https://visual.parliament.uk/research/visualisations/coronavirus-restrictions-map/';
+print "Fetching $base\n";
+$html = file_get_contents($base);
+preg_match('#<script src="([^h][^"]*)">#', $html, $m);
+print "Fetching $m[1]\n";
+$js = file_get_contents("$base$m[1]");
+preg_match('#"([^"]*\.json)"#', $js, $m);
+print "Fetching $m[1]\n";
+$data = file_get_contents("$base$m[1]");
+$data = preg_replace('#"geometry":{[^}]*},#', '', $data); # Yes, I KNOW
+$data = json_decode($data, 1);
 
 $areas = mapit_call('areas/COI,CTY,DIS,LBO,LGD,MTD,UTA');
 
@@ -28,7 +38,7 @@ foreach ($data['features'] as $feature) {
     }
 }
 
-$fp = fopen($dir . '/cache/parliament.php', 'w');
+$fp = fopen($dir . '/cache/parliamentN.php', 'w');
 fwrite($fp, "<?php\n");
 fwrite($fp, '$parliament = ');
 fwrite($fp, var_export($parliament, true));
