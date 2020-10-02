@@ -149,9 +149,10 @@ function special_result($r) {
 }
 
 function check_area($data, $council, $ward=null, $showinfo=true) {
-    global $results, $cls, $areas, $pc;
+    global $results, $cls, $areas, $pc, $pc_country;
 
     $match = 1;
+    $pc_country = $data ? $data[$council]['country'] : null;
     if (!$data) {
         $result = 'That postcode did not return a result, sorry.';
         $cls[] = 'error';

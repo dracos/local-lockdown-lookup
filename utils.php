@@ -63,7 +63,7 @@ function load_special() {
 }
 
 function output() {
-    global $results, $cls, $pc;
+    global $results, $cls, $pc, $pc_country;
 ?>
 
 <style>
@@ -93,7 +93,7 @@ if ($results) {
     $pd = preg_replace('# .*#', '', $pc);
 
     print "<h2 style='overflow:auto'>" . htmlspecialchars($pc);
-    if ($level = $nhs['postDistricts'][$pd]) {
+    if (($pc_country=='E' || $pc_country=='W') && ($level = $nhs['postDistricts'][$pd])) {
         if ($level == 'H') $level = 'High';
         if ($level == 'M') $level = 'Medium';
         if ($level == 'L') $level = 'Low';
