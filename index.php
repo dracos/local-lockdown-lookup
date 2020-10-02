@@ -75,7 +75,7 @@ output();
 footer();
 
 function matching_area($data, $id) {
-    global $areas, $cls, $parliament;
+    global $areas, $cls, $parliament, $council_urls;
 
     $area = $areas[$id];
     $result = '<big>' . $data[$id]['name'];
@@ -134,6 +134,9 @@ function matching_area($data, $id) {
         $result .= ' ' . $area['extra'];
     }
     $result .= '</small></p>';
+    if ($url = $council_urls[$id]) {
+        $result .= "<p>Council website: " . link_wbr($url) . "</p>";
+    }
 
     return $result;
 }
@@ -150,7 +153,7 @@ function special_result($r) {
 }
 
 function check_area($data, $council, $ward=null, $showinfo=true) {
-    global $results, $cls, $areas, $pc, $pc_country;
+    global $results, $cls, $areas, $pc, $pc_country, $council_urls;
 
     $match = 1;
     $pc_country = $data ? $data[$council]['country'] : null;
@@ -166,6 +169,9 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
         $result = $data[$council]['name'] . ' does not currently have additional local restrictions.';
         $link = national_guidance($data[$council]['country']);
         $result .= "<br><small>See the current national guidance: " . link_wbr($link) . ".</small>";
+        if ($url = $council_urls[$council]) {
+            $result .= "<br><small>And the council&rsquo;s website: " . link_wbr($url) . ".</small>";
+        }
         $cls[] = 'info';
     }
     $results[] = $result;
