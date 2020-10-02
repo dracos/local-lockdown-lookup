@@ -44,3 +44,5 @@ fwrite($fp, '$parliament = ');
 fwrite($fp, var_export($parliament, true));
 fwrite($fp, ";\n");
 fclose($fp);
+
+passthru('diff cache/parliament*');

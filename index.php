@@ -114,6 +114,7 @@ function matching_area($data, $id) {
         if ($props['national_stayinglocal']) $national[] = 'Staying local';
         if ($props['national_stayinghome']) $national[] = 'Entering/leaving local area';
         if ($props['national_notstayingaway']) $national[] = 'Not staying away';
+        if ($props['national_gatherings']) $national[] = 'Gatherings';
         if ($props['national_businessclosures']) $national[] = 'Business closures';
         if ($props['national_openinghours']) $national[] = 'Opening hours';
         if ($local) {
