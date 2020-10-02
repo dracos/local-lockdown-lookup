@@ -137,8 +137,8 @@ there are currently any nationally-imposed local restrictions.
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>9pm on 1st October 2020</strong>,
-with information about the Derry City and Strabane District Council restrictions.
+<p>Data last updated at <strong>4pm on 2nd October 2020</strong>,
+with information about the local measures in Tower Hamlets.
 </p>
 
 <h3>Notes</h3>
