@@ -1,41 +1,41 @@
-MapIt ID,URL,Start date
+MapIt ID,URL,Start date,Name/notes
 2506,https://content.govdelivery.com/accounts/UKTOWERHAMLETS/bulletins/2a37960,,Tower Hamlets
-145959,https://www.nidirect.gov.uk/articles/coronavirus-covid-19-regulations-and-localised-restrictions,
-2514,https://www.gov.uk/guidance/birmingham-sandwell-and-solihull-local-restrictions#local-restrictions,
-2535,https://www.gov.uk/guidance/birmingham-sandwell-and-solihull-local-restrictions#local-restrictions,
-2538,https://www.gov.uk/guidance/birmingham-sandwell-and-solihull-local-restrictions#local-restrictions,
-2519,https://www.gov.uk/guidance/birmingham-sandwell-and-solihull-local-restrictions#local-restrictions,
-2515,https://www.gov.uk/guidance/bolton-local-restrictions#local-restrictions,
-2531,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,
-2528,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,
-2517,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,
-2532,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,
-2534,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,
-2543,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,
-2544,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,
-2540,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,2020-09-26
-2547,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,2020-09-26
-2564,https://www.gov.uk/guidance/leicester-lockdown-what-you-can-and-cannot-do#local-restrictions,
-2378,https://www.gov.uk/guidance/leicester-lockdown-what-you-can-and-cannot-do#local-restrictions,
-2223,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,
-2529,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,
-2530,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,
-2539,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,
-2523,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,
-2542,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,
-2248,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,
-2360,https://www.gov.uk/guidance/north-west-england-local-restrictions,
-2361,https://www.gov.uk/guidance/north-west-england-local-restrictions,
-2362,https://www.gov.uk/guidance/north-west-england-local-restrictions,
-2363,https://www.gov.uk/guidance/north-west-england-local-restrictions,
-2364,https://www.gov.uk/guidance/north-west-england-local-restrictions,
-2365,https://www.gov.uk/guidance/north-west-england-local-restrictions,
-2366,https://www.gov.uk/guidance/north-west-england-local-restrictions,
-2367,https://www.gov.uk/guidance/north-west-england-local-restrictions,
-2368,https://www.gov.uk/guidance/north-west-england-local-restrictions,
-2369,https://www.gov.uk/guidance/north-west-england-local-restrictions,
-2370,https://www.gov.uk/guidance/north-west-england-local-restrictions,
-2371,https://www.gov.uk/guidance/north-west-england-local-restrictions,
+145959,https://www.nidirect.gov.uk/articles/coronavirus-covid-19-regulations-and-localised-restrictions,,
+2514,https://www.gov.uk/guidance/birmingham-sandwell-and-solihull-local-restrictions#local-restrictions,,
+2535,https://www.gov.uk/guidance/birmingham-sandwell-and-solihull-local-restrictions#local-restrictions,,
+2538,https://www.gov.uk/guidance/birmingham-sandwell-and-solihull-local-restrictions#local-restrictions,,
+2519,https://www.gov.uk/guidance/birmingham-sandwell-and-solihull-local-restrictions#local-restrictions,,
+2515,https://www.gov.uk/guidance/bolton-local-restrictions#local-restrictions,,
+2531,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,,
+2528,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,,
+2517,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,,
+2532,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,,
+2534,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,,
+2543,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,,
+2544,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,,
+2540,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,2020-09-26,
+2547,https://www.gov.uk/guidance/greater-manchester-local-restrictions#local-restrictions,2020-09-26,
+2564,https://www.gov.uk/guidance/leicester-lockdown-what-you-can-and-cannot-do#local-restrictions,,
+2378,https://www.gov.uk/guidance/leicester-lockdown-what-you-can-and-cannot-do#local-restrictions,,
+2223,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,,
+2529,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,,
+2530,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,,
+2539,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,,
+2523,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,,
+2542,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,,
+2248,https://www.gov.uk/guidance/north-east-of-england-local-restrictions#local-restrictions,,
+2360,https://www.gov.uk/guidance/north-west-england-local-restrictions,,
+2361,https://www.gov.uk/guidance/north-west-england-local-restrictions,,
+2362,https://www.gov.uk/guidance/north-west-england-local-restrictions,,
+2363,https://www.gov.uk/guidance/north-west-england-local-restrictions,,
+2364,https://www.gov.uk/guidance/north-west-england-local-restrictions,,
+2365,https://www.gov.uk/guidance/north-west-england-local-restrictions,,
+2366,https://www.gov.uk/guidance/north-west-england-local-restrictions,,
+2367,https://www.gov.uk/guidance/north-west-england-local-restrictions,,
+2368,https://www.gov.uk/guidance/north-west-england-local-restrictions,,
+2369,https://www.gov.uk/guidance/north-west-england-local-restrictions,,
+2370,https://www.gov.uk/guidance/north-west-england-local-restrictions,,
+2371,https://www.gov.uk/guidance/north-west-england-local-restrictions,,
 2580,https://www.gov.uk/guidance/north-west-england-local-restrictions,,Halton
 2525,https://www.gov.uk/guidance/north-west-england-local-restrictions,,Knowsley
 2527,https://www.gov.uk/guidance/north-west-england-local-restrictions,,Liverpool
@@ -47,42 +47,42 @@ MapIt ID,URL,Start date
 2618,https://www.gov.uk/guidance/north-west-england-local-restrictions,,Warrington
 2581,https://www.gov.uk/government/speeches/extended-measures-to-protect-more-areas-of-england-from-coronavirus,2020-10-03,Hartlepool
 2586,https://www.gov.uk/government/speeches/extended-measures-to-protect-more-areas-of-england-from-coronavirus,2020-10-03,Middlesbrough
-2524,https://www.gov.uk/guidance/west-yorkshire-local-restrictions#local-restrictions,
-2516,https://www.gov.uk/guidance/west-yorkshire-local-restrictions#local-restrictions,
-2518,https://www.gov.uk/guidance/west-yorkshire-local-restrictions#local-restrictions,
-2526,https://www.gov.uk/guidance/west-yorkshire-local-restrictions#local-restrictions,2020-09-26
-2570,https://gov.wales/conwy-county-borough-lockdown-frequently-asked-questions,2020-10-01 18:00
-2605,https://gov.wales/flintshire-county-council-lockdown-frequently-asked-questions,2020-10-01 18:00
-2624,https://gov.wales/wrexham-county-borough-lockdown-frequently-asked-questions,2020-10-01 18:00
-2602,https://gov.wales/denbigshire-county-lockdown-frequently-asked-questions,2020-10-01 18:00
-12702,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00
-12686,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00
-12684,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00
-12697,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00
-151560,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00
-12683,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00
-12689,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00
-12682,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00
-12699,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00
-12703,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00
-12698,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00
-151561,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00
-12696,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00
-2558,https://gov.wales/caerphilly-county-coronavirus-lockdown-frequently-asked-questions,
-2599,https://gov.wales/rhondda-cynon-taf-lockdown-frequently-asked-questions,
-2554,https://gov.wales/blaenau-gwent-county-borough-lockdown-frequently-asked-questions,2020-09-22 18:00
-2592,https://gov.wales/bridgend-lockdown-frequently-asked-questions,2020-09-22 18:00
-2585,https://gov.wales/merthyr-tydfil-county-borough-lockdown-frequently-asked-questions,2020-09-22 18:00
-2559,https://gov.wales/newport-city-council-area-lockdown-frequently-asked-questions,2020-09-22 18:00
-2639,https://gov.wales/cardiff-council-area-lockdown-frequently-asked-questions,2020-09-27 18:00
-2549,https://gov.wales/swansea-council-area-lockdown-frequently-asked-questions,2020-09-27 18:00
-2557,https://gov.wales/vale-of-glamorgan-council-lockdown-frequently-asked-questions,2020-09-28 18:00
-2616,https://gov.wales/torfaen-lockdown-frequently-asked-questions,2020-09-28 18:00
-2560,https://gov.wales/neath-port-talbot-lockdown-frequently-asked-questions,2020-09-28 18:00
-2609,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/south-lanarkshire/,
-2590,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/north-lanarkshire/,
-2620,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/west-dunbartonshire/,
-2575,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/east-dunbartonshire/,
-2576,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/east-renfrewshire/,
-2579,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/glasgow/,
-2598,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/renfrewshire/,
+2524,https://www.gov.uk/guidance/west-yorkshire-local-restrictions#local-restrictions,,
+2516,https://www.gov.uk/guidance/west-yorkshire-local-restrictions#local-restrictions,,
+2518,https://www.gov.uk/guidance/west-yorkshire-local-restrictions#local-restrictions,,
+2526,https://www.gov.uk/guidance/west-yorkshire-local-restrictions#local-restrictions,2020-09-26,
+2570,https://gov.wales/conwy-county-borough-lockdown-frequently-asked-questions,2020-10-01 18:00,
+2605,https://gov.wales/flintshire-county-council-lockdown-frequently-asked-questions,2020-10-01 18:00,
+2624,https://gov.wales/wrexham-county-borough-lockdown-frequently-asked-questions,2020-10-01 18:00,
+2602,https://gov.wales/denbigshire-county-lockdown-frequently-asked-questions,2020-10-01 18:00,
+12702,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,
+12686,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,
+12684,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,
+12697,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,
+151560,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,
+12683,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,
+12689,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,
+12682,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,
+12699,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,
+12703,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,
+12698,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,
+151561,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,
+12696,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,
+2558,https://gov.wales/caerphilly-county-coronavirus-lockdown-frequently-asked-questions,,
+2599,https://gov.wales/rhondda-cynon-taf-lockdown-frequently-asked-questions,,
+2554,https://gov.wales/blaenau-gwent-county-borough-lockdown-frequently-asked-questions,2020-09-22 18:00,
+2592,https://gov.wales/bridgend-lockdown-frequently-asked-questions,2020-09-22 18:00,
+2585,https://gov.wales/merthyr-tydfil-county-borough-lockdown-frequently-asked-questions,2020-09-22 18:00,
+2559,https://gov.wales/newport-city-council-area-lockdown-frequently-asked-questions,2020-09-22 18:00,
+2639,https://gov.wales/cardiff-council-area-lockdown-frequently-asked-questions,2020-09-27 18:00,
+2549,https://gov.wales/swansea-council-area-lockdown-frequently-asked-questions,2020-09-27 18:00,
+2557,https://gov.wales/vale-of-glamorgan-council-lockdown-frequently-asked-questions,2020-09-28 18:00,
+2616,https://gov.wales/torfaen-lockdown-frequently-asked-questions,2020-09-28 18:00,
+2560,https://gov.wales/neath-port-talbot-lockdown-frequently-asked-questions,2020-09-28 18:00,
+2609,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/south-lanarkshire/,,
+2590,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/north-lanarkshire/,,
+2620,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/west-dunbartonshire/,,
+2575,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/east-dunbartonshire/,,
+2576,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/east-renfrewshire/,,
+2579,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/glasgow/,,
+2598,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/renfrewshire/,,
