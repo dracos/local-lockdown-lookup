@@ -137,8 +137,8 @@ there are currently any nationally-imposed local restrictions.
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>11:30am on 1st October 2020</strong>,
-with information about forthcoming Hartlepool/Middlesbrough restrictions.
+<p>Data last updated at <strong>9pm on 1st October 2020</strong>,
+with information about the Derry City and Strabane District Council restrictions.
 </p>
 
 <h3>Notes</h3>
