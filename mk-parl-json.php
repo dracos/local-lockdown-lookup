@@ -20,7 +20,7 @@ $areas = mapit_call('areas/COI,CTY,DIS,LBO,LGD,MTD,UTA');
 
 foreach ($data['features'] as $feature) {
     $props = $feature['properties'];
-    if (!$props['url_local']) { continue; }
+    #if (!$props['url_local']) { continue; }
     $name = $props['Category'];
     $name = str_replace('St. ', 'St ', $name);
     $name = str_replace('County ', '', $name);

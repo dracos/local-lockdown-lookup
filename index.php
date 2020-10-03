@@ -99,31 +99,7 @@ function matching_area($data, $id) {
     $parl_id = $id;
     if (strpos($area['link'], 'llanelli') > -1) { $parl_id = 'Llanelli'; }
     if ($props = $parliament[$parl_id]) {
-        $result .= '<div>';
-        $local = [];
-        $national = [];
-        if ($props['local_ruleofsix']) $local[] = 'Rule of six';
-        if ($props['local_householdmixing']) $local[] = 'Household mixing';
-        if ($props['local_stayinglocal']) $local[] = 'Entering/leaving local area';
-        if ($props['local_stayinghome']) $local[] = 'Leaving your home';
-        if ($props['local_notstayingaway']) $local[] = 'Not staying away';
-        if ($props['local_businessclosures']) $local[] = 'Business closures';
-        if ($props['local_openinghours']) $local[] = 'Opening hours';
-        if ($props['national_ruleofsix']) $national[] = 'Rule of six';
-        if ($props['national_householdmixing']) $national[] = 'Household mixing';
-        if ($props['national_stayinglocal']) $national[] = 'Staying local';
-        if ($props['national_stayinghome']) $national[] = 'Entering/leaving local area';
-        if ($props['national_notstayingaway']) $national[] = 'Not staying away';
-        if ($props['national_gatherings']) $national[] = 'Gatherings';
-        if ($props['national_businessclosures']) $national[] = 'Business closures';
-        if ($props['national_openinghours']) $national[] = 'Opening hours';
-        if ($local) {
-            $result .= '<div style="float:left; width:50%"><p><a href="' . $props['url_local'] . '">Local restrictions</a> apply for: <ul><li>' . join('<li>', $local) . '</ul></div>';
-        }
-        if ($national) {
-            $result .= '<div style="float:left;width:50%"><p><a href="' . $props['url_national'] . '">National restrictions</a> apply for: <ul><li>' . join('<li>', $national) . '</ul></div>';
-        }
-        $result .= '</div>';
+        $result .= parl_display($props);
     }
 
     $result .= "<p><small>Source and more info: " . link_wbr($area['link']) . ".";
@@ -153,7 +129,7 @@ function special_result($r) {
 }
 
 function check_area($data, $council, $ward=null, $showinfo=true) {
-    global $results, $cls, $areas, $pc, $pc_country, $council_urls;
+    global $results, $cls, $areas, $pc, $pc_country, $council_urls, $parliament;
 
     $match = 1;
     $pc_country = $data ? $data[$council]['country'] : null;
@@ -167,10 +143,25 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
     } elseif ($showinfo) {
         $match = 0;
         $result = $data[$council]['name'] . ' does not currently have additional local restrictions.';
-        $link = national_guidance($data[$council]['country']);
-        $result .= "<br><small>See the current national guidance: " . link_wbr($link) . ".</small>";
+
+        $country_to_parl = [
+            'E' => 'Rest of England',
+            'W' => 'Rest of Wales',
+            'S' => 'Scotland',
+            'N' => 'Northern Ireland',
+        ];
+        if ($props = $parliament[$country_to_parl[$pc_country]]) {
+            $result .= parl_display($props, false);
+        }
+
+        $link = national_guidance($pc_country);
+        $result .= "<p><small>See the current national guidance: " . link_wbr($link) . ".";
+        if ($parliament[$country_to_parl[$pc_country]]) {
+            $result .= ' Thanks to Parliament for the summary data.';
+        }
+        $result .= '</small></p>';
         if ($url = $council_urls[$council]) {
-            $result .= "<br><small>And the council&rsquo;s website: " . link_wbr($url) . ".</small>";
+            $result .= "<p><small>And the council&rsquo;s website: " . link_wbr($url) . ".</small>";
         }
         $cls[] = 'info';
     }
@@ -186,4 +177,35 @@ function national_guidance($country) {
         'N' => 'https://www.nidirect.gov.uk/articles/coronavirus-covid-19-regulations-guidance-what-restrictions-mean-you',
     ];
     return $guidance[$country];
+}
+
+function parl_display($props, $float=true) {
+    $result = '<div>';
+    $local = [];
+    $national = [];
+    if ($props['local_ruleofsix']) $local[] = 'Rule of six';
+    if ($props['local_householdmixing']) $local[] = 'Household mixing';
+    if ($props['local_stayinglocal']) $local[] = 'Entering/leaving local area';
+    if ($props['local_stayinghome']) $local[] = 'Leaving your home';
+    if ($props['local_notstayingaway']) $local[] = 'Not staying away';
+    if ($props['local_businessclosures']) $local[] = 'Business closures';
+    if ($props['local_openinghours']) $local[] = 'Opening hours';
+    if ($props['national_ruleofsix']) $national[] = 'Rule of six';
+    if ($props['national_householdmixing']) $national[] = 'Household mixing';
+    if ($props['national_stayinglocal']) $national[] = 'Staying local';
+    if ($props['national_stayinghome']) $national[] = 'Entering/leaving local area';
+    if ($props['national_notstayingaway']) $national[] = 'Not staying away';
+    if ($props['national_gatherings']) $national[] = 'Gatherings';
+    if ($props['national_businessclosures']) $national[] = 'Business closures';
+    if ($props['national_openinghours']) $national[] = 'Opening hours';
+    if ($local) {
+        $result .= '<div style="float:left; width:50%"><p><a href="' . $props['url_local'] . '">Local restrictions</a> apply for: <ul><li>' . join('<li>', $local) . '</ul></div>';
+    }
+    if ($national) {
+        $result .= '<div';
+        if ($float) $result .= ' style="float:left;width:50%"';
+        $result .= '><p><a href="' . $props['url_national'] . '">National restrictions</a> apply for: <ul><li>' . join('<li>', $national) . '</ul></div>';
+    }
+    $result .= '</div>';
+    return $result;
 }
