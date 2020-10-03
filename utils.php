@@ -172,6 +172,7 @@ You can also use those links if you do not want to provide a postcode.
 <li>To help me keep this up to date, the code is on <a href="https://github.com/dracos/local-lockdown-lookup">GitHub</a>.
 Pull Requests for changes to the areas or postcode list are welcome.
 
+<li>I have made a <a href="/made/local-lockdown-lookup/comparison/">comparison chart</a> between this service and other similar ones.
 <li><a href="https://www.microcovid.org/">https://www.microcovid.org/</a> is a useful tool to
 provide you with estimated risk level of various activities.
 <br>Avoid the 3 Cs: Crowds, Closed Spaces, and Close Contact.
