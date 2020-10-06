@@ -138,8 +138,8 @@ there are currently any nationally-imposed local restrictions.
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>4pm on 2nd October 2020</strong>,
-with information about the local measures in Tower Hamlets.
+<p>Data last updated at <strong>5pm on 6th October 2020</strong>,
+with information about the local measures in Nottingham.
 </p>
 
 <h3>Notes</h3>
