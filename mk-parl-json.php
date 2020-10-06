@@ -38,6 +38,8 @@ foreach ($data['features'] as $feature) {
     }
 }
 
+ksort($parliament);
+
 $fp = fopen($dir . '/cache/parliamentN.php', 'w');
 fwrite($fp, "<?php\n");
 fwrite($fp, '$parliament = ');
