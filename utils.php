@@ -138,8 +138,8 @@ there are currently any nationally-imposed local restrictions.
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>5pm on 6th October 2020</strong>,
-with information about the local measures in Nottingham.
+<p>Data last updated at <strong>8:45pm on 9th October 2020</strong>,
+with information about the local measures in Bangor from tomorrow.
 </p>
 
 <h3>Notes</h3>
