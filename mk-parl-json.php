@@ -10,10 +10,10 @@ $html = file_get_contents($base);
 preg_match('#<script src="([^h][^"]*)">#', $html, $m);
 print "Fetching $m[1]\n";
 $js = file_get_contents("$base$m[1]");
-preg_match('#"([^"]*\.json)"#', $js, $m);
+preg_match('#data:"([^"]*\.json)"#', $js, $m);
 print "Fetching $m[1]\n";
 $data = file_get_contents("$base$m[1]");
-$data = preg_replace('#"geometry":{[^}]*},#', '', $data); # Yes, I KNOW
+$data = preg_replace('#,"geometry":{[^}]*}#', '', $data); # Yes, I KNOW
 $data = json_decode($data, 1);
 
 $areas = mapit_call('areas/COI,CTY,DIS,LBO,LGD,MTD,UTA');
@@ -21,7 +21,7 @@ $areas = mapit_call('areas/COI,CTY,DIS,LBO,LGD,MTD,UTA');
 foreach ($data['features'] as $feature) {
     $props = $feature['properties'];
     #if (!$props['url_local']) { continue; }
-    $name = $props['Category'];
+    $name = $props['category'];
     $name = str_replace('St. ', 'St ', $name);
     $name = str_replace('County ', '', $name);
     $name = str_replace('upon Tyne', '', $name);

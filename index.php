@@ -147,7 +147,7 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
         $country_to_parl = [
             'E' => 'Rest of England',
             'W' => 'Rest of Wales',
-            'S' => 'Scotland',
+            'S' => 'Rest of Scotland',
             'N' => 'Rest of Northern Ireland',
         ];
         if ($props = $parliament[$country_to_parl[$pc_country]]) {
@@ -183,21 +183,23 @@ function parl_display($props, $float=true) {
     $result = '<div>';
     $local = [];
     $national = [];
-    if ($props['local_ruleofsix']) $local[] = 'Rule of six';
     if ($props['local_householdmixing']) $local[] = 'Household mixing';
+    if ($props['local_ruleofsix']) $local[] = 'Rule of six';
     if ($props['local_stayinglocal']) $local[] = 'Entering/leaving local area';
     if ($props['local_stayinghome']) $local[] = 'Leaving your home';
     if ($props['local_notstayingaway']) $local[] = 'Not staying away';
-    if ($props['local_businessclosures']) $local[] = 'Business closures';
     if ($props['local_openinghours']) $local[] = 'Opening hours';
-    if ($props['national_ruleofsix']) $national[] = 'Rule of six';
+    if ($props['local_businessclosures']) $local[] = 'Business closures';
+    if ($props['local_alcoholsalesrestrictions']) $local[] = 'Alcohol sales';
     if ($props['national_householdmixing']) $national[] = 'Household mixing';
+    if ($props['national_ruleofsix']) $national[] = 'Rule of six';
     if ($props['national_stayinglocal']) $national[] = 'Staying local';
     if ($props['national_stayinghome']) $national[] = 'Entering/leaving local area';
     if ($props['national_notstayingaway']) $national[] = 'Not staying away';
     if ($props['national_gatherings']) $national[] = 'Gatherings';
-    if ($props['national_businessclosures']) $national[] = 'Business closures';
     if ($props['national_openinghours']) $national[] = 'Opening hours';
+    if ($props['national_businessclosures']) $national[] = 'Business closures';
+    if ($props['national_alcoholsalesrestrictions']) $national[] = 'Alcohol sales';
     if ($local) {
         $result .= '<div style="float:left; width:50%"><p><a href="' . $props['url_local'] . '">Local restrictions</a> apply for: <ul><li>' . join('<li>', $local) . '</ul></div>';
     }
