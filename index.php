@@ -81,6 +81,9 @@ function matching_area($data, $id) {
     $result = '<big>' . $data[$id]['name'];
     if ($area['future'] && $area['future'] == 'future') {
         $result .= " will have local restrictions at some point soon";
+        if ($area['tier']) {
+            $result .= " (tier $area[tier] from Wednesday &ndash; <a href='https://www.gov.uk/government/news/prime-minister-announces-new-local-covid-alert-levels'>more info</a>)";
+        }
         $cls[] = 'info';
     } elseif ($area['future'] && time() < $area['future']) {
         $date = date('jS F', $area['future']);
@@ -89,21 +92,28 @@ function matching_area($data, $id) {
             $date = "$hour on $date";
         }
         $result .= " will have local restrictions from <strong>$date</strong>";
+        if ($area['tier']) {
+            $result .= " (tier $area[tier] from Wednesday &ndash; <a href='https://www.gov.uk/government/news/prime-minister-announces-new-local-covid-alert-levels'>more info</a>)";
+        }
         $cls[] = 'info';
     } else {
         $result .= " has local restrictions";
+        if ($area['tier']) {
+            $result .= " (tier $area[tier] from Wednesday &ndash; <a href='https://www.gov.uk/government/news/prime-minister-announces-new-local-covid-alert-levels'>more info</a>)";
+        }
         $cls[] = 'warn';
     }
     $result .= '.</big>';
 
     $parl_id = $id;
     if (strpos($area['link'], 'llanelli') > -1) { $parl_id = 'Llanelli'; }
-    if ($props = $parliament[$parl_id]) {
+    if (strpos($area['link'], 'bangor') > -1) { $parl_id = 'Bangor'; }
+    if (($props = $parliament[$parl_id]) && $area['tier'] != '3/very high') {
         $result .= parl_display($props);
     }
 
     $result .= "<p><small>Source and more info: " . link_wbr($area['link']) . ".";
-    if ($props = $parliament[$parl_id]) {
+    if ($parliament[$parl_id] && $area['tier'] != '3/very high') {
         $result .= ' Thanks to Parliament for the summary data.';
     }
     if (array_key_exists('extra', $area)) {
@@ -142,7 +152,11 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
         $result = matching_area($data, $council);
     } elseif ($showinfo) {
         $match = 0;
-        $result = $data[$council]['name'] . ' does not currently have additional local restrictions.';
+        $result = $data[$council]['name'] . ' does not currently have additional local restrictions';
+        if ($pc_country == 'E') {
+            $result .= " (tier 1/medium from Wednesday &ndash; <a href='https://www.gov.uk/government/news/prime-minister-announces-new-local-covid-alert-levels'>more info</a>)";
+        }
+        $result .= '.';
 
         $country_to_parl = [
             'E' => 'Rest of England',

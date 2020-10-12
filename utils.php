@@ -19,6 +19,7 @@ function load_areas() {
         $areas[$id] = [
             'link' => $row[1],
             'future' => $row[2] == 'future' ? $row[2] : strtotime($row[2]),
+            'tier' => $row[4] ? $row[4] : '',
         ];
         if (strpos($row[1], 'www.gov.uk') && !strpos($row[1], 'birmingham') && !strpos($row[1], '/news/')) {
             $areas[$id]['extra'] = 'Do note the bit hidden many paragraphs down advising you should not &ldquo;socialise with people you do not live with, unless they&rsquo;re in your support bubble, in any public venue&rdquo;.';
@@ -138,8 +139,8 @@ there are currently any nationally-imposed local restrictions.
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>8:45pm on 9th October 2020</strong>,
-with information about the local measures in Bangor from tomorrow.
+<p>Data last updated at <strong>7pm on 12th October 2020</strong>,
+with information about the three new tiers in England from Wednesday.
 </p>
 
 <h3>Notes</h3>
@@ -159,6 +160,11 @@ about from the national pages. Do check your council&rsquo;s website, and
 please feel free to let me know on
 <a href="https://github.com/dracos/local-lockdown-lookup">GitHub</a> and I can get them included.
 
+<li>I have made a <a href="/made/local-lockdown-lookup/comparison/">comparison chart</a> between this service and other similar ones.
+
+<li>To help me keep this up to date, the code is on <a href="https://github.com/dracos/local-lockdown-lookup">GitHub</a>.
+Pull Requests for changes to the areas or postcode list are welcome.
+
 <li>If I am unable to keep this up to date, I will immediately remove it and
 leave only these links to the various UK government sites.
 You can also use those links if you do not want to provide a postcode.
@@ -169,10 +175,6 @@ You can also use those links if you do not want to provide a postcode.
 <li><a href="https://gov.wales/local-lockdown">Wales</a>
 </ul>
 
-<li>To help me keep this up to date, the code is on <a href="https://github.com/dracos/local-lockdown-lookup">GitHub</a>.
-Pull Requests for changes to the areas or postcode list are welcome.
-
-<li>I have made a <a href="/made/local-lockdown-lookup/comparison/">comparison chart</a> between this service and other similar ones.
 <li><a href="https://www.microcovid.org/">https://www.microcovid.org/</a> is a useful tool to
 provide you with estimated risk level of various activities.
 <br>Avoid the 3 Cs: Crowds, Closed Spaces, and Close Contact.
@@ -282,6 +284,11 @@ function mapit_call($url) {
 }
 
 function link_wbr($link) {
-    $text = str_replace('/', '/<wbr>', $link);
-    return "<a href='$link'>$text</a>";
+    $links = explode(' ', $link);
+    $out = [];
+    foreach ($links as $link) {
+        $text = str_replace('/', '/<wbr>', $link);
+        $out[] = "<a href='$link'>$text</a>";
+    }
+    return join('; ', $out);
 }
