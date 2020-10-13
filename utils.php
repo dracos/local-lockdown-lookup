@@ -21,12 +21,6 @@ function load_areas() {
             'future' => $row[2] == 'future' ? $row[2] : strtotime($row[2]),
             'tier' => $row[4] ? $row[4] : '',
         ];
-        if (strpos($row[1], 'www.gov.uk') && !strpos($row[1], 'birmingham') && !strpos($row[1], '/news/')) {
-            $areas[$id]['extra'] = 'Do note the bit hidden many paragraphs down advising you should not &ldquo;socialise with people you do not live with, unless they&rsquo;re in your support bubble, in any public venue&rdquo;.';
-        }
-        if (strpos($row[1], 'north-east-of-england')) {
-            $areas[$id]['extra'] = '<br>Please also see the <a href="https://www.gov.uk/government/news/indoor-inter-household-mixing-restricted-in-parts-of-the-north-east">new restrictions on inter-household mixing</a> from Wednesday 30th September.';
-        }
     }
     fclose($fp);
 

@@ -79,11 +79,16 @@ function matching_area($data, $id) {
 
     $area = $areas[$id];
     $result = '<big>' . $data[$id]['name'];
+    if ($area['tier']) {
+        $tier_name = preg_replace('# \(.*#', '', $area['tier']);
+    }
     if ($area['future'] && $area['future'] == 'future') {
-        $result .= " will have local restrictions at some point soon";
         if ($area['tier']) {
-            $result .= " (tier $area[tier] from Wednesday &ndash; <a href='https://www.gov.uk/government/news/prime-minister-announces-new-local-covid-alert-levels'>more info</a>)";
+            $result .= " will be in the <strong>$tier_name tier</strong>";
+        } else {
+            $result .= " will have local restrictions";
         }
+        $result .= " at some point soon";
         $cls[] = 'info';
     } elseif ($area['future'] && time() < $area['future']) {
         $date = date('jS F', $area['future']);
@@ -91,15 +96,18 @@ function matching_area($data, $id) {
         if ($hour != '00:00') {
             $date = "$hour on $date";
         }
-        $result .= " will have local restrictions from <strong>$date</strong>";
         if ($area['tier']) {
-            $result .= " (tier $area[tier] from Wednesday &ndash; <a href='https://www.gov.uk/government/news/prime-minister-announces-new-local-covid-alert-levels'>more info</a>)";
+            $result .= " will be in the <strong>$tier_name tier</strong>";
+        } else {
+            $result .= " will have local restrictions";
         }
+        $result .= " from <strong>$date</strong>";
         $cls[] = 'info';
     } else {
-        $result .= " has local restrictions";
         if ($area['tier']) {
-            $result .= " (tier $area[tier] from Wednesday &ndash; <a href='https://www.gov.uk/government/news/prime-minister-announces-new-local-covid-alert-levels'>more info</a>)";
+            $result .= " is in the <strong>$tier_name tier</strong>";
+        } else {
+            $result .= " has local restrictions";
         }
         $cls[] = 'warn';
     }
@@ -108,12 +116,13 @@ function matching_area($data, $id) {
     $parl_id = $id;
     if (strpos($area['link'], 'llanelli') > -1) { $parl_id = 'Llanelli'; }
     if (strpos($area['link'], 'bangor') > -1) { $parl_id = 'Bangor'; }
-    if (($props = $parliament[$parl_id]) && $area['tier'] != '3/very high') {
+    if (strpos($area['link'], 'high-peak') > -1) { $parl_id = 'Part of High Peak'; }
+    if ($props = $parliament[$parl_id]) {
         $result .= parl_display($props);
     }
 
     $result .= "<p><small>Source and more info: " . link_wbr($area['link']) . ".";
-    if ($parliament[$parl_id] && $area['tier'] != '3/very high') {
+    if ($parliament[$parl_id]) {
         $result .= ' Thanks to Parliament for the summary data.';
     }
     if (array_key_exists('extra', $area)) {
@@ -152,9 +161,11 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
         $result = matching_area($data, $council);
     } elseif ($showinfo) {
         $match = 0;
-        $result = $data[$council]['name'] . ' does not currently have additional local restrictions';
+        $result = $data[$council]['name'];
         if ($pc_country == 'E') {
-            $result .= " (tier 1/medium from Wednesday &ndash; <a href='https://www.gov.uk/government/news/prime-minister-announces-new-local-covid-alert-levels'>more info</a>)";
+            $result .= " is in the <strong>medium tier</strong> from Wednesday";
+        } else {
+            $result .= ' does not currently have additional local restrictions';
         }
         $result .= '.';
 
@@ -165,7 +176,7 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
             'N' => 'Rest of Northern Ireland',
         ];
         if ($props = $parliament[$country_to_parl[$pc_country]]) {
-            $result .= parl_display($props, false);
+            $result .= parl_display($props);
         }
 
         $link = national_guidance($pc_country);
@@ -185,7 +196,7 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
 
 function national_guidance($country) {
     $guidance = [
-        'E' => 'https://www.gov.uk/government/publications/coronavirus-outbreak-faqs-what-you-can-and-cant-do/coronavirus-outbreak-faqs-what-you-can-and-cant-do',
+        'E' => 'https://www.gov.uk/guidance/local-covid-alert-level-medium',
         'W' => 'https://gov.wales/coronavirus',
         'S' => 'https://www.gov.scot/publications/coronavirus-covid-19-what-you-can-and-cannot-do/',
         'N' => 'https://www.nidirect.gov.uk/articles/coronavirus-covid-19-regulations-guidance-what-restrictions-mean-you',
@@ -193,7 +204,7 @@ function national_guidance($country) {
     return $guidance[$country];
 }
 
-function parl_display($props, $float=true) {
+function parl_display($props) {
     $result = '<div>';
     $local = [];
     $national = [];
@@ -215,11 +226,13 @@ function parl_display($props, $float=true) {
     if ($props['national_businessclosures']) $national[] = 'Business closures';
     if ($props['national_alcoholsalesrestrictions']) $national[] = 'Alcohol sales';
     if ($local) {
-        $result .= '<div style="float:left; width:50%"><p><a href="' . $props['url_local'] . '">Local restrictions</a> apply for: <ul><li>' . join('<li>', $local) . '</ul></div>';
+        $result .= '<div';
+        if ($local && $national) $result .= ' style="float:left; width:50%"';
+        $result .= '><p><a href="' . $props['url_local'] . '">Restrictions</a> apply for: <ul><li>' . join('<li>', $local) . '</ul></div>';
     }
     if ($national) {
         $result .= '<div';
-        if ($float) $result .= ' style="float:left;width:50%"';
+        if ($local && $national) $result .= ' style="float:left;width:50%"';
         $result .= '><p><a href="' . $props['url_national'] . '">National restrictions</a> apply for: <ul><li>' . join('<li>', $national) . '</ul></div>';
     }
     $result .= '</div>';
