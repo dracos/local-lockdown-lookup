@@ -131,6 +131,8 @@ function matching_area($data, $id) {
     $result .= '</small></p>';
     if ($url = $council_urls[$id]) {
         $result .= "<p>Council website: " . link_wbr($url) . "</p>";
+    } elseif (strpos($area['link'], 'high-peak') > -1) {
+        $result .= "<p><small>And the council&rsquo;s website: <a href='https://www.highpeak.gov.uk/'>https://www.highpeak.gov.uk/</a></small>";
     }
 
     return $result;
