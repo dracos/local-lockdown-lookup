@@ -123,7 +123,7 @@ function matching_area($data, $id) {
 
     $result .= "<p><small>Source and more info: " . link_wbr($area['link']) . ".";
     if ($parliament[$parl_id]) {
-        $result .= ' Thanks to Parliament for the summary data.';
+        $result .= ' Thanks to House of Commons Library for the summary data.';
     }
     if (array_key_exists('extra', $area)) {
         $result .= ' ' . $area['extra'];
@@ -182,7 +182,7 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
         $link = national_guidance($pc_country);
         $result .= "<p><small>See the current national guidance: " . link_wbr($link) . ".";
         if ($parliament[$country_to_parl[$pc_country]]) {
-            $result .= ' Thanks to Parliament for the summary data.';
+            $result .= ' Thanks to House of Commons Library for the summary data.';
         }
         $result .= '</small></p>';
         if ($url = $council_urls[$council]) {
