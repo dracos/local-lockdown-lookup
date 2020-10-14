@@ -284,5 +284,5 @@ function link_wbr($link) {
         $text = str_replace('/', '/<wbr>', $link);
         $out[] = "<a href='$link'>$text</a>";
     }
-    return join('; ', $out);
+    return join(' and ', $out);
 }
