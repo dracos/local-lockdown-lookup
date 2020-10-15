@@ -79,25 +79,31 @@ function matching_area($data, $id) {
 
     $area = $areas[$id];
     $result = '<big>' . $data[$id]['name'];
+
+    $tiers = [
+        1 => 'medium',
+        2 => 'high',
+        3 => 'very high',
+    ];
     if ($area['tier']) {
-        $tier_name = preg_replace('# \(.*#', '', $area['tier']);
+        $tier_name = $tiers[$area['tier']];
     }
     if ($area['future'] && $area['future'] == 'future') {
         if ($area['tier']) {
-            $result .= " will be in the <strong>$tier_name tier</strong>";
+            $result .= " will be in the <strong>$tier_name</strong> tier (tier $area[tier])";
         } else {
             $result .= " will have local restrictions";
         }
         $result .= " at some point soon";
         $cls[] = 'info';
     } elseif ($area['future'] && time() < $area['future']) {
-        $date = date('jS F', $area['future']);
+        $date = date('l, jS F', $area['future']);
         $hour = date('H:i', $area['future']);
         if ($hour != '00:00') {
             $date = "$hour on $date";
         }
         if ($area['tier']) {
-            $result .= " will be in the <strong>$tier_name tier</strong>";
+            $result .= " will be in the <strong>$tier_name</strong> tier (tier $area[tier])";
         } else {
             $result .= " will have local restrictions";
         }
@@ -105,7 +111,7 @@ function matching_area($data, $id) {
         $cls[] = 'info';
     } else {
         if ($area['tier']) {
-            $result .= " is in the <strong>$tier_name tier</strong>";
+            $result .= " is in the <strong>$tier_name</strong> tier (tier $area[tier])";
         } else {
             $result .= " has local restrictions";
         }
