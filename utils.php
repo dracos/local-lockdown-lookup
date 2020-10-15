@@ -85,16 +85,9 @@ function output() {
 
 <?php
 if ($results) {
-    $nhs = json_decode(file_get_contents('cache/risky-post-districts'), 1);
     $pd = preg_replace('# .*#', '', $pc);
 
     print "<h2 style='overflow:auto'>" . htmlspecialchars($pc);
-    if (($pc_country=='E' || $pc_country=='W') && ($level = $nhs['postDistricts'][$pd])) {
-        if ($level == 'H') $level = 'High';
-        if ($level == 'M') $level = 'Medium';
-        if ($level == 'L') $level = 'Low';
-        print " <small style='float:right'>(NHS App <a href='https://faq.covid19.nhs.uk/article/KA-01101/en-us?parentid=CAT-01034&rootid=CAT-01032'>risk level</a> for " . htmlspecialchars($pd) . ": $level)</small>";
-    }
 
     print "</h2>";
     foreach ($results as $i => $result) {
