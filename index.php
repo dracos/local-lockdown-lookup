@@ -193,7 +193,7 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
             'E' => 'Rest of England',
             'W' => 'Rest of Wales',
             'S' => 'Rest of Scotland',
-            'N' => 'Rest of Northern Ireland',
+            'N' => 'Northern Ireland',
         ];
         if ($props = $parliament[$country_to_parl[$pc_country]]) {
             $result .= parl_display($props);
