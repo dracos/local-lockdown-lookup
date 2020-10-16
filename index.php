@@ -89,18 +89,31 @@ function matching_area($data, $id) {
         $tier_name = $tiers[$area['tier']];
     }
     if ($area['future'] && $area['future'] == 'future') {
+        if ($area['tier_previous']) {
+            $tier_name_previous = $tiers[$area['tier_previous']];
+            $result .= " is in the <strong>$tier_name_previous</strong> tier (tier $area[tier_previous]), and";
+            $cls[] = 'warn';
+        } else {
+            $cls[] = 'info';
+        }
         if ($area['tier']) {
             $result .= " will be in the <strong>$tier_name</strong> tier (tier $area[tier])";
         } else {
             $result .= " will have local restrictions";
         }
         $result .= " at some point soon";
-        $cls[] = 'info';
     } elseif ($area['future'] && time() < $area['future']) {
         $date = date('l, jS F', $area['future']);
         $hour = date('H:i', $area['future']);
         if ($hour != '00:00') {
             $date = "$hour on $date";
+        }
+        if ($area['tier_previous']) {
+            $tier_name_previous = $tiers[$area['tier_previous']];
+            $result .= " is in the <strong>$tier_name_previous</strong> tier (tier $area[tier_previous]), and";
+            $cls[] = 'warn';
+        } else {
+            $cls[] = 'info';
         }
         if ($area['tier']) {
             $result .= " will be in the <strong>$tier_name</strong> tier (tier $area[tier])";
@@ -108,7 +121,6 @@ function matching_area($data, $id) {
             $result .= " will have local restrictions";
         }
         $result .= " from <strong>$date</strong>";
-        $cls[] = 'info';
     } else {
         if ($area['tier']) {
             $result .= " is in the <strong>$tier_name</strong> tier (tier $area[tier])";

@@ -20,6 +20,7 @@ function load_areas() {
             'link' => $row[1],
             'future' => $row[2] == 'future' ? $row[2] : strtotime($row[2]),
             'tier' => $row[4] ? $row[4] : '',
+            'tier_previous' => $row[5] ? $row[5] : '',
         ];
     }
     fclose($fp);
