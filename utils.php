@@ -127,8 +127,8 @@ there are currently any nationally-imposed local restrictions.
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>7pm on 12th October 2020</strong>,
-with information about the three new tiers in England from Wednesday.
+<p>Data last updated at <strong>1pm on 16th October 2020</strong>,
+with information about new tier 3 areas, and travel to Wales.
 </p>
 
 <h3>Notes</h3>

@@ -75,7 +75,7 @@ output();
 footer();
 
 function matching_area($data, $id) {
-    global $areas, $cls, $parliament, $council_urls;
+    global $areas, $cls, $parliament, $council_urls, $pc_country;
 
     $area = $areas[$id];
     $result = '<big>' . $data[$id]['name'];
@@ -138,6 +138,11 @@ function matching_area($data, $id) {
     if ($props = $parliament[$parl_id]) {
         $result .= parl_display($props);
     }
+    if ($area['tier'] >= 2) {
+        $result .= '<p>People living in tier 2 or 3 areas of England are <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
+    } elseif ($pc_country == 'S') {
+        $result .= '<p>People living in the central belt of Scotland are <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
+    }
 
     $result .= "<p><small>Source and more info: " . link_wbr($area['link']) . ".";
     if ($parliament[$parl_id]) {
@@ -197,6 +202,12 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
         ];
         if ($props = $parliament[$country_to_parl[$pc_country]]) {
             $result .= parl_display($props);
+        }
+
+        if ($pc_country == 'N') {
+            $result .= '<p>People living in Nothern Ireland are <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
+        } elseif ($pc_country == 'W') {
+            $result .= '<p>People living in Wales are <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to tier 2 or 3 areas of England, the central belt of Scotland, or Northern Ireland.</p>';
         }
 
         $link = national_guidance($pc_country);
