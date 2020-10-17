@@ -188,7 +188,7 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
         $match = 0;
         $result = $data[$council]['name'];
         if ($pc_country == 'E') {
-            $result .= " is in the <strong>medium tier</strong>";
+            $result .= " is in the <strong>medium tier</strong> (tier 1)";
         } else {
             $result .= ' does not currently have additional local restrictions';
         }
