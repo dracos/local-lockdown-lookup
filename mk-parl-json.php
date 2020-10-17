@@ -25,6 +25,7 @@ foreach ($data['features'] as $feature) {
     $name = str_replace('St. ', 'St ', $name);
     $name = str_replace('County ', '', $name);
     $name = str_replace('upon Tyne', '', $name);
+    if ($name == 'York') $name = 'City of York';
     $match = false;
     foreach ($areas as $id => $area) {
         if (preg_match("#^$name#", $area['name'])) {
