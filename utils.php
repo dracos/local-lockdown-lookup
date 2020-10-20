@@ -6,31 +6,38 @@ $dir = dirname(__FILE__);
 function load_areas() {
     global $areas, $dir;
     $areas = [];
-    $csv_mt = filemtime($dir . '/areas.csv');
-    $php_mt = @filemtime($dir . '/cache/areas.php');
-    if ($php_mt >= $csv_mt) {
-        include_once $dir . '/cache/areas.php';
-        return;
-    }
     $fp = fopen($dir . '/areas.csv', 'r');
     fgetcsv($fp);
+    $date = array_key_exists('date', $_GET) ? $_GET['date'] : '';
+    $now = $date ? strtotime($date) : time();
+    $data = [];
     while ($row = fgetcsv($fp)) {
-        $id = intval($row[0]);
-        $areas[$id] = [
-            'link' => $row[1],
-            'future' => $row[2] == 'future' ? $row[2] : strtotime($row[2]),
-            'tier' => $row[4] ? $row[4] : '',
-            'tier_previous' => $row[5] ? $row[5] : '',
-        ];
+        if (!$row[0] || preg_match('/^#/', $row[0])) continue;
+        $data[] = $row;
     }
     fclose($fp);
 
-    $fp = fopen($dir . '/cache/areas.php', 'w');
-    fwrite($fp, "<?php\n");
-    fwrite($fp, '$areas = ');
-    fwrite($fp, var_export($areas, true));
-    fwrite($fp, ";\n");
-    fclose($fp);
+    usort($data, create_function('$a,$b', 'return strcmp($a[1], $b[1]);'));
+
+    foreach ($data as $row) {
+        list ($id, $start, $end, $url, $tier, $name) = $row;
+        if ($now >= strtotime($start) && (!$end || $now < strtotime($end))) {
+            $areas[$id] = [
+                'link' => $url,
+                'tier' => $tier,
+            ];
+        }
+        if ($end && $now >= strtotime($end)) {
+            unset($areas[$id]);
+        }
+        if (!$date && ($start == 'future' || strtotime($start) > $now)) {
+            $areas[$id]['future'] = [
+                'date' => $start == 'future' ? $start : strtotime($start),
+                'link' => $url,
+                'tier' => $tier,
+            ];
+        }
+    }
 }
 
 function load_special() {
@@ -60,7 +67,7 @@ function load_special() {
 }
 
 function output() {
-    global $results, $cls, $pc, $pc_country;
+    global $results, $cls, $pc, $pc_country, $DATE;
 ?>
 
 <style>
@@ -82,13 +89,30 @@ function output() {
 .res-ok { background-color: #3a4; }
 .res a { color: #fff; }
 .res a:hover { color: #000; }
+.res-error a { color: #000; }
+.res-error a:hover { color: #fff; }
 </style>
 
 <?php
+
+if ($DATE) {
+    print '<div class="res res-error" style="font-size: 1em">
+Historical support is new and may be buggy. Please note it only covers
+Statutory Instrument regulations, not things that were advised, or done by
+local authority regulation, etc. (e.g. at one point Pendle had
+<a href="http://web.archive.org/web/20200918192051/https://www.gov.uk/guidance/blackburn-with-darwen-oldham-pendle-local-restrictions">seven
+wards under greater restrictions</a> that never made it into
+regulations (that I can see); there could be many of these).
+</div>';
+}
+
 if ($results) {
     $pd = preg_replace('# .*#', '', $pc);
 
     print "<h2 style='overflow:auto'>" . htmlspecialchars($pc);
+    if ($DATE) {
+        print ", on " . date('jS F Y', strtotime($DATE));
+    }
 
     print "</h2>";
     foreach ($results as $i => $result) {
@@ -102,7 +126,7 @@ to look up the council and ward for the location, and then tells you if
 there are currently any nationally-imposed local restrictions.
 </p>
 
-<div class="lll-form-wrapper">
+<div class="lll-form-wrapper" style="position:relative">
         <form id="lll-form" method="get" action="/made/local-lockdown-lookup/">
 <?php if (array_key_exists('govuk', $_GET)) { ?>
 <input type="hidden" name="govuk" value="1">
@@ -122,13 +146,17 @@ there are currently any nationally-imposed local restrictions.
                 <label for="pc" style="display:inline">Postcode:</label>
                 <input type="text" size=10 maxlength=10 name="pc" id="pc" value="<?=htmlspecialchars($pc) ?>">
                 <input type="submit" value="Look up">
+
+                <span style="position:absolute; bottom:0;right:0;font-size:50%">
+                <label for="date">Date:</label><input id="date" type="date" name="date" value="<?=htmlspecialchars($DATE) ?>">
+                </span>
         </form>
 <p><a href="#" id="geolocate_link">Use your location</a></p>
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>1pm on 16th October 2020</strong>,
-with information about new tier 3 areas, and travel to Wales.
+<p>Data last updated at <strong>7pm on 19th October 2020</strong>,
+with information about the Welsh firebreak, and historical data access.
 </p>
 
 <h3>Notes</h3>

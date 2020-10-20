@@ -1,186 +1,471 @@
-MapIt ID,URL,Start date,Name/notes,Tier,Tier previous
-2284,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,Chesterfield,2,
-2625,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,City of York,2,
-2280,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,NE Derbyshire,2,
-2276,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,Barrow,2,
-2279,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,Erewash,2,
-2455,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,Elmbridge,2,
-2511,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2489,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2494,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2488,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2482,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2505,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2512,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2481,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2484,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2495,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2493,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2508,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2502,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2509,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2487,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2485,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2486,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2483,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2507,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2503,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2480,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2490,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2492,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2500,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2510,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2497,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2499,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2491,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2498,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2506,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2496,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2501,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2504,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,LBO,2,
-2309,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,Brentwood,2,
-2310,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,Rochford,2,
-2311,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,Epping Forest,2,
-2312,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,Tendring,2,
-2313,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,Uttlesford,2,
-2314,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,Chelmsford,2,
-2315,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,Colchester,2,
-2316,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,Maldon,2,
-2317,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,Braintree,2,
-2318,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,Harlow,2,
-2319,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,Basildon,2,
-2320,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-17,Castle Point,2,
-2572,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Darlington,2,
-2597,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Redcar and Cleveland,2,
-2611,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Stockton-on-Tees,2,
-2513,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Barnsley,2,
-2533,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Rotherham,2,
-2521,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Doncaster,2,
-2537,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Sheffield,2,
-2410,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Bassetlaw,2,
-2411,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Rushcliffe,2,
-2412,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Gedling,2,
-2413,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Ashfield,2,
-2414,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Newark and Sherwood,2,
-2415,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Broxtowe,2,
-2416,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Mansfield,2,
-2565,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Nottingham,2,
-144576,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2020-10-14,Tintwistle,2,
-144602,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2020-10-14,Padfield,2,
-144595,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2020-10-14,Dinting,2,
-144579,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2020-10-14,St John's,2,
-144594,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2020-10-14,Old Glossop,2,
-144601,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2020-10-14,Whitfield,2,
-144593,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2020-10-14,Simmondley,2,
-144597,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2020-10-14,Gamesley,2,
-144600,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2020-10-14,Howard Town,2,
-144598,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2020-10-14,Hadfield South,2,
-144599,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2020-10-14,Hadfield North,2,
-2514,https://www.gov.uk/guidance/local-covid-alert-level-high,,Birmingham,2,
-2535,https://www.gov.uk/guidance/local-covid-alert-level-high,,,2,
-2538,https://www.gov.uk/guidance/local-covid-alert-level-high,,,2,
-2519,https://www.gov.uk/guidance/local-covid-alert-level-high,,,2,
-2546,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Walsall,2,
-2515,https://www.gov.uk/guidance/local-covid-alert-level-high,,,2,
-2531,https://www.gov.uk/guidance/local-covid-alert-level-high,,,2,
-2528,https://www.gov.uk/guidance/local-covid-alert-level-high,,,2,
-2517,https://www.gov.uk/guidance/local-covid-alert-level-high,,,2,
-2532,https://www.gov.uk/guidance/local-covid-alert-level-high,,,2,
-2534,https://www.gov.uk/guidance/local-covid-alert-level-high,,,2,
-2543,https://www.gov.uk/guidance/local-covid-alert-level-high,,,2,
-2544,https://www.gov.uk/guidance/local-covid-alert-level-high,,,2,
-2540,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-09-26,,2,
-2547,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-09-26,,2,
-2564,https://www.gov.uk/guidance/local-covid-alert-level-high,,,2,
-2378,https://www.gov.uk/guidance/local-covid-alert-level-high,,,2,
-2223,https://www.gov.uk/guidance/local-covid-alert-level-high,,Durham,2,
-2529,https://www.gov.uk/guidance/local-covid-alert-level-high,,Newcastle,2,
-2530,https://www.gov.uk/guidance/local-covid-alert-level-high,,North Tyneside,2,
-2539,https://www.gov.uk/guidance/local-covid-alert-level-high,,South Tyneside,2,
-2523,https://www.gov.uk/guidance/local-covid-alert-level-high,,Gateshead,2,
-2542,https://www.gov.uk/guidance/local-covid-alert-level-high,,Sunderland,2,
-2248,https://www.gov.uk/guidance/local-covid-alert-level-high,,Northumberland,2,
-2581,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-03,Hartlepool,2,
-2586,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-03,Middlesbrough,2,
-2360,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,2020-10-17,West Lancashire,3,2
-2361,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,2020-10-17,Lancaster,3,2
-2362,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,2020-10-17,Chorley,3,2
-2363,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,2020-10-17,South Ribble,3,2
-2364,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,2020-10-17,Rossendale,3,2
-2365,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,2020-10-17,Fylde,3,2
-2366,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,2020-10-17,Preston,3,2
-2367,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,2020-10-17,Wyre,3,2
-2368,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,2020-10-17,Pendle,3,2
-2369,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,2020-10-17,Ribble Valley,3,2
-2370,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,2020-10-17,Hyndburn,3,2
-2371,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,2020-10-17,Burnley,3,2
-2552,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,2020-10-17,Blackburn with Darwen,3,2
-2553,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,2020-10-17,Blackpool,3,2
-21068,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Cheshire West and Chester,2,
-21069,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Cheshire East,2,
-2580,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,,Halton,3,
-2525,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,,Knowsley,3,
-2527,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,,Liverpool,3,
-2536,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,,Sefton,3,
-2541,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,,St Helens,3,
-2548,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,,Wirral,3,
-2618,https://www.gov.uk/guidance/local-covid-alert-level-high,,Warrington,2,
-2524,https://www.gov.uk/guidance/local-covid-alert-level-high,,,2,
-2516,https://www.gov.uk/guidance/local-covid-alert-level-high,,,2,
-2518,https://www.gov.uk/guidance/local-covid-alert-level-high,,,2,
-2526,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-09-26,,2,
-2545,https://www.gov.uk/guidance/local-covid-alert-level-high,2020-10-14,Wakefield,2,
-12257,https://gov.wales/bangor-area-lockdown-frequently-asked-questions,2020-10-10 18:00,Garth,,
-12259,https://gov.wales/bangor-area-lockdown-frequently-asked-questions,2020-10-10 18:00,Hirael,,
-12256,https://gov.wales/bangor-area-lockdown-frequently-asked-questions,2020-10-10 18:00,Menai,,
-12258,https://gov.wales/bangor-area-lockdown-frequently-asked-questions,2020-10-10 18:00,Deiniol,,
-12255,https://gov.wales/bangor-area-lockdown-frequently-asked-questions,2020-10-10 18:00,Marchog,,
-12252,https://gov.wales/bangor-area-lockdown-frequently-asked-questions,2020-10-10 18:00,Glyder,,
-12251,https://gov.wales/bangor-area-lockdown-frequently-asked-questions,2020-10-10 18:00,Hendre,,
-12254,https://gov.wales/bangor-area-lockdown-frequently-asked-questions,2020-10-10 18:00,Dewi,,
-2570,https://gov.wales/conwy-county-borough-lockdown-frequently-asked-questions,2020-10-01 18:00,,,
-2605,https://gov.wales/flintshire-county-council-lockdown-frequently-asked-questions,2020-10-01 18:00,,,
-2624,https://gov.wales/wrexham-county-borough-lockdown-frequently-asked-questions,2020-10-01 18:00,,,
-2602,https://gov.wales/denbigshire-county-lockdown-frequently-asked-questions,2020-10-01 18:00,,,
-12702,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,,,
-12686,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,,,
-12684,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,,,
-12697,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,,,
-151560,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,,,
-12683,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,,,
-12689,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,,,
-12682,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,,,
-12699,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,,,
-12703,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,,,
-12698,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,,,
-151561,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,,,
-12696,https://gov.wales/llanelli-lockdown-frequently-asked-questions,2020-09-26 18:00,,,
-2558,https://gov.wales/caerphilly-county-coronavirus-lockdown-frequently-asked-questions,,,,
-2599,https://gov.wales/rhondda-cynon-taf-lockdown-frequently-asked-questions,,,,
-2554,https://gov.wales/blaenau-gwent-county-borough-lockdown-frequently-asked-questions,2020-09-22 18:00,,,
-2592,https://gov.wales/bridgend-lockdown-frequently-asked-questions,2020-09-22 18:00,,,
-2585,https://gov.wales/merthyr-tydfil-county-borough-lockdown-frequently-asked-questions,2020-09-22 18:00,,,
-2559,https://gov.wales/newport-city-council-area-lockdown-frequently-asked-questions,2020-09-22 18:00,,,
-2639,https://gov.wales/cardiff-council-area-lockdown-frequently-asked-questions,2020-09-27 18:00,,,
-2549,https://gov.wales/swansea-council-area-lockdown-frequently-asked-questions,2020-09-27 18:00,,,
-2557,https://gov.wales/vale-of-glamorgan-council-lockdown-frequently-asked-questions,2020-09-28 18:00,,,
-2616,https://gov.wales/torfaen-lockdown-frequently-asked-questions,2020-09-28 18:00,,,
-2560,https://gov.wales/neath-port-talbot-lockdown-frequently-asked-questions,2020-09-28 18:00,,,
-2609,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,,,
-2590,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,,,
-2620,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,,,
-2575,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,,,
-2576,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,,,
-2579,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,,,
-2598,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,,,
-2574,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,2020-10-09 18:00,East Ayrshire,,
-2654,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,2020-10-09 18:00,North Ayrshire,,
-2655,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,2020-10-09 18:00,South Ayrshire,,
-2582,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,2020-10-09 18:00,Inverclyde,,
-2569,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,2020-10-09 18:00,Clackmannanshire,,
-2578,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,2020-10-09 18:00,Falkirk,,
-2610,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,2020-10-09 18:00,Stirling,,
-2651,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,2020-10-09 18:00,Edinburgh,,
-2652,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,2020-10-09 18:00,East Lothian,,
-2587,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,2020-10-09 18:00,Midlothian,,
-2621,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,2020-10-09 18:00,West Lothian,,
+MapIt ID,Start date,End date,URL,Tier,Name/notes
+2376,2020-07-04,2020-07-18,https://www.legislation.gov.uk/uksi/2020/685/2020-07-04,,Blaby
+2377,2020-07-04,2020-07-18,https://www.legislation.gov.uk/uksi/2020/685/2020-07-04,,Charnwood
+2564,2020-07-04,,https://www.legislation.gov.uk/uksi/2020/685/2020-07-04,,Leicester
+2378,2020-07-04,2020-08-01,https://www.legislation.gov.uk/uksi/2020/685/2020-07-04 https://www.legislation.gov.uk/uksi/2020/823/made,,Oadby and Wigston
+2564,2020-07-24,,https://www.legislation.gov.uk/uksi/2020/685/2020-07-24,,Leicester
+
+2552,2020-07-25,,https://www.legislation.gov.uk/uksi/2020/800/made,,Blackburn with Darwen
+2583,2020-07-25,2020-08-01,https://www.gov.uk/guidance/luton-local-restrictions,,Luton
+
+2516,2020-08-01,,https://www.legislation.gov.uk/uksi/2020/822/2020-08-01,,Bradford
+2552,2020-08-01,,https://www.legislation.gov.uk/uksi/2020/822/2020-08-01,,Blackburn with Darwen
+2516,2020-08-05,2020-09-02 12:00,https://www.legislation.gov.uk/uksi/2020/822/2020-08-05,,Bradford
+2552,2020-08-05,2020-08-26,https://www.legislation.gov.uk/uksi/2020/822/2020-08-05,,Blackburn with Darwen
+
+152052,2020-08-26,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-08-26,,Blackburn ward
+152050,2020-08-26,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-08-26,,Blackburn ward
+152041,2020-08-26,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-08-26,,Blackburn ward
+152048,2020-08-26,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-08-26,,Blackburn ward
+152053,2020-08-26,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-08-26,,Blackburn ward
+152038,2020-08-26,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-08-26,,Blackburn ward
+152049,2020-08-26,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-08-26,,Blackburn ward
+152054,2020-08-26,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-08-26,,Blackburn ward
+152052,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Blackburn ward
+152050,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Blackburn ward
+152041,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Blackburn ward
+152048,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Blackburn ward
+152053,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Blackburn ward
+152038,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Blackburn ward
+152049,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Blackburn ward
+152054,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Blackburn ward
+
+8850,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8839,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8849,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8838,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8826,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8841,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8846,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8836,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8844,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8842,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8823,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8828,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8837,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8848,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8824,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8834,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8825,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8847,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8821,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8845,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8835,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Bradford ward
+8840,2020-09-02,2020-09-03,https://www.legislation.gov.uk/uksi/2020/822/2020-09-02,,Windhill and Rose
+8850,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8839,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8849,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8838,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8826,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8841,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8846,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8836,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8844,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8842,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8823,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8828,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8837,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8848,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8824,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8834,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8825,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8847,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8821,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8845,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+8835,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/822/2020-09-08,,Bradford ward
+
+2564,2020-08-03,,https://www.legislation.gov.uk/uksi/2020/824/2020-08-03,,Leicester
+2564,2020-08-19,,https://www.legislation.gov.uk/uksi/2020/824/2020-08-19,,Leicester
+2564,2020-09-08,,https://www.legislation.gov.uk/uksi/2020/824/2020-09-08,,Leicester
+2564,2020-09-15,,https://www.legislation.gov.uk/uksi/2020/824/2020-09-15,,Leicester
+2564,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/824/2020-09-22,,Leicester
+2378,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/824/2020-09-22,,Oadby and Wigston
+
+2515,2020-07-31,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-05,,Bolton
+2517,2020-07-31,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-05,,Bury
+2528,2020-07-31,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-05,,Manchester
+2531,2020-07-31,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-05,,Oldham
+2532,2020-07-31,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-05,,Rochdale
+2534,2020-07-31,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-05,,Salford
+2540,2020-07-31,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-05,,Stockport
+2543,2020-07-31,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-05,,Tameside
+2544,2020-07-31,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-05,,Trafford
+2547,2020-07-31,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-05,,Wigan
+2368,2020-07-31,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-05,,Pendle
+2364,2020-07-31,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-05,,Rossendale
+2370,2020-07-31,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-05,,Hyndburn
+2371,2020-07-31,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-05,,Burnley
+2518,2020-07-31,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-05,,Calderdale
+2524,2020-07-31,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-05,,Kirklees
+2366,2020-08-08,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-08,,Preston
+2547,2020-08-15,2020-08-26,https://www.legislation.gov.uk/uksi/2020/828/2020-08-15 https://www.legislation.gov.uk/uksi/2020/897/made,,Wigan
+2364,2020-08-15,2020-08-26,https://www.legislation.gov.uk/uksi/2020/828/2020-08-15 https://www.legislation.gov.uk/uksi/2020/897/made,,Rossendale
+2540,2020-08-15,2020-09-02,https://www.legislation.gov.uk/uksi/2020/828/2020-08-15 https://www.legislation.gov.uk/uksi/2020/931/made,,Stockport
+2370,2020-08-15,2020-09-02,https://www.legislation.gov.uk/uksi/2020/828/2020-08-15 https://www.legislation.gov.uk/uksi/2020/931/made,,Hyndburn
+2371,2020-08-15,2020-09-02,https://www.legislation.gov.uk/uksi/2020/828/2020-08-15 https://www.legislation.gov.uk/uksi/2020/931/made,,Burnley
+2515,2020-08-15,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-15,,Bolton
+2517,2020-08-15,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-15,,Bury
+2528,2020-08-15,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-15,,Manchester
+2531,2020-08-15,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-15,,Oldham
+2532,2020-08-15,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-15,,Rochdale
+2534,2020-08-15,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-15,,Salford
+2543,2020-08-15,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-15,,Tameside
+2544,2020-08-15,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-15,,Trafford
+2368,2020-08-15,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-15,,Pendle
+2518,2020-08-15,2020-09-02,https://www.legislation.gov.uk/uksi/2020/828/2020-08-15,,Calderdale
+2524,2020-08-15,2020-09-02,https://www.legislation.gov.uk/uksi/2020/828/2020-08-15,,Kirklees
+2366,2020-08-15,,https://www.legislation.gov.uk/uksi/2020/828/2020-08-15,,Preston
+
+8875,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/828/2020-09-02,,Calderdale ward
+8882,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/828/2020-09-02,,Calderdale ward
+8884,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/828/2020-09-02,,Calderdale ward
+8880,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/828/2020-09-02,,Calderdale ward
+8883,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/828/2020-09-02,,Calderdale ward
+8876,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/828/2020-09-02,,Calderdale ward
+8881,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/828/2020-09-02,,Calderdale ward
+8879,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/828/2020-09-02,,Calderdale ward
+9009,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/828/2020-09-02,,Kirklees ward
+8997,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/828/2020-09-02,,Kirklees ward
+9007,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/828/2020-09-02,,Kirklees ward
+8995,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/828/2020-09-02,,Kirklees ward
+9010,2020-09-02,2020-09-08,https://www.legislation.gov.uk/uksi/2020/828/2020-09-02,,Kirklees ward
+8875,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Calderdale ward
+8882,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Calderdale ward
+8884,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Calderdale ward
+8880,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Calderdale ward
+8883,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Calderdale ward
+8876,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Calderdale ward
+8881,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Calderdale ward
+8879,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Calderdale ward
+9009,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Kirklees ward
+8997,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Kirklees ward
+9007,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Kirklees ward
+8995,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Kirklees ward
+9010,2020-09-08,2020-09-22,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Kirklees ward
+
+2515,2020-09-08,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Bolton
+2517,2020-09-08,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Bury
+2528,2020-09-08,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Manchester
+2531,2020-09-08,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Oldham
+2532,2020-09-08,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Rochdale
+2534,2020-09-08,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Salford
+2543,2020-09-08,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Tameside
+2544,2020-09-08,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Trafford
+2368,2020-09-08,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Pendle
+2366,2020-09-08,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-08,,Preston
+
+2517,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-22,,Bury
+2528,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-22,,Manchester
+2531,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-22,,Oldham
+2532,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-22,,Rochdale
+2534,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-22,,Salford
+2543,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-22,,Tameside
+2544,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-22,,Trafford
+2518,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-22,,Calderdale
+2524,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-22,,Kirklees
+2516,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-22,,Bradford
+2540,2020-09-26,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-26,,Stockport
+2547,2020-09-26,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-26,,Wigan
+2526,2020-09-26,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-26,,Leeds
+2552,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Blackburn
+2553,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Blackpool
+2371,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Burnley
+2362,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Chorley
+2365,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Fylde
+2580,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Halton
+2370,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Hyndburn
+2525,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Knowsley
+2361,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Lancaster
+2527,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Liverpool
+2368,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Pendle
+2366,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Preston
+2369,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Ribble Valley
+2364,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Rossendale
+2536,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Sefton
+2363,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,South Ribble
+2541,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,St Helens
+2618,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Warrington
+2360,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,West Lancashire
+2548,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Wirral
+2367,2020-09-30,,https://www.legislation.gov.uk/uksi/2020/828/2020-09-30,,Wyre
+2515,2020-10-03,,https://www.legislation.gov.uk/uksi/2020/828/2020-10-03,,Bolton
+
+2515,2020-09-10 18:00,,https://www.legislation.gov.uk/uksi/2020/974/2020-09-10,,Bolton - other 974 changes
+
+2514,2020-09-11,,https://www.legislation.gov.uk/uksi/2020/988/2020-09-15,,Birmingham
+2535,2020-09-11,,https://www.legislation.gov.uk/uksi/2020/988/2020-09-15,,Sandwell
+2538,2020-09-11,,https://www.legislation.gov.uk/uksi/2020/988/2020-09-15,,Solihull
+2519,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/988/2020-09-22,,Wolverhampton
+
+2223,2020-09-18,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-18,,Durham
+2523,2020-09-18,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-18,,Gateshead
+2529,2020-09-18,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-18,,Newcastle
+2248,2020-09-18,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-18,,Northumberland
+2530,2020-09-18,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-18,,North Tyneside
+2539,2020-09-18,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-18,,South Tyneside
+2542,2020-09-18,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-18,,Sunderland
+2552,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,Blackburn with Darwen
+2367,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,Wyre
+2360,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,West Lancashire
+2618,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,Warrington
+2363,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,South Ribble
+2369,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,Ribble Valley
+2366,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,Preston
+2361,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,Lancaster
+2365,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,Fylde
+2362,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,Chorley
+2368,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,Pendle
+2364,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,Rossendale
+2370,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,Hyndburn
+2371,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,Burnley
+2580,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,Halton
+2525,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,Knowsley
+2527,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,Liverpool
+2536,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,Sefton
+2541,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,St Helens
+2548,2020-09-22,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-22,,Wirral
+2553,2020-09-26,,https://www.legislation.gov.uk/uksi/2020/1010/2020-09-26,,Blackpool
+2580,2020-10-03,,https://www.legislation.gov.uk/uksi/2020/1010/2020-10-03,,Halton
+2581,2020-10-03,,https://www.legislation.gov.uk/uksi/2020/1010/2020-10-03,,Hartlepool
+2525,2020-10-03,,https://www.legislation.gov.uk/uksi/2020/1010/2020-10-03,,Knowsley
+2527,2020-10-03,,https://www.legislation.gov.uk/uksi/2020/1010/2020-10-03,,Liverpool
+2586,2020-10-03,,https://www.legislation.gov.uk/uksi/2020/1010/2020-10-03,,Middlesbrough
+2536,2020-10-03,,https://www.legislation.gov.uk/uksi/2020/1010/2020-10-03,,Sefton
+2541,2020-10-03,,https://www.legislation.gov.uk/uksi/2020/1010/2020-10-03,,St Helens
+2618,2020-10-03,,https://www.legislation.gov.uk/uksi/2020/1010/2020-10-03,,Warrington
+2548,2020-10-03,,https://www.legislation.gov.uk/uksi/2020/1010/2020-10-03,,Wirral
+
+2572,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Darlington
+2597,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Redcar and Cleveland
+2611,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Stockton-on-Tees
+2513,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Barnsley
+2533,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Rotherham
+2521,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Doncaster
+2537,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Sheffield
+2410,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Bassetlaw
+2411,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Rushcliffe
+2412,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Gedling
+2413,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Ashfield
+2414,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Newark and Sherwood
+2415,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Broxtowe
+2416,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Mansfield
+2565,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Nottingham
+144576,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Tintwistle
+144602,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Padfield
+144595,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Dinting
+144579,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,St John's
+144594,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Old Glossop
+144601,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Whitfield
+144593,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Simmondley
+144597,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Gamesley
+144600,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Howard Town
+144598,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Hadfield South
+144599,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Hadfield North
+2546,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Walsall
+21068,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Cheshire West and Chester
+21069,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Cheshire East
+2545,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Wakefield
+2514,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Birmingham
+2535,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Sandwell
+2538,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Solihull
+2519,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Wolverhampton
+2516,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Bradford
+2515,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Bolton
+2517,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Bury
+2528,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Manchester
+2531,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Oldham
+2532,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Rochdale
+2534,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Salford
+2540,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Stockport
+2543,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Tameside
+2544,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Trafford
+2547,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Wigan
+2564,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Leicester
+2378,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Oadby and Wigston
+2223,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Durham
+2523,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Gateshead
+2529,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Newcastle
+2248,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Northumberland
+2530,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,North Tyneside
+2539,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,South Tyneside
+2542,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Sunderland
+2581,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Hartlepool
+2586,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Middlesbrough
+2618,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Warrington
+2552,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,,Blackburn with Darwen
+2367,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Wyre
+2360,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,West Lancashire
+2363,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,South Ribble
+2369,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Ribble Valley
+2366,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Preston
+2361,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Lancaster
+2365,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Fylde
+2362,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Chorley
+2368,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Pendle
+2364,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Rossendale
+2370,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Hyndburn
+2371,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Burnley
+2553,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Blackpool
+2524,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Kirklees
+2518,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Calderdale
+2526,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Leeds
+2580,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,Halton
+2525,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,Knowsley
+2527,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,Liverpool
+2536,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,Sefton
+2541,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,St Helens
+2548,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,Wirral
+
+2284,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Chesterfield
+2625,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,City of York
+2280,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,NE Derbyshire
+2276,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Barrow
+2279,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Erewash
+2455,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Elmbridge
+2511,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2489,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2494,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2488,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2482,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2505,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2512,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2481,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2484,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2495,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2493,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2508,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2502,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2509,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2487,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2485,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2486,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2483,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2507,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2503,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2480,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2490,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2492,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2500,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2510,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2497,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2499,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2491,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2498,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2506,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2496,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2501,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2504,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2309,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Brentwood
+2310,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Rochford
+2311,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Epping Forest
+2312,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Tendring
+2313,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Uttlesford
+2314,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Chelmsford
+2315,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Colchester
+2316,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Maldon
+2317,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Braintree
+2318,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Harlow
+2319,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Basildon
+2320,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Castle Point
+2552,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Blackburn with Darwen
+2367,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Wyre
+2360,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,West Lancashire
+2363,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,South Ribble
+2369,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Ribble Valley
+2366,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Preston
+2361,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Lancaster
+2365,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Fylde
+2362,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Chorley
+2368,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Pendle
+2364,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Rossendale
+2370,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Hyndburn
+2371,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Burnley
+2553,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Blackpool
+
+# NI
+
+145959,2020-10-01,2020-10-16,https://www.nidirect.gov.uk/articles/coronavirus-covid-19-regulations-and-localised-restrictions,,Derry City and Strabane
+
+# Wales
+
+2558,2020-09-08,,https://gov.wales/caerphilly-county-coronavirus-lockdown-frequently-asked-questions,,Caerphilly
+2599,2020-09-17,,https://gov.wales/rhondda-cynon-taf-lockdown-frequently-asked-questions,,RCT
+2554,2020-09-22 18:00,,https://gov.wales/blaenau-gwent-county-borough-lockdown-frequently-asked-questions,,Blaenau Gwent
+2592,2020-09-22 18:00,,https://gov.wales/bridgend-lockdown-frequently-asked-questions,,Bridgend
+2585,2020-09-22 18:00,,https://gov.wales/merthyr-tydfil-county-borough-lockdown-frequently-asked-questions,,Merthyr Tydfil
+2559,2020-09-22 18:00,,https://gov.wales/newport-city-council-area-lockdown-frequently-asked-questions,,Newport
+12702,2020-09-26 18:00,,https://gov.wales/llanelli-lockdown-frequently-asked-questions,,
+12686,2020-09-26 18:00,,https://gov.wales/llanelli-lockdown-frequently-asked-questions,,
+12684,2020-09-26 18:00,,https://gov.wales/llanelli-lockdown-frequently-asked-questions,,
+12697,2020-09-26 18:00,,https://gov.wales/llanelli-lockdown-frequently-asked-questions,,
+151560,2020-09-26 18:00,,https://gov.wales/llanelli-lockdown-frequently-asked-questions,,
+12683,2020-09-26 18:00,,https://gov.wales/llanelli-lockdown-frequently-asked-questions,,
+12689,2020-09-26 18:00,,https://gov.wales/llanelli-lockdown-frequently-asked-questions,,
+12682,2020-09-26 18:00,,https://gov.wales/llanelli-lockdown-frequently-asked-questions,,
+12699,2020-09-26 18:00,,https://gov.wales/llanelli-lockdown-frequently-asked-questions,,
+12703,2020-09-26 18:00,,https://gov.wales/llanelli-lockdown-frequently-asked-questions,,
+12698,2020-09-26 18:00,,https://gov.wales/llanelli-lockdown-frequently-asked-questions,,
+151561,2020-09-26 18:00,,https://gov.wales/llanelli-lockdown-frequently-asked-questions,,
+12696,2020-09-26 18:00,,https://gov.wales/llanelli-lockdown-frequently-asked-questions,,
+2639,2020-09-27 18:00,,https://gov.wales/cardiff-council-area-lockdown-frequently-asked-questions,,Cardiff
+2549,2020-09-27 18:00,,https://gov.wales/swansea-council-area-lockdown-frequently-asked-questions,,Swansea
+2557,2020-09-28 18:00,,https://gov.wales/vale-of-glamorgan-council-lockdown-frequently-asked-questions,,Vale of Glamorgan
+2616,2020-09-28 18:00,,https://gov.wales/torfaen-lockdown-frequently-asked-questions,,Torfaen
+2560,2020-09-28 18:00,,https://gov.wales/neath-port-talbot-lockdown-frequently-asked-questions,,NPT
+2570,2020-10-01 18:00,,https://gov.wales/conwy-county-borough-lockdown-frequently-asked-questions,,Conwy
+2605,2020-10-01 18:00,,https://gov.wales/flintshire-county-council-lockdown-frequently-asked-questions,,Flintshire
+2624,2020-10-01 18:00,,https://gov.wales/wrexham-county-borough-lockdown-frequently-asked-questions,,Wrexham
+2602,2020-10-01 18:00,,https://gov.wales/denbigshire-county-lockdown-frequently-asked-questions,,Denbigshire
+12257,2020-10-10 18:00,,https://gov.wales/bangor-area-lockdown-frequently-asked-questions,,Garth
+12259,2020-10-10 18:00,,https://gov.wales/bangor-area-lockdown-frequently-asked-questions,,Hirael
+12256,2020-10-10 18:00,,https://gov.wales/bangor-area-lockdown-frequently-asked-questions,,Menai
+12258,2020-10-10 18:00,,https://gov.wales/bangor-area-lockdown-frequently-asked-questions,,Deiniol
+12255,2020-10-10 18:00,,https://gov.wales/bangor-area-lockdown-frequently-asked-questions,,Marchog
+12252,2020-10-10 18:00,,https://gov.wales/bangor-area-lockdown-frequently-asked-questions,,Glyder
+12251,2020-10-10 18:00,,https://gov.wales/bangor-area-lockdown-frequently-asked-questions,,Hendre
+12254,2020-10-10 18:00,,https://gov.wales/bangor-area-lockdown-frequently-asked-questions,,Dewi
+
+2554,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2592,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2558,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2639,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2604,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2640,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2570,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2602,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2605,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2638,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2637,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2585,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2603,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2560,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2559,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2641,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2595,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2599,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2549,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2616,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2557,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+2624,2020-10-23 18:00,,https://gov.wales/national-coronavirus-fire-break-to-be-introduced-in-wales-on-friday,,UTA (W)
+
+# Scotland
+
+2650,2020-08-05,2020-08-25,?,,Aberdeen
+2609,2020-09-12,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,South Lanarkshire
+2590,2020-09-12,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,North Lanarkshire
+2620,2020-09-02,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,West Dunbartonshire
+2575,2020-09-07,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,East Dunbartonshire
+2576,2020-09-02,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,East Renfrewshire
+2579,2020-09-02,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,Glasgow
+2598,2020-09-07,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,Renfrewshire
+2574,2020-10-09 18:00,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,East Ayrshire
+2654,2020-10-09 18:00,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,North Ayrshire
+2655,2020-10-09 18:00,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,South Ayrshire
+2582,2020-10-09 18:00,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,Inverclyde
+2569,2020-10-09 18:00,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,Clackmannanshire
+2578,2020-10-09 18:00,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,Falkirk
+2610,2020-10-09 18:00,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,Stirling
+2651,2020-10-09 18:00,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,Edinburgh
+2652,2020-10-09 18:00,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,East Lothian
+2587,2020-10-09 18:00,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,Midlothian
+2621,2020-10-09 18:00,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,West Lothian

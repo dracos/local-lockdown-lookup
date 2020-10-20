@@ -10,11 +10,14 @@ require 'utils.php';
 
 load_areas();
 load_special();
+$bt_postcodes = explode("\n", file_get_contents('bt-postcodes.txt'));;
 
 $results = [];
 $cls = [];
 
 $pc = array_key_exists('pc', $_REQUEST) ? $_REQUEST['pc'] : '';
+$DATE = array_key_exists('date', $_REQUEST) ? $_REQUEST['date'] : '';
+
 if ($pc) {
     if (preg_match('#^([0-9.-]+)\s*,\s*([0-9.-]+)$#', $pc, $m)) {
         $data = mapit_call("point/4326/$m[2],$m[1]");
@@ -55,6 +58,10 @@ if ($pc) {
                 $results[] = 'We did not recognise that postcode, sorry.';
             }
             $cls[] = 'error';
+        } elseif (date('Y-m-d H:i', $DATE) < '2020-09-22 18:00' && $DATE >= '2020-09-16' && (preg_match('#^BT(28|29|43|60)#', $pc) || in_array($pc, $bt_postcodes))) {
+            $link = 'https://www.legislation.gov.uk/nisr/2020/150/schedule/2/2020-09-16';
+            $results[] = "The area had local restrictions.<br><small>Source regulations: " . link_wbr($link) . ".</small>";
+            $cls[] = 'warn';
         } else {
             $data = mapit_call('postcode/' . urlencode($pc));
             $council = $data['shortcuts']['council'];
@@ -75,7 +82,7 @@ output();
 footer();
 
 function matching_area($data, $id) {
-    global $areas, $cls, $parliament, $council_urls, $pc_country;
+    global $areas, $cls, $parliament, $council_urls, $pc_country, $DATE;
 
     $area = $areas[$id];
     $result = '<big>' . $data[$id]['name'];
@@ -88,46 +95,52 @@ function matching_area($data, $id) {
     if ($area['tier']) {
         $tier_name = $tiers[$area['tier']];
     }
-    if ($area['future'] && $area['future'] == 'future') {
-        if ($area['tier_previous']) {
-            $tier_name_previous = $tiers[$area['tier_previous']];
-            $result .= " is in the <strong>$tier_name_previous</strong> tier (tier $area[tier_previous]), and";
-            $cls[] = 'warn';
-        } else {
-            $cls[] = 'info';
-        }
+
+    if ($DATE) {
         if ($area['tier']) {
-            $result .= " will be in the <strong>$tier_name</strong> tier (tier $area[tier])";
+            $result .= " was in the <strong>$tier_name</strong> tier (tier $area[tier])";
         } else {
-            $result .= " will have local restrictions";
+            $result .= " had local restrictions";
         }
-        $result .= " at some point soon";
-    } elseif ($area['future'] && time() < $area['future']) {
-        $date = date('l, jS F', $area['future']);
-        $hour = date('H:i', $area['future']);
-        if ($hour != '00:00') {
-            $date = "$hour on $date";
-        }
-        if ($area['tier_previous']) {
-            $tier_name_previous = $tiers[$area['tier_previous']];
-            $result .= " is in the <strong>$tier_name_previous</strong> tier (tier $area[tier_previous]), and";
-            $cls[] = 'warn';
-        } else {
-            $cls[] = 'info';
-        }
-        if ($area['tier']) {
-            $result .= " will be in the <strong>$tier_name</strong> tier (tier $area[tier])";
-        } else {
-            $result .= " will have local restrictions";
-        }
-        $result .= " from <strong>$date</strong>";
-    } else {
+        $cls[] = 'warn';
+    } elseif ($area['link']) {
+        $cls[] = 'warn';
         if ($area['tier']) {
             $result .= " is in the <strong>$tier_name</strong> tier (tier $area[tier])";
         } else {
             $result .= " has local restrictions";
         }
-        $cls[] = 'warn';
+    } elseif ($area['future']) {
+        $cls[] = 'info';
+    }
+
+    if ($area['future'] && $area['future']['date'] == 'future') {
+        if ($area['link']) {
+            $result .= ', and';
+        }
+        if ($area['future']['tier']) {
+            $tier_name_future = $tiers[$area['future']['tier']];
+            $result .= " will be in the <strong>$tier_name_future</strong> tier (tier {$area['future']['tier']})";
+        } else {
+            $result .= " will have local restrictions";
+        }
+        $result .= " at some point soon";
+    } elseif (!$DATE && $area['future'] && $area['future']['date'] && time() < $area['future']['date']) {
+        $date = date('l, jS F', $area['future']['date']);
+        $hour = date('H:i', $area['future']['date']);
+        if ($hour != '00:00') {
+            $date = "$hour on $date";
+        }
+        if ($area['link']) {
+            $result .= ', and';
+        }
+        if ($area['tier']) {
+            $tier_name_future = $tiers[$area['future']['tier']];
+            $result .= " will be in the <strong>$tier_name_future</strong> tier (tier {$area['future']['tier']})";
+        } else {
+            $result .= " will have local restrictions";
+        }
+        $result .= " from <strong>$date</strong>";
     }
     $result .= '.</big>';
 
@@ -135,17 +148,30 @@ function matching_area($data, $id) {
     if (strpos($area['link'], 'llanelli') > -1) { $parl_id = 'Llanelli'; }
     if (strpos($area['link'], 'bangor') > -1) { $parl_id = 'Bangor'; }
     if (strpos($area['link'], 'high-peak') > -1) { $parl_id = 'Part of High Peak'; }
-    if ($props = $parliament[$parl_id]) {
+    if (!$DATE && ($props = $parliament[$parl_id])) {
         $result .= parl_display($props);
     }
-    if ($area['tier'] >= 2) {
-        $result .= '<p>People living in tier 2 or 3 areas of England are <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
-    } elseif ($pc_country == 'S') {
-        $result .= '<p>People living in the central belt of Scotland are <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
+    if (!$DATE || $DATE >= '2020-10-16') {
+        if ($area['tier'] >= 2) {
+            $result .= '<p>People living in tier 2 or 3 areas of England are <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
+        } elseif ($pc_country == 'S') {
+            $result .= '<p>People living in the central belt of Scotland are <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
+        }
     }
 
-    $result .= "<p><small>Source and more info: " . link_wbr($area['link']) . ".";
-    if ($parliament[$parl_id]) {
+    $result .= "<p><small>";
+    if ($area['link']) {
+        if ($DATE) {
+            $result .= "Source regulations: ";
+        } else {
+            $result .= "Source and more info: ";
+        }
+        $result .= link_wbr($area['link']) . ".";
+    }
+    if ($area['future']['link']) {
+        $result .= ' Future info source: ' . link_wbr($area['future']['link']) . ".";
+    }
+    if (!$DATE && $parliament[$parl_id]) {
         $result .= ' Thanks to House of Commons Library for the summary data.';
     }
     if (array_key_exists('extra', $area)) {
@@ -173,7 +199,7 @@ function special_result($r) {
 }
 
 function check_area($data, $council, $ward=null, $showinfo=true) {
-    global $results, $cls, $areas, $pc, $pc_country, $council_urls, $parliament;
+    global $results, $cls, $areas, $pc, $pc_country, $council_urls, $parliament, $DATE;
 
     $match = 1;
     $pc_country = $data ? $data[$council]['country'] : null;
@@ -184,6 +210,23 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
         $result = matching_area($data, $ward);
     } elseif (array_key_exists($council, $areas)) {
         $result = matching_area($data, $council);
+    } elseif ($DATE && $showinfo) {
+        $match = 0;
+        $result = $data[$council]['name'];
+        if ($DATE >= '2020-10-14' && $pc_country == 'E') {
+            $result .= " was in the <strong>medium tier</strong> (tier 1).";
+        } else {
+            $result .= ' did not have additional local restrictions on that date.';
+        }
+
+        if ($DATE >= '2020-10-16') {
+            if ($pc_country == 'N') {
+                $result .= '<p>People living in Northern Ireland were <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
+            } elseif ($pc_country == 'W') {
+                $result .= '<p>People living in Wales were <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to tier 2 or 3 areas of England, the central belt of Scotland, or Northern Ireland.</p>';
+            }
+        }
+        $cls[] = 'info';
     } elseif ($showinfo) {
         $match = 0;
         $result = $data[$council]['name'];
@@ -200,12 +243,12 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
             'S' => 'Rest of Scotland',
             'N' => 'Northern Ireland',
         ];
-        if ($props = $parliament[$country_to_parl[$pc_country]]) {
+        if (!$DATE && ($props = $parliament[$country_to_parl[$pc_country]])) {
             $result .= parl_display($props);
         }
 
         if ($pc_country == 'N') {
-            $result .= '<p>People living in Nothern Ireland are <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
+            $result .= '<p>People living in Northern Ireland are <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
         } elseif ($pc_country == 'W') {
             $result .= '<p>People living in Wales are <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to tier 2 or 3 areas of England, the central belt of Scotland, or Northern Ireland.</p>';
         }
@@ -221,7 +264,9 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
         }
         $cls[] = 'info';
     }
-    $results[] = $result;
+    if ($result) {
+        $results[] = $result;
+    }
     return $match;
 }
 
