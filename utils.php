@@ -21,7 +21,7 @@ function load_areas() {
 
     foreach ($data as $row) {
         list ($id, $start, $end, $url, $tier, $name) = $row;
-        if ($now >= strtotime($start) && (!$end || $now < strtotime($end))) {
+        if ($start != 'future' && $now >= strtotime($start) && (!$end || $now < strtotime($end))) {
             $areas[$id] = [
                 'link' => $url,
                 'tier' => $tier,
@@ -155,8 +155,8 @@ there are currently any nationally-imposed local restrictions.
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>7pm on 19th October 2020</strong>,
-with information about the Welsh firebreak, and historical data access.
+<p>Data last updated at <strong>3pm on 20th October 2020</strong>,
+with information about Greater Manchester moving to tier 3.
 </p>
 
 <h3>Notes</h3>

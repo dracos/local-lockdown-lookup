@@ -382,6 +382,17 @@ MapIt ID,Start date,End date,URL,Tier,Name/notes
 2371,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Burnley
 2553,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Blackpool
 
+2515,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Bolton
+2517,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Bury
+2528,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Manchester
+2531,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Oldham
+2532,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Rochdale
+2534,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Salford
+2540,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Stockport
+2543,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Tameside
+2544,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Trafford
+2547,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Wigan
+
 # NI
 
 145959,2020-10-01,2020-10-16,https://www.nidirect.gov.uk/articles/coronavirus-covid-19-regulations-and-localised-restrictions,,Derry City and Strabane
