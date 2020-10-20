@@ -16,9 +16,33 @@ $results = [];
 $cls = [];
 
 $pc = array_key_exists('pc', $_REQUEST) ? $_REQUEST['pc'] : '';
-$DATE = array_key_exists('date', $_REQUEST) ? $_REQUEST['date'] : '';
+$DATE = array_key_exists('date', $_REQUEST) ? trim($_REQUEST['date']) : '';
+if ($DATE && !preg_match('#^\d\d\d\d-\d\d-\d\d#', $DATE)) {
+    if (preg_match('#^(\d+)/(\d+)/(\d+)$#', $DATE, $m)) {
+        $DATE = "$m[2]/$m[1]/$m[3]"; # Switch to US format
+    }
+    if (preg_match('#^(\d+)/(\d+)$#', $DATE, $m)) {
+        $DATE = "$m[2]/$m[1]"; # Switch to US format
+    }
+    $t = strtotime($DATE);
+    if ($t) {
+        $DATE = date('Y-m-d', $t);
+    } else {
+        $DATE = '';
+        print '<p class="res res-error">Sorry, did not understand that date.</p>';
+    }
+}
+$go = 1;
+if ($DATE && $DATE < '2020-07-01') {
+    print '<p class="res res-error">Please provide a date since July 2020.</p>';
+    $go = 0;
+}
+if ($DATE && $DATE > date('Y-m-d')) {
+    print '<p class="res res-error">Please provide a date before today.</p>';
+    $go = 0;
+}
 
-if ($pc) {
+if ($pc && $go) {
     if (preg_match('#^([0-9.-]+)\s*,\s*([0-9.-]+)$#', $pc, $m)) {
         $data = mapit_call("point/4326/$m[2],$m[1]");
         $council = null; $ward = null;

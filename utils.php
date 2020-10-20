@@ -148,7 +148,7 @@ there are currently any nationally-imposed local restrictions.
                 <input type="submit" value="Look up">
 
                 <span style="position:absolute; bottom:0;right:0;font-size:50%">
-                <label for="date">Date:</label><input id="date" type="date" name="date" value="<?=htmlspecialchars($DATE) ?>">
+                <label for="date">Date:</label><input id="date" type="date" name="date" value="<?=htmlspecialchars($DATE) ?>" min="2020-07-01" max="<?= date('Y-m-d') ?>">
                 </span>
         </form>
 <p><a href="#" id="geolocate_link">Use your location</a></p>
