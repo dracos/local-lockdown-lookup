@@ -155,8 +155,8 @@ there are currently any nationally-imposed local restrictions.
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>3pm on 20th October 2020</strong>,
-with information about Greater Manchester moving to tier 3.
+<p>Data last updated at <strong>10am on 21st October 2020</strong>,
+with information about South Yorkshire moving to tier 3.
 </p>
 
 <h3>Notes</h3>
