@@ -397,6 +397,11 @@ MapIt ID,Start date,End date,URL,Tier,Name/notes
 2521,2020-10-24,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Doncaster
 2537,2020-10-24,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Sheffield
 
+2568,2020-10-24,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Stoke
+2520,2020-10-24,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Coventry
+2606,2020-10-24,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Slough
+#2618,2020-??-??,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Warrington
+
 # NI
 
 145959,2020-10-01,2020-10-16,https://www.nidirect.gov.uk/articles/coronavirus-covid-19-regulations-and-localised-restrictions,,Derry City and Strabane

@@ -84,7 +84,7 @@ if ($pc && $go) {
             $cls[] = 'error';
         } elseif (date('Y-m-d H:i', $DATE) < '2020-09-22 18:00' && $DATE >= '2020-09-16' && (preg_match('#^BT(28|29|43|60)#', $pc) || in_array($pc, $bt_postcodes))) {
             $link = 'https://www.legislation.gov.uk/nisr/2020/150/schedule/2/2020-09-16';
-            $results[] = "The area had local restrictions.<br><small>Source regulations: " . link_wbr($link) . ".</small>";
+            $results[] = "The area had additional local restrictions.<br><small>Source regulations: " . link_wbr($link) . ".</small>";
             $cls[] = 'warn';
         } else {
             $data = mapit_call('postcode/' . urlencode($pc));
@@ -124,7 +124,7 @@ function matching_area($data, $id) {
         if ($area['tier']) {
             $result .= " was in the <strong>$tier_name</strong> tier (tier $area[tier])";
         } else {
-            $result .= " had local restrictions";
+            $result .= " had additional local restrictions";
         }
         $cls[] = 'warn';
     } elseif ($area['link']) {
@@ -132,7 +132,7 @@ function matching_area($data, $id) {
         if ($area['tier']) {
             $result .= " is in the <strong>$tier_name</strong> tier (tier $area[tier])";
         } else {
-            $result .= " has local restrictions";
+            $result .= " has additional local restrictions";
         }
     } elseif ($area['future']) {
         $cls[] = 'info';
@@ -146,7 +146,7 @@ function matching_area($data, $id) {
             $tier_name_future = $tiers[$area['future']['tier']];
             $result .= " will be in the <strong>$tier_name_future</strong> tier (tier {$area['future']['tier']})";
         } else {
-            $result .= " will have local restrictions";
+            $result .= " will have additional local restrictions";
         }
         $result .= " at some point soon";
     } elseif (!$DATE && $area['future'] && $area['future']['date'] && time() < $area['future']['date']) {
@@ -162,7 +162,7 @@ function matching_area($data, $id) {
             $tier_name_future = $tiers[$area['future']['tier']];
             $result .= " will be in the <strong>$tier_name_future</strong> tier (tier {$area['future']['tier']})";
         } else {
-            $result .= " will have local restrictions";
+            $result .= " will have additional local restrictions";
         }
         $result .= " from <strong>$date</strong>";
     }
