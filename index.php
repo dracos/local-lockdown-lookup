@@ -175,11 +175,13 @@ function matching_area($data, $id) {
     if (!$DATE && ($props = $parliament[$parl_id])) {
         $result .= parl_display($props);
     }
-    if (!$DATE || $DATE >= '2020-10-16') {
+    if (!$DATE || $DATE >= '2020-10-23') {
+        $result .= '<p>People living in the other parts of the UK are <a href="https://gov.wales/coronavirus-firebreak-frequently-asked-questions">not allowed</a> to travel to Wales.</p>';
+    } elseif ($DATE >= '2020-10-16') {
         if ($area['tier'] >= 2) {
-            $result .= '<p>People living in tier 2 or 3 areas of England are <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
+            $result .= '<p>People living in tier 2 or 3 areas of England were <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
         } elseif ($pc_country == 'S') {
-            $result .= '<p>People living in the central belt of Scotland are <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
+            $result .= '<p>People living in the central belt of Scotland were <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
         }
     }
 
@@ -243,7 +245,11 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
             $result .= ' did not have additional local restrictions on that date.';
         }
 
-        if ($DATE >= '2020-10-16') {
+        if ($DATE >= '2020-10-23') {
+            if ($pc_country != 'W') {
+                $result .= '<p>People living in the other parts of the UK were <a href="https://gov.wales/coronavirus-firebreak-frequently-asked-questions">not allowed</a> to travel to Wales.</p>';
+            }
+        } elseif ($DATE >= '2020-10-16') {
             if ($pc_country == 'N') {
                 $result .= '<p>People living in Northern Ireland were <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
             } elseif ($pc_country == 'W') {
@@ -263,7 +269,7 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
 
         $country_to_parl = [
             'E' => 'Rest of England',
-            'W' => 'Rest of Wales',
+            'W' => 'Wales',
             'S' => 'Rest of Scotland',
             'N' => 'Northern Ireland',
         ];
@@ -271,10 +277,8 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
             $result .= parl_display($props);
         }
 
-        if ($pc_country == 'N') {
-            $result .= '<p>People living in Northern Ireland are <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
-        } elseif ($pc_country == 'W') {
-            $result .= '<p>People living in Wales are <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to tier 2 or 3 areas of England, the central belt of Scotland, or Northern Ireland.</p>';
+        if ($pc_country != 'W') {
+            $result .= '<p>People living in the other parts of the UK are <a href="https://gov.wales/coronavirus-firebreak-frequently-asked-questions">not allowed</a> to travel to Wales.</p>';
         }
 
         $link = national_guidance($pc_country);
@@ -297,7 +301,7 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
 function national_guidance($country) {
     $guidance = [
         'E' => 'https://www.gov.uk/guidance/local-covid-alert-level-medium',
-        'W' => 'https://gov.wales/coronavirus',
+        'W' => 'https://gov.wales/coronavirus-firebreak-frequently-asked-questions',
         'S' => 'https://www.gov.scot/publications/coronavirus-covid-19-what-you-can-and-cannot-do/',
         'N' => 'https://www.nidirect.gov.uk/articles/coronavirus-covid-19-regulations-guidance-what-restrictions-mean-you',
     ];
@@ -312,16 +316,18 @@ function parl_display($props) {
     if ($props['local_ruleofsix']) $local[] = 'Rule of six';
     if ($props['local_stayinglocal']) $local[] = 'Entering/leaving local area';
     if ($props['local_stayinghome']) $local[] = 'Leaving your home';
-    if ($props['local_notstayingaway']) $local[] = 'Not staying away';
+    if ($props['local_notstayingaway']) $local[] = 'Staying away overnight';
     if ($props['local_openinghours']) $local[] = 'Opening hours';
     if ($props['local_businessclosures']) $local[] = 'Business closures';
     if ($props['local_alcoholsalesrestrictions']) $local[] = 'Alcohol sales';
     if ($props['national_householdmixing']) $national[] = 'Household mixing';
     if ($props['national_ruleofsix']) $national[] = 'Rule of six';
     if ($props['national_stayinglocal']) $national[] = 'Staying local';
-    if ($props['national_stayinghome']) $national[] = 'Entering/leaving local area';
-    if ($props['national_notstayingaway']) $national[] = 'Not staying away';
-    if ($props['national_gatherings']) $national[] = 'Gatherings';
+    if ($props['national_stayinghome']) $national[] = 'Leaving home';
+    if ($props['national_notstayingaway']) $national[] = 'Staying away overnight';
+    if ($props['national_socialgatherings']) $national[] = 'Social gatherings ban';
+    if ($props['national_travelrestrictions']) $national[] = 'UK travel';
+    if ($props['national_smallgatherings']) $national[] = 'Small gatherings';
     if ($props['national_openinghours']) $national[] = 'Opening hours';
     if ($props['national_businessclosures']) $national[] = 'Business closures';
     if ($props['national_alcoholsalesrestrictions']) $national[] = 'Alcohol sales';
