@@ -155,8 +155,8 @@ there are currently any nationally-imposed local restrictions.
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>4pm on 22nd October 2020</strong>,
-with information about Coventry/Stoke/Slough moving to tier 2.
+<p>Data last updated at <strong>8pm on 23rd October 2020</strong>,
+with information about Warrington moving to tier 3.
 </p>
 
 <h3>Notes</h3>
