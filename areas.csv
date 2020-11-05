@@ -400,7 +400,43 @@ MapIt ID,Start date,End date,URL,Tier,Name/notes
 2568,2020-10-24,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Stoke
 2520,2020-10-24,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Coventry
 2606,2020-10-24,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Slough
-2618,2020-10-29,,https://www.warrington.gov.uk/news/council-secures-tier-3-coronavirus-support-package-warrington,3,Warrington
+2618,2020-10-27,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Warrington
+2565,2020-10-30,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Nottingham
+2411,2020-10-30,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Rushcliffe
+2412,2020-10-30,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Gedling
+2415,2020-10-30,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Broxtowe
+2410,2020-10-30,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Bassetlaw
+2413,2020-10-30,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Ashfield
+2414,2020-10-30,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Newark and Sherwood
+2416,2020-10-30,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Mansfield
+
+2577,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,East Riding
+2563,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Hull
+2589,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,NE Lincolnshire
+2591,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,N Lincolnshire
+2522,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Dudley
+
+2432,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Moorlands
+2433,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,S Staffs
+2434,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Lichfield
+2435,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Newcastle
+2436,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Stafford
+2437,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,E Staffs
+2438,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Cannock Chase
+2439,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Tamworth
+
+2613,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Telford & Wrekin
+2281,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Amber Valley
+2282,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Bolsover
+2283,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Derbyshire Dales
+2562,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Derby
+2278,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,S Derbyshire
+2277,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,High Peak
+2377,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Charnwood
+2583,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Luton
+2421,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Oxford
+
+2272,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Carlisle
 
 # NI
 
@@ -466,3 +502,36 @@ MapIt ID,Start date,End date,URL,Tier,Name/notes
 2652,2020-10-09 18:00,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,East Lothian
 2587,2020-10-09 18:00,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,Midlothian
 2621,2020-10-09 18:00,,https://www.gov.scot/publications/coronavirus-covid-19-local-measures/pages/central-belt/,,West Lothian
+
+2650,2020-11-02,,https://www.gov.scot/,2,Aberdeen City Council
+2648,2020-11-02,,https://www.gov.scot/,2,Aberdeenshire Council
+2550,2020-11-02,,https://www.gov.scot/,2,Angus Council
+2647,2020-11-02,,https://www.gov.scot/,2,Argyll and Bute Council
+2651,2020-11-02,,https://www.gov.scot/,3,City of Edinburgh Council
+2569,2020-11-02,,https://www.gov.scot/,3,Clackmannanshire Council
+2646,2020-11-02,,https://www.gov.scot/,1,Comhairle nan Eilean Siar
+2656,2020-11-02,,https://www.gov.scot/,2,Dumfries and Galloway Council
+2573,2020-11-02,,https://www.gov.scot/,3,Dundee City Council
+2574,2020-11-02,,https://www.gov.scot/,3,East Ayrshire Council
+2575,2020-11-02,,https://www.gov.scot/,3,East Dunbartonshire Council
+2652,2020-11-02,,https://www.gov.scot/,3,East Lothian Council
+2576,2020-11-02,,https://www.gov.scot/,3,East Renfrewshire Council
+2578,2020-11-02,,https://www.gov.scot/,3,Falkirk Council
+2649,2020-11-02,,https://www.gov.scot/,2,Fife Council
+2579,2020-11-02,,https://www.gov.scot/,3,Glasgow City Council
+2643,2020-11-02,,https://www.gov.scot/,1,Highland Council
+2582,2020-11-02,,https://www.gov.scot/,3,Inverclyde Council
+2587,2020-11-02,,https://www.gov.scot/,3,Midlothian Council
+2644,2020-11-02,,https://www.gov.scot/,1,Moray Council
+2654,2020-11-02,,https://www.gov.scot/,3,North Ayrshire Council
+2590,2020-11-02,,https://www.gov.scot/,3,North Lanarkshire Council
+2645,2020-11-02,,https://www.gov.scot/,1,Orkney Islands Council
+2593,2020-11-02,,https://www.gov.scot/,2,Perth and Kinross Council
+2598,2020-11-02,,https://www.gov.scot/,3,Renfrewshire Council
+2601,2020-11-02,,https://www.gov.scot/,2,Scottish Borders Council
+2653,2020-11-02,,https://www.gov.scot/,1,Shetland Islands Council
+2655,2020-11-02,,https://www.gov.scot/,3,South Ayrshire Council
+2609,2020-11-02,,https://www.gov.scot/,3,South Lanarkshire Council
+2610,2020-11-02,,https://www.gov.scot/,3,Stirling Council
+2620,2020-11-02,,https://www.gov.scot/,3,West Dunbartonshire Council
+2621,2020-11-02,,https://www.gov.scot/,3,West Lothian Council

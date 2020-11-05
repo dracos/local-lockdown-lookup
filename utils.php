@@ -155,8 +155,8 @@ there are currently any nationally-imposed local restrictions.
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>8pm on 23rd October 2020</strong>,
-with information about Warrington moving to tier 3.
+<p>Data last updated at <strong>7pm on 30th October 2020</strong>,
+with information about Carlisle moving to tier 2 tonight.
 </p>
 
 <h3>Notes</h3>

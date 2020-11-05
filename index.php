@@ -112,25 +112,38 @@ function matching_area($data, $id) {
     $result = '<big>' . $data[$id]['name'];
 
     $tiers = [
-        1 => 'medium',
-        2 => 'high',
-        3 => 'very high',
+        'E' => [
+            1 => 'medium',
+            2 => 'high',
+            3 => 'very high',
+        ],
+        'S' => [
+            0 => '',
+            1 => '',
+            2 => '',
+            3 => '',
+            4 => '',
+        ],
     ];
     if ($area['tier']) {
-        $tier_name = $tiers[$area['tier']];
+        $tier_name = $tiers[$pc_country][$area['tier']];
     }
 
     if ($DATE) {
-        if ($area['tier']) {
+        if ($area['tier'] && $tier_name) {
             $result .= " was in the <strong>$tier_name</strong> tier (tier $area[tier])";
+        } elseif ($area['tier']) {
+            $result .= " was in <strong>tier $area[tier]</strong>";
         } else {
             $result .= " had additional local restrictions";
         }
         $cls[] = 'warn';
     } elseif ($area['link']) {
         $cls[] = 'warn';
-        if ($area['tier']) {
+        if ($area['tier'] && $tier_name) {
             $result .= " is in the <strong>$tier_name</strong> tier (tier $area[tier])";
+        } elseif ($area['tier']) {
+            $result .= " is in <strong>tier $area[tier]</strong>";
         } else {
             $result .= " has additional local restrictions";
         }
@@ -143,8 +156,12 @@ function matching_area($data, $id) {
             $result .= ', and';
         }
         if ($area['future']['tier']) {
-            $tier_name_future = $tiers[$area['future']['tier']];
-            $result .= " will be in the <strong>$tier_name_future</strong> tier (tier {$area['future']['tier']})";
+            $tier_name_future = $tiers[$pc_country][$area['future']['tier']];
+            if ($tier_name_future) {
+                $result .= " will be in the <strong>$tier_name_future</strong> tier (tier {$area['future']['tier']})";
+            } else {
+                $result .= " will be in <strong>tier {$area['future']['tier']}</strong>";
+            }
         } else {
             $result .= " will have additional local restrictions";
         }
@@ -158,14 +175,25 @@ function matching_area($data, $id) {
         if ($area['link']) {
             $result .= ', and';
         }
-        if ($area['tier']) {
-            $tier_name_future = $tiers[$area['future']['tier']];
-            $result .= " will be in the <strong>$tier_name_future</strong> tier (tier {$area['future']['tier']})";
+        if ($area['future']['tier']) {
+            $tier_name_future = $tiers[$pc_country][$area['future']['tier']];
+            if ($tier_name_future) {
+                $result .= " will be in the <strong>$tier_name_future</strong> tier (tier {$area['future']['tier']})";
+            } else {
+                $result .= " will be in <strong>tier {$area['future']['tier']}</strong>";
+            }
         } else {
             $result .= " will have additional local restrictions";
         }
         $result .= " from <strong>$date</strong>";
+    } elseif ($pc_country == 'E' && !$DATE) {
+        if ($area['link']) {
+            $result .= ', and';
+        }
+        $result .= " will be in the <strong>super-duper high</strong> tier (tier 4)";
+        $result .= " from <strong>Thursday</strong>";
     }
+
     $result .= '.</big>';
 
     $parl_id = $id;
@@ -262,6 +290,9 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
         $result = $data[$council]['name'];
         if ($pc_country == 'E') {
             $result .= " is in the <strong>medium tier</strong> (tier 1)";
+            $result .= ', and';
+            $result .= " will be in the <strong>super-duper high</strong> tier (tier 4)";
+            $result .= " from <strong>Thursday</strong>";
         } else {
             $result .= ' does not currently have additional local restrictions';
         }
@@ -317,6 +348,8 @@ function parl_display($props) {
     if ($props['local_stayinglocal']) $local[] = 'Entering/leaving local area';
     if ($props['local_stayinghome']) $local[] = 'Leaving your home';
     if ($props['local_notstayingaway']) $local[] = 'Staying away overnight';
+    if ($props['local_socialgatherings']) $local[] = 'Social gatherings ban';
+    if ($props['local_smallgatherings']) $local[] = 'Small gatherings';
     if ($props['local_openinghours']) $local[] = 'Opening hours';
     if ($props['local_businessclosures']) $local[] = 'Business closures';
     if ($props['local_alcoholsalesrestrictions']) $local[] = 'Alcohol sales';
