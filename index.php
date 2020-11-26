@@ -94,6 +94,9 @@ if ($pc && $go) {
                 $match = check_area($data['areas'], $council['district'], $ward['district']);
                 if (!$match) {
                     $match = check_area($data['areas'], $council['county'], $ward['county'], false);
+                    if ($match) {
+                        array_shift($results);
+                    }
                 }
             } else {
                 check_area($data['areas'], $council, $ward);
@@ -186,12 +189,6 @@ function matching_area($data, $id) {
             $result .= " will have additional local restrictions";
         }
         $result .= " from <strong>$date</strong>";
-    } elseif ($pc_country == 'E' && !$DATE) {
-        if ($area['link']) {
-            $result .= ', and';
-        }
-        $result .= " will be in the <strong>super-duper high</strong> tier (tier 4)";
-        $result .= " from <strong>Thursday</strong>";
     }
 
     $result .= '.</big>';

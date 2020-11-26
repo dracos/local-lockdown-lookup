@@ -155,8 +155,8 @@ there are currently any nationally-imposed local restrictions.
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>7pm on 30th October 2020</strong>,
-with information about Carlisle moving to tier 2 tonight.
+<p>Data last updated at <strong>12pm on 26th November 2020</strong>,
+with information about changes in England tiers from 2nd December.
 </p>
 
 <h3>Notes</h3>
