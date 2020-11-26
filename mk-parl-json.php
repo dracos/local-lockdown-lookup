@@ -50,4 +50,4 @@ fwrite($fp, var_export($parliament, true));
 fwrite($fp, ";\n");
 fclose($fp);
 
-passthru('diff cache/parliament*');
+passthru('diff cache/parliament.php cache/parliamentN.php');

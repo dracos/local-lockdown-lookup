@@ -203,15 +203,6 @@ function matching_area($data, $id) {
     if (!$DATE && ($props = $parliament[$parl_id])) {
         $result .= parl_display($props);
     }
-    if (!$DATE || $DATE >= '2020-10-23') {
-        $result .= '<p>People living in the other parts of the UK are <a href="https://gov.wales/coronavirus-firebreak-frequently-asked-questions">not allowed</a> to travel to Wales.</p>';
-    } elseif ($DATE >= '2020-10-16') {
-        if ($area['tier'] >= 2) {
-            $result .= '<p>People living in tier 2 or 3 areas of England were <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
-        } elseif ($pc_country == 'S') {
-            $result .= '<p>People living in the central belt of Scotland were <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
-        }
-    }
 
     $result .= "<p><small>";
     if ($area['link']) {
@@ -267,49 +258,27 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
     } elseif ($DATE && $showinfo) {
         $match = 0;
         $result = $data[$council]['name'];
-        if ($DATE >= '2020-10-14' && $pc_country == 'E') {
+        if ($DATE >= '2020-10-14' && $DATE < '2020-11-05' && $pc_country == 'E') {
             $result .= " was in the <strong>medium tier</strong> (tier 1).";
         } else {
             $result .= ' did not have additional local restrictions on that date.';
         }
 
-        if ($DATE >= '2020-10-23') {
-            if ($pc_country != 'W') {
-                $result .= '<p>People living in the other parts of the UK were <a href="https://gov.wales/coronavirus-firebreak-frequently-asked-questions">not allowed</a> to travel to Wales.</p>';
-            }
-        } elseif ($DATE >= '2020-10-16') {
-            if ($pc_country == 'N') {
-                $result .= '<p>People living in Northern Ireland were <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to Wales.</p>';
-            } elseif ($pc_country == 'W') {
-                $result .= '<p>People living in Wales were <a href="https://gov.wales/coronavirus-regulations-guidance#section-39239">not allowed</a> to travel to tier 2 or 3 areas of England, the central belt of Scotland, or Northern Ireland.</p>';
-            }
-        }
         $cls[] = 'info';
     } elseif ($showinfo) {
         $match = 0;
         $result = $data[$council]['name'];
-        if ($pc_country == 'E') {
-            $result .= " is in the <strong>medium tier</strong> (tier 1)";
-            $result .= ', and';
-            $result .= " will be in the <strong>super-duper high</strong> tier (tier 4)";
-            $result .= " from <strong>Thursday</strong>";
-        } else {
-            $result .= ' does not currently have additional local restrictions';
-        }
+        $result .= ' does not currently have additional local restrictions';
         $result .= '.';
 
         $country_to_parl = [
-            'E' => 'Rest of England',
+            'E' => 'England',
             'W' => 'Wales',
             'S' => 'Rest of Scotland',
             'N' => 'Northern Ireland',
         ];
         if (!$DATE && ($props = $parliament[$country_to_parl[$pc_country]])) {
             $result .= parl_display($props);
-        }
-
-        if ($pc_country != 'W') {
-            $result .= '<p>People living in the other parts of the UK are <a href="https://gov.wales/coronavirus-firebreak-frequently-asked-questions">not allowed</a> to travel to Wales.</p>';
         }
 
         $link = national_guidance($pc_country);
@@ -331,8 +300,8 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
 
 function national_guidance($country) {
     $guidance = [
-        'E' => 'https://www.gov.uk/guidance/local-covid-alert-level-medium',
-        'W' => 'https://gov.wales/coronavirus-firebreak-frequently-asked-questions',
+        'E' => 'https://www.gov.uk/guidance/new-national-restrictions-from-5-november',
+        'W' => 'https://gov.wales/coronavirus-regulations-guidance',
         'S' => 'https://www.gov.scot/publications/coronavirus-covid-19-what-you-can-and-cannot-do/',
         'N' => 'https://www.nidirect.gov.uk/articles/coronavirus-covid-19-regulations-guidance-what-restrictions-mean-you',
     ];

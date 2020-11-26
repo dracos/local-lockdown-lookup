@@ -235,208 +235,201 @@ MapIt ID,Start date,End date,URL,Tier,Name/notes
 2618,2020-10-03,,https://www.legislation.gov.uk/uksi/2020/1010/2020-10-03,,Warrington
 2548,2020-10-03,,https://www.legislation.gov.uk/uksi/2020/1010/2020-10-03,,Wirral
 
-2572,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Darlington
-2597,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Redcar and Cleveland
-2611,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Stockton-on-Tees
-2513,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Barnsley
-2533,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Rotherham
-2521,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Doncaster
-2537,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Sheffield
-2410,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Bassetlaw
-2411,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Rushcliffe
-2412,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Gedling
-2413,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Ashfield
-2414,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Newark and Sherwood
-2415,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Broxtowe
-2416,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Mansfield
-2565,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Nottingham
+21068,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Cheshire West and Chester
+21069,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Cheshire East
+2223,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Durham
+2248,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Northumberland
+2272,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Carlisle
+2276,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Barrow
 144576,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Tintwistle
-144602,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Padfield
-144595,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Dinting
 144579,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,St John's
-144594,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Old Glossop
-144601,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Whitfield
 144593,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Simmondley
+144594,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Old Glossop
+144595,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Dinting
 144597,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Gamesley
-144600,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Howard Town
 144598,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Hadfield South
 144599,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Hadfield North
-2546,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Walsall
-21068,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Cheshire West and Chester
-21069,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Cheshire East
-2545,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Wakefield
-2514,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Birmingham
-2535,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Sandwell
-2538,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Solihull
-2519,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Wolverhampton
-2516,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Bradford
-2515,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Bolton
-2517,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Bury
-2528,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Manchester
-2531,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Oldham
-2532,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Rochdale
-2534,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Salford
-2540,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Stockport
-2543,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Tameside
-2544,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Trafford
-2547,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Wigan
-2564,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Leicester
-2378,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Oadby and Wigston
-2223,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Durham
-2523,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Gateshead
-2529,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Newcastle
-2248,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Northumberland
-2530,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,North Tyneside
-2539,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,South Tyneside
-2542,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Sunderland
-2581,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Hartlepool
-2586,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Middlesbrough
-2618,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Warrington
-2552,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,,Blackburn with Darwen
-2367,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Wyre
+144600,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Howard Town
+144601,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Whitfield
+144602,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high#high-peak,2,Padfield
+2277,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,High Peak
+2278,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,S Derbyshire
+2279,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Erewash
+2280,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,NE Derbyshire
+2281,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Amber Valley
+2282,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Bolsover
+2283,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Derbyshire Dales
+2284,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Chesterfield
+2309,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Brentwood
+2310,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Rochford
+2311,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Epping Forest
+2312,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Tendring
+2313,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Uttlesford
+2314,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Chelmsford
+2315,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Colchester
+2316,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Maldon
+2317,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Braintree
+2318,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Harlow
+2319,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Basildon
+2320,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Castle Point
 2360,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,West Lancashire
-2363,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,South Ribble
-2369,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Ribble Valley
-2366,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Preston
+2360,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,West Lancashire
 2361,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Lancaster
-2365,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Fylde
+2361,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Lancaster
 2362,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Chorley
-2368,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Pendle
+2362,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Chorley
+2363,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,South Ribble
+2363,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,South Ribble
 2364,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Rossendale
+2364,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Rossendale
+2365,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Fylde
+2365,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Fylde
+2366,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Preston
+2366,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Preston
+2367,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Wyre
+2367,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Wyre
+2368,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Pendle
+2368,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Pendle
+2369,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Ribble Valley
+2369,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Ribble Valley
 2370,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Hyndburn
+2370,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Hyndburn
 2371,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Burnley
+2371,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Burnley
+2377,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Charnwood
+2378,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Oadby and Wigston
+2410,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Bassetlaw
+2410,2020-10-30,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Bassetlaw
+2411,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Rushcliffe
+2411,2020-10-30,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Rushcliffe
+2412,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Gedling
+2412,2020-10-30,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Gedling
+2413,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Ashfield
+2413,2020-10-30,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Ashfield
+2414,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Newark and Sherwood
+2414,2020-10-30,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Newark and Sherwood
+2415,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Broxtowe
+2415,2020-10-30,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Broxtowe
+2416,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Mansfield
+2416,2020-10-30,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Mansfield
+2421,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Oxford
+2432,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Moorlands
+2433,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,S Staffs
+2434,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Lichfield
+2435,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Newcastle
+2436,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Stafford
+2437,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,E Staffs
+2438,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Cannock Chase
+2439,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Tamworth
+2455,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Elmbridge
+2480,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2481,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2482,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2483,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2484,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2485,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2486,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2487,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2488,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2489,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2490,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2491,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2492,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2493,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2494,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2495,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2496,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2497,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2498,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2499,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2500,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2501,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2502,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2503,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2504,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2505,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2506,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2507,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2508,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2509,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2510,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2511,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2512,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
+2513,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Barnsley
+2513,2020-10-24,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Barnsley
+2514,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Birmingham
+2515,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Bolton
+2515,2020-10-23,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Bolton
+2516,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Bradford
+2517,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Bury
+2517,2020-10-23,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Bury
+2518,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Calderdale
+2519,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Wolverhampton
+2520,2020-10-24,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Coventry
+2521,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Doncaster
+2521,2020-10-24,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Doncaster
+2522,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Dudley
+2523,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Gateshead
+2524,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Kirklees
+2525,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,Knowsley
+2526,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Leeds
+2527,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,Liverpool
+2528,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Manchester
+2528,2020-10-23,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Manchester
+2529,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Newcastle
+2530,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,North Tyneside
+2531,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Oldham
+2531,2020-10-23,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Oldham
+2532,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Rochdale
+2532,2020-10-23,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Rochdale
+2533,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Rotherham
+2533,2020-10-24,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Rotherham
+2534,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Salford
+2534,2020-10-23,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Salford
+2535,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Sandwell
+2536,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,Sefton
+2537,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Sheffield
+2537,2020-10-24,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Sheffield
+2538,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Solihull
+2539,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,South Tyneside
+2540,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Stockport
+2540,2020-10-23,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Stockport
+2541,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,St Helens
+2542,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Sunderland
+2543,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Tameside
+2543,2020-10-23,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Tameside
+2544,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Trafford
+2544,2020-10-23,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Trafford
+2545,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Wakefield
+2546,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Walsall
+2547,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Wigan
+2547,2020-10-23,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Wigan
+2548,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,Wirral
+2552,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,,Blackburn with Darwen
+2552,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Blackburn with Darwen
 2553,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Blackpool
-2524,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Kirklees
-2518,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Calderdale
-2526,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Leeds
-2580,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,Halton
-2525,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,Knowsley
-2527,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,Liverpool
-2536,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,Sefton
-2541,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,St Helens
-2548,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,Wirral
-
-2284,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Chesterfield
-2625,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,City of York
-2280,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,NE Derbyshire
-2276,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Barrow
-2279,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Erewash
-2455,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Elmbridge
-2511,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2489,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2494,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2488,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2482,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2505,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2512,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2481,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2484,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2495,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2493,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2508,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2502,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2509,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2487,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2485,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2486,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2483,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2507,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2503,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2480,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2490,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2492,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2500,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2510,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2497,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2499,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2491,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2498,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2506,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2496,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2501,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2504,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,LBO
-2309,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Brentwood
-2310,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Rochford
-2311,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Epping Forest
-2312,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Tendring
-2313,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Uttlesford
-2314,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Chelmsford
-2315,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Colchester
-2316,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Maldon
-2317,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Braintree
-2318,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Harlow
-2319,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Basildon
-2320,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Castle Point
-2552,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Blackburn with Darwen
-2367,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Wyre
-2360,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,West Lancashire
-2363,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,South Ribble
-2369,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Ribble Valley
-2366,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Preston
-2361,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Lancaster
-2365,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Fylde
-2362,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Chorley
-2368,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Pendle
-2364,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Rossendale
-2370,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Hyndburn
-2371,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Burnley
-2553,2020-10-17,,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Blackpool
-
-2515,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Bolton
-2517,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Bury
-2528,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Manchester
-2531,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Oldham
-2532,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Rochdale
-2534,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Salford
-2540,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Stockport
-2543,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Tameside
-2544,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Trafford
-2547,2020-10-23,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Wigan
-2513,2020-10-24,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Barnsley
-2533,2020-10-24,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Rotherham
-2521,2020-10-24,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Doncaster
-2537,2020-10-24,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Sheffield
-
-2568,2020-10-24,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Stoke
-2520,2020-10-24,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Coventry
-2606,2020-10-24,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Slough
-2618,2020-10-27,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Warrington
-2565,2020-10-30,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Nottingham
-2411,2020-10-30,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Rushcliffe
-2412,2020-10-30,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Gedling
-2415,2020-10-30,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Broxtowe
-2410,2020-10-30,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Bassetlaw
-2413,2020-10-30,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Ashfield
-2414,2020-10-30,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Newark and Sherwood
-2416,2020-10-30,,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Mansfield
-
-2577,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,East Riding
-2563,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Hull
-2589,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,NE Lincolnshire
-2591,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,N Lincolnshire
-2522,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Dudley
-
-2432,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Moorlands
-2433,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,S Staffs
-2434,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Lichfield
-2435,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Newcastle
-2436,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Stafford
-2437,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,E Staffs
-2438,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Cannock Chase
-2439,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Tamworth
-
-2613,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Telford & Wrekin
-2281,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Amber Valley
-2282,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Bolsover
-2283,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Derbyshire Dales
-2562,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Derby
-2278,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,S Derbyshire
-2277,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,High Peak
-2377,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Charnwood
-2583,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Luton
-2421,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Oxford
-
-2272,2020-10-31,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Carlisle
+2553,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-lancashire,3,Blackpool
+2562,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Derby
+2563,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Hull
+2564,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Leicester
+2565,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Nottingham
+2565,2020-10-30,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Nottingham
+2568,2020-10-24,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Stoke
+2572,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Darlington
+2577,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,East Riding
+2580,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high https://www.gov.uk/guidance/local-covid-alert-level-very-high-liverpool-city-region,3,Halton
+2581,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Hartlepool
+2583,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Luton
+2586,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Middlesbrough
+2589,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,NE Lincolnshire
+2591,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,N Lincolnshire
+2597,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Redcar and Cleveland
+2606,2020-10-24,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Slough
+2611,2020-10-14,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Stockton-on-Tees
+2613,2020-10-31,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Telford & Wrekin
+2618,2020-10-14,,https://www.gov.uk/guidance/local-covid-alert-level-high,2,Warrington
+2618,2020-10-27,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-very-high,3,Warrington
+2625,2020-10-17,2020-11-05,https://www.gov.uk/guidance/local-covid-alert-level-high,2,City of York
 
 # NI
 
