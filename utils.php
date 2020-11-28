@@ -110,6 +110,9 @@ if ($results) {
     $pd = preg_replace('# .*#', '', $pc);
 
     print "<h2 style='overflow:auto'>" . htmlspecialchars($pc);
+    if (count($results) > 1) {
+        print ' <small>(split)</small>';
+    }
     if ($DATE) {
         print ", on " . date('jS F Y', strtotime($DATE));
     }
