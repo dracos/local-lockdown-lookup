@@ -15,6 +15,7 @@ $bt_postcodes = explode("\n", file_get_contents('bt-postcodes.txt'));;
 $results = [];
 $cls = [];
 $split_postcodes = json_decode(file_get_contents('split-postcodes.json'), true);
+$split_postcode_overrides = json_decode(file_get_contents('split-postcodes-override.json'), true);
 
 $pc = array_key_exists('pc', $_REQUEST) ? $_REQUEST['pc'] : '';
 $DATE = array_key_exists('date', $_REQUEST) ? trim($_REQUEST['date']) : '';
@@ -88,7 +89,11 @@ if ($pc && $go) {
             $results[] = "The area had additional local restrictions.<br><small>Source regulations: " . link_wbr($link) . ".</small>";
             $cls[] = 'warn';
         } elseif (array_key_exists($pc, $split_postcodes)) {
-            foreach ($split_postcodes[$pc] as $area) {
+            $split_areas = $split_postcodes[$pc];
+            if (array_key_exists($pc, $split_postcode_overrides)) {
+                $split_areas = $split_postcode_overrides[$pc];
+            }
+            foreach ($split_areas as $area) {
                 $data = mapit_call('area/' . $area);
                 $council = $data['id'];
                 check_area([ $council => $data ], $council);
