@@ -328,8 +328,9 @@ function parl_display($props) {
     if ($props['local_notstayingaway']) $local[] = 'Staying away overnight';
     if ($props['local_socialgatherings']) $local[] = 'Social gatherings ban';
     if ($props['local_smallgatherings']) $local[] = 'Small gatherings';
+    if ($props['local_largegatherings']) $local[] = 'Large gatherings';
     if ($props['local_openinghours']) $local[] = 'Opening hours';
-    if ($props['local_businessclosures']) $local[] = 'Business closures';
+    if ($props['local_hospitalityclosures']) $local[] = 'Hospitality closures';
     if ($props['local_alcoholsalesrestrictions']) $local[] = 'Alcohol sales';
     if ($props['national_householdmixing']) $national[] = 'Household mixing';
     if ($props['national_ruleofsix']) $national[] = 'Rule of six';
@@ -339,9 +340,11 @@ function parl_display($props) {
     if ($props['national_socialgatherings']) $national[] = 'Social gatherings ban';
     if ($props['national_travelrestrictions']) $national[] = 'UK travel';
     if ($props['national_smallgatherings']) $national[] = 'Small gatherings';
+    if ($props['national_largegatherings']) $national[] = 'Large gatherings';
     if ($props['national_openinghours']) $national[] = 'Opening hours';
-    if ($props['national_businessclosures']) $national[] = 'Business closures';
+    if ($props['national_hospitalityclosures']) $national[] = 'Hospitality closures';
     if ($props['national_alcoholsalesrestrictions']) $national[] = 'Alcohol sales';
+    if ($props['national_travelrestrictions']) $national[] = 'Travel restrictions';
     if ($local) {
         $result .= '<div';
         if ($local && $national) $result .= ' style="float:left; width:50%"';

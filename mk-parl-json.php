@@ -21,21 +21,50 @@ $areas = mapit_call('areas/COI,CTY,DIS,LBO,LGD,MTD,UTA');
 foreach ($data['features'] as $feature) {
     $props = $feature['properties'];
     #if (!$props['url_local']) { continue; }
-    $name = $props['category'];
-    $name = str_replace('St. ', 'St ', $name);
-    $name = str_replace('County ', '', $name);
-    $name = str_replace('upon Tyne', '', $name);
-    if ($name == 'York') $name = 'City of York';
-    if ($name == 'Kingston upon Hull, City of') $name = 'Hull';
+    $name = $props['map_grouping'];
+    $type = '';
+    if ($name == 'Bedfordshire') $name = ['Central Bedfordshire', 'Bedford','Luton'];
+    if ($name == 'Bristol, North Somerset and South Gloucestershire')
+        $name = ['Bristol','North Somerset','South Gloucestershire'];
+    if ($name == 'County Durham') $name = 'Durham';
+    if ($name == 'Greater Manchester')
+        $name = ['Bolton','Bury','Manchester','Oldham','Rochdale','Salford','Stockport','Tameside','Trafford','Wigan'];
+    if ($name == 'Kent and Medway')
+        $name = ['Kent','Medway'];
+    if ($name == 'Kingston upon Hull') $name = 'Hull';
+    if ($name == 'Liverpool City Region')
+        $name = ['Liverpool','Halton','Wirral','Knowsley','St Helens','Sefton'];
+    if ($name == 'London') $type = 'LBO';
     if ($name == 'Na h-Eileanan Siar') $name = 'Comhairle nan Eilean Siar';
-    $match = false;
+    if ($name == 'Rest of Berkshire')
+        $name = ['Reading','Wokingham','Bracknell Forest','Windsor and Maidenhead','West Berkshire'];
+    if ($name == 'South Yorkshire')
+        $name = ['Sheffield','Doncaster','Rotherham','Barnsley'];
+    if ($name == 'Tees Valley')
+        $name = ['Darlington','Redcar and Cleveland','Stockton-on-Tees','Middlesbrough','Hartlepool'];
+    if ($name == 'Tyne and Wear')
+        $name = ['North Tyneside','Newcastle','South Tyneside','Gateshead','Sunderland'];
+    if ($name == 'West Midlands Combined Authority')
+        $name = ['Wolverhampton','Dudley','Sandwell','Coventry','Solihull','Birmingham','Walsall'];
+    if ($name == 'West Yorkshire')
+        $name = ['Leeds','Wakefield','Bradford','Calderdale','Kirklees'];
+    if ($name == 'York') $name = 'City of York';
+
+    if (is_array($name)) $name = '(' . join('|', $name) . ')';
+    $matches = [];
     foreach ($areas as $id => $area) {
+        if ($type === $area['type']) {
+            $matches[] = $area['id'];
+        }
         if (preg_match("#^$name#", $area['name'])) {
-            $match = $area;
+            $matches[] = $area['id'];
         }
     }
-    if ($match) {
-        $parliament[$match['id']] = $props;
+
+    if ($matches) {
+        foreach ($matches as $m) {
+            $parliament[$m] = $props;
+        }
     } else {
         $parliament[$name] = $props;
     }
