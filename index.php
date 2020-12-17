@@ -103,13 +103,8 @@ if ($pc && $go) {
             $council = $data['shortcuts']['council'];
             $ward = $data['shortcuts']['ward'];
             if (!is_int($council)) {
-                $match = check_area($data['areas'], $council['district'], $ward['district']);
-                if (!$match) {
-                    $match = check_area($data['areas'], $council['county'], $ward['county'], false);
-                    if ($match) {
-                        array_shift($results);
-                    }
-                }
+                $match1 = check_area($data['areas'], $council['district'], $ward['district']);
+                $match2 = check_area($data['areas'], $council['county'], $ward['county'], false);
             } else {
                 check_area($data['areas'], $council, $ward);
             }
@@ -206,9 +201,10 @@ function matching_area($data, $id) {
     $result .= '.</big>';
 
     $parl_id = $id;
-    if (strpos($area['link'], 'llanelli') > -1) { $parl_id = 'Llanelli'; }
-    if (strpos($area['link'], 'bangor') > -1) { $parl_id = 'Bangor'; }
-    if (strpos($area['link'], 'high-peak') > -1) { $parl_id = 'Part of High Peak'; }
+    if ($id==2315 || $id==2312) { $parl_id = 'Colchester & Tendring'; }
+    if ($id==2319 || $id==2317 || $id==2309 || $id==2320 || $id==2314 || $id==2311 || $id==2318 || $id==2316 || $id==2310 || $id==2607 || $id==2615) { $parl_id = 'Essex (Tier 3 areas)'; }
+    if ($id==2345 || $id==2347 || $id==2342 || $id==2341 || $id==2343 || $id==2344) { $parl_id = 'Rest of Hertfordshire'; }
+    if ($id==2339 || $id==2346 || $id==2338) { $parl_id = 'Three Rivers, Watford & Hertsmere'; }
     if (!$DATE && ($props = $parliament[$parl_id])) {
         $result .= parl_display($props);
     }

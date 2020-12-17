@@ -110,9 +110,6 @@ if ($results) {
     $pd = preg_replace('# .*#', '', $pc);
 
     print "<h2 style='overflow:auto'>" . htmlspecialchars($pc);
-    if (count($results) > 1) {
-        print ' <small>(split)</small>';
-    }
     if ($DATE) {
         print ", on " . date('jS F Y', strtotime($DATE));
     }
@@ -158,8 +155,8 @@ there are currently any nationally-imposed local restrictions.
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>12pm on 26th November 2020</strong>,
-with information about changes in England tiers from 2nd December.
+<p>Data last updated at <strong>1pm on 17th December 2020</strong>,
+with information about changes in England tiers from 19th December.
 </p>
 
 <h3>Notes</h3>
