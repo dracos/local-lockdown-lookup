@@ -24,8 +24,6 @@ foreach ($data['features'] as $feature) {
     $name = $props['map_grouping'];
     $type = '';
     if ($name == 'Bedfordshire') $name = ['Central Bedfordshire', 'Bedford','Luton'];
-    if ($name == 'Bristol, North Somerset and South Gloucestershire')
-        $name = ['Bristol','North Somerset','South Gloucestershire'];
     if ($name == 'County Durham') $name = 'Durham';
     if ($name == 'Greater Manchester')
         $name = ['Bolton','Bury','Manchester','Oldham','Rochdale','Salford','Stockport','Tameside','Trafford','Wigan'];
@@ -36,8 +34,8 @@ foreach ($data['features'] as $feature) {
         $name = ['Liverpool','Halton','Wirral','Knowsley','St Helens','Sefton'];
     if ($name == 'London') $type = 'LBO';
     if ($name == 'Na h-Eileanan Siar') $name = 'Comhairle nan Eilean Siar';
-    if ($name == 'Rest of Berkshire')
-        $name = ['Reading','Wokingham','Bracknell Forest','Windsor and Maidenhead','West Berkshire'];
+    if ($name == 'Berkshire')
+        $name = ['Reading','Wokingham','Bracknell Forest','Windsor and Maidenhead','West Berkshire','Slough'];
     if ($name == 'South Yorkshire')
         $name = ['Sheffield','Doncaster','Rotherham','Barnsley'];
     if ($name == 'Tees Valley')
@@ -49,6 +47,28 @@ foreach ($data['features'] as $feature) {
     if ($name == 'West Yorkshire')
         $name = ['Leeds','Wakefield','Bradford','Calderdale','Kirklees'];
     if ($name == 'York') $name = 'City of York';
+
+    if ($name == 'Bristol, North Somerset and Bath & NES')
+        $name = ['Bristol','North Somerset','Bath and North East Somerset'];
+    if ($name == 'Colchester & Tendring')
+        $name = ['Colchester', 'Tendring'];
+    if ($name == 'Gosport, Havant and Portsmouth')
+        $name = ['Gosport', 'Havant', 'Portsmouth'];
+    if ($name == 'Hastings and Rother')
+        $name = ['Hastings', 'Rother'];
+    if ($name == 'Uttlesford (Essex)')
+        $name = 'Uttlesford';
+    if ($name == 'Essex (Tier 3 areas)')
+        $name = ['Braintree', 'Harlow', 'Epping Forest', 'Chelmsford', 'Maldon', 'Brentwood', 'Basildon', 'Rochford', 'Castle Point', 'Southend-on-Sea', 'Thurrock'];
+    if ($name == 'Rest of East Sussex')
+        $name = ['Lewes', 'Wealden', 'Eastbourne', 'Brighton and Hove'];
+    if ($name == 'Rest of Hampshire')
+        $name = ['Test Valley', 'Basingstoke and Deane', 'Hart', 'Rushmoor', 'Winchester', 'East Hampshire', 'New Forest', 'Southampton', 'Eastleigh', 'Fareham'];
+    if ($name == 'Surrey (Tier 3 areas)')
+        $name = ['Spelthorne', 'Runnymede', 'Surrey Heath', 'Woking', 'Elmbridge', 'Guildford', 'Mole Valley', 'Epsom and Ewell', 'Reigate and Banstea', 'Tandridge'];
+    if ($name == 'Waverley (Surrey)')
+        $name = 'Waverley';
+
 
     if (is_array($name)) $name = '(' . join('|', $name) . ')';
     $matches = [];
