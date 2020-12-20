@@ -215,8 +215,9 @@ function matching_area($data, $id) {
     $result .= '.</big>';
 
     $parl_id = $id;
-
-    if (!$DATE && ($props = $parliament[$parl_id])) {
+    $props = $parliament[$parl_id];
+    $show_parl = (!$DATE && ($pc_country!='E' || $area['tier']!=4) && $props);
+    if ($show_parl) {
         $result .= parl_display($props);
     }
 
@@ -232,7 +233,7 @@ function matching_area($data, $id) {
     if ($area['future']['link']) {
         $result .= ' Future info source: ' . link_wbr($area['future']['link']) . ".";
     }
-    if (!$DATE && $parliament[$parl_id]) {
+    if ($show_parl) {
         $result .= ' Thanks to House of Commons Library for the summary data.';
     }
     if (array_key_exists('extra', $area)) {
