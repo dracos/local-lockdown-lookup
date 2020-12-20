@@ -102,6 +102,11 @@ if ($pc && $go) {
             $data = mapit_call('postcode/' . urlencode($pc));
             $council = $data['shortcuts']['council'];
             $ward = $data['shortcuts']['ward'];
+            if (!is_int($council) && $council['district'] == $council['county']) {
+                # Bucks issue
+                $council = $council['county'];
+                $ward = $ward['county'];
+            }
             if (!is_int($council)) {
                 $match1 = check_area($data['areas'], $council['district'], $ward['district']);
                 $match2 = check_area($data['areas'], $council['county'], $ward['county'], false);
