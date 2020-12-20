@@ -17,10 +17,10 @@ function load_areas() {
     }
     fclose($fp);
 
-    usort($data, create_function('$a,$b', 'return strcmp($a[1], $b[1]);'));
+    usort($data, create_function('$a,$b', 'return strcmp($a[2], $b[2]);'));
 
     foreach ($data as $row) {
-        list ($id, $start, $end, $url, $tier, $name) = $row;
+        list ($id, $ons, $start, $end, $url, $tier, $name) = $row;
         if ($start != 'future' && $now >= strtotime($start) && (!$end || $now < strtotime($end))) {
             $areas[$id] = [
                 'link' => $url,
