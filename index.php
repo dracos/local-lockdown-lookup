@@ -105,6 +105,14 @@ if ($pc && $go) {
             if (!is_int($council)) {
                 $match1 = check_area($data['areas'], $council['district'], $ward['district']);
                 $match2 = check_area($data['areas'], $council['county'], $ward['county'], false);
+                if ($match1 && !$match2) {
+                    array_pop($results);
+                    array_pop($cls);
+                }
+                if (!$match1 && $match2) {
+                    array_shift($results);
+                    array_shift($cls);
+                }
             } else {
                 check_area($data['areas'], $council, $ward);
             }
