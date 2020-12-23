@@ -216,7 +216,7 @@ function matching_area($data, $id) {
 
     $parl_id = $id;
     $props = $parliament[$parl_id];
-    $show_parl = (!$DATE && ($pc_country!='E' || $area['tier']!=4) && $props);
+    $show_parl = (!$DATE && $props);
     if ($show_parl) {
         $result .= parl_display($props);
     }

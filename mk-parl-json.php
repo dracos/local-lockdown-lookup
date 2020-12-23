@@ -48,6 +48,9 @@ foreach ($data['features'] as $feature) {
         $name = ['Leeds','Wakefield','Bradford','Calderdale','Kirklees'];
     if ($name == 'York') $name = 'City of York';
 
+    if ($name == 'Essex (Tier 4 areas)') $name = 'Essex';
+    if ($name == 'Surrey (Tier 4 areas)') $name = 'Surrey';
+
     if ($name == 'Bristol, North Somerset and Bath & NES')
         $name = ['Bristol','North Somerset','Bath and North East Somerset'];
     if ($name == 'Colchester & Tendring')

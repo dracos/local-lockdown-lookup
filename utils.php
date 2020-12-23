@@ -155,9 +155,8 @@ there are currently any nationally-imposed local restrictions.
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>6pm on 19th December 2020</strong>,
-with information about changes in England tiers from 20th December,
-and Scotland tiers from 26th December.
+<p>Data last updated at <strong>3.20pm on 23rd December 2020</strong>,
+with information about changes in England tiers from 26th December.
 </p>
 
 <h3>Notes</h3>
