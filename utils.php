@@ -25,6 +25,7 @@ function load_areas() {
             $areas[$id] = [
                 'link' => $url,
                 'tier' => $tier,
+                'ons' => $ons,
             ];
         }
         if ($end && $now >= strtotime($end)) {
@@ -155,8 +156,9 @@ there are currently any nationally-imposed local restrictions.
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>3.20pm on 23rd December 2020</strong>,
-with information about changes in England tiers from 26th December.
+<p>Data last updated at <strong>6.11pm on 30th December 2020</strong>,
+with information about which primary schools are not reopening on 4th January,
+and tier changes on 31st December.
 </p>
 
 <h3>Notes</h3>
