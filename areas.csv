@@ -784,7 +784,7 @@ MapIt ID,ONS code,Start date,End date,URL,Tier,Name/notes
 2591,E06000013,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,N Lincolnshire
 
 2606,E06000039,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Slough
-2229,E10000016,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Kent
+2229,E10000016,2020-12-02,2020-12-20,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Kent
 2584,E06000035,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Medway
 
 2561,E06000023,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Bristol
@@ -960,7 +960,19 @@ MapIt ID,ONS code,Start date,End date,URL,Tier,Name/notes
 2336,E07000090,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Havant
 
 2606,E06000039,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Slough
-2229,E10000016,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Kent
+
+2348,E07000116,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,T Wells
+2349,E07000112,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,F&H
+2350,E07000111,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Sevenoaks
+2351,E07000115,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,T&M
+2352,E07000114,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Thanet
+2353,E07000105,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Ashford
+2354,E07000106,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Canterbury
+2355,E07000108,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Dover
+2356,E07000110,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Maidstone
+2357,E07000113,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Swale
+2358,E07000107,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Dartford
+2359,E07000109,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Gravesham
 2584,E06000035,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Medway
 
 2449,E07000217,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Woking

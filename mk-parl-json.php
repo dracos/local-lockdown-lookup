@@ -28,7 +28,7 @@ foreach ($data['features'] as $feature) {
     if ($name == 'Greater Manchester')
         $name = ['Bolton','Bury','Manchester','Oldham','Rochdale','Salford','Stockport','Tameside','Trafford','Wigan'];
     if ($name == 'Kent and Medway')
-        $name = ['Kent','Medway'];
+        $name = ['Tunbridge Wells', 'Folkestone and Hythe', 'Sevenoaks', 'Tonbridge and Malling', 'Thanet', 'Ashford', 'Canterbury', 'Dover', 'Maidstone', 'Swale', 'Dartford', 'Gravesham', 'Medway'];
     if ($name == 'Kingston upon Hull') $name = 'Hull';
     if ($name == 'Liverpool City Region')
         $name = ['Liverpool','Halton','Wirral','Knowsley','St Helens','Sefton'];
