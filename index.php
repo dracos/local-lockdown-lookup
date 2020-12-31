@@ -214,12 +214,12 @@ function matching_area($data, $id) {
 
     $result .= '.</big>';
 
-    if (in_array($area['ons'], ['E09000002', 'E09000003', 'E09000004', 'E09000005', 'E09000006', 'E09000008', 'E09000009', 'E09000010', 'E09000013', 'E09000016', 'E09000017', 'E09000018', 'E09000020', 'E09000024', 'E09000025', 'E09000027', 'E09000028', 'E09000029', 'E09000030', 'E09000031', 'E09000032', 'E09000033', 'E07000068', 'E07000072', 'E07000069', 'E07000066', 'E07000075', 'E07000073', 'E07000070', 'E07000067', 'E07000074', 'E06000033', 'E06000034', 'E07000107', 'E07000109', 'E07000111', 'E06000035', 'E07000105', 'E07000110', 'E07000115', 'E07000116', 'E07000113', 'E07000062', 'E07000064', 'E06000042', 'E07000103', 'E07000095', 'E07000098', 'E07000102', 'E09000026'])) {
+    if ($pc_country == 'E' && in_array($area['ons'], ['E09000002', 'E09000003', 'E09000004', 'E09000005', 'E09000006', 'E09000008', 'E09000009', 'E09000010', 'E09000013', 'E09000016', 'E09000017', 'E09000018', 'E09000020', 'E09000024', 'E09000025', 'E09000027', 'E09000028', 'E09000029', 'E09000030', 'E09000031', 'E09000032', 'E09000033', 'E07000068', 'E07000072', 'E07000069', 'E07000066', 'E07000075', 'E07000073', 'E07000070', 'E07000067', 'E07000074', 'E06000033', 'E06000034', 'E07000107', 'E07000109', 'E07000111', 'E06000035', 'E07000105', 'E07000110', 'E07000115', 'E07000116', 'E07000113', 'E07000062', 'E07000064', 'E06000042', 'E07000103', 'E07000095', 'E07000098', 'E07000102', 'E09000026'])) {
         $result .= '<p>Primary schools are not reopening on 4th January. <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/948580/Contingency_framework_implementation_guidance.pdf">Government Contingency</a>.
         Secondary schools will be face to face from 4th January for vulnerable children and the children of critical workers,
         and 11th January also for exam years.
         </p>';
-    } else {
+    } elseif ($pc_country == 'E') {
         $result .= '<p>Primary schools are reopening as normal on 4th January.
         Secondary schools will be face to face from 4th January for vulnerable children and the children of critical workers,
         11th January also for exam years, and 18th January for all years.
