@@ -163,10 +163,15 @@ and tier changes on 31st December.
 
 <h3>Notes</h3>
 <ol>
-<li>A few postcodes cross council boundaries, and this tool will return the result for
-the centroid of the postcode. Sadly better data is not available as open data, though
-many have campaigned for this over the years; the government do have access to better
-data and could make a tool like this that worked even for those postcodes.
+
+<li>A few postcodes cross council boundaries; this tool will hopefully return
+both results in such cases, but due to what is available as open data (there
+now exists a UPRN to postcode mapping, but for all UPRNs, not just addressable
+ones, and what type a UPRN is is not open data) will have some false positives.
+Many have campaigned for full address open data over the years, for many
+reasons such as this; the government do have access to the full, better, data
+and could make a tool like this that worked correctly even for those postcodes.
+As it is, the official site currently sadly does not handle split postcodes at all.
 
 <li>You can also enter lat,lon if you don&rsquo;t have a postcode, or use the
 &ldquo;Use your location&rdquo; button. Any locations and postcodes are not stored
@@ -174,14 +179,12 @@ anywhere apart from the server&rsquo;s log file which is automatically archived 
 week and then automatically deleted after ten weeks.
 
 <li>Local authorities may also have put in place local restrictions I don&rsquo;t know
-about from the national pages. Do check your council&rsquo;s website, and
-please feel free to let me know on
-<a href="https://github.com/dracos/local-lockdown-lookup">GitHub</a> and I can get them included.
+about from the national pages. Do check your council&rsquo;s website.
 
-<li>I have made a <a href="/made/local-lockdown-lookup/comparison/">comparison chart</a> between this service and other similar ones.
+<li>Back in October, I made a <a href="/made/local-lockdown-lookup/comparison/">comparison chart</a> between this service and other similar ones.
 
 <li>To help me keep this up to date, the code is on <a href="https://github.com/dracos/local-lockdown-lookup">GitHub</a>.
-Pull Requests for changes to the areas or postcode list are welcome.
+Pull Requests for changes to the areas are welcome.
 
 <li>If I am unable to keep this up to date, I will immediately remove it and
 leave only these links to the various UK government sites.
