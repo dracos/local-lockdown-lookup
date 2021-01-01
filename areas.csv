@@ -985,38 +985,38 @@ MapIt ID,ONS code,Start date,End date,URL,Tier,Name/notes
 2456,E07000213,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Spelthorne
 2457,E07000208,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Epsom & Ewell
 
-2650,S12000033,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Aberdeen City Council
-2648,S12000034,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Aberdeenshire Council
-2550,S12000041,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Angus Council
-2647,S12000035,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Argyll and Bute Council
-2651,S12000036,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,City of Edinburgh Council
-2569,S12000005,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Clackmannanshire Council
-2646,S12000013,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,3,Comhairle nan Eilean Siar
-2656,S12000006,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Dumfries and Galloway Council
-2573,S12000042,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Dundee City Council
-2574,S12000008,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,East Ayrshire Council
-2575,S12000045,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,East Dunbartonshire Council
-2652,S12000010,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,East Lothian Council
-2576,S12000011,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,East Renfrewshire Council
-2578,S12000014,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Falkirk Council
-2649,S12000047,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Fife Council
-2579,S12000049,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Glasgow City Council
-2643,S12000017,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Highland Council
-2582,S12000018,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Inverclyde Council
-2587,S12000019,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Midlothian Council
-2644,S12000020,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Moray Council
-2654,S12000021,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,North Ayrshire Council
-2590,S12000050,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,North Lanarkshire Council
-2645,S12000023,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,3,Orkney Islands Council
-2593,S12000048,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Perth and Kinross Council
-2598,S12000038,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Renfrewshire Council
-2601,S12000026,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Scottish Borders Council
-2653,S12000027,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,3,Shetland Islands Council
-2655,S12000028,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,South Ayrshire Council
-2609,S12000029,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,South Lanarkshire Council
-2610,S12000030,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,Stirling Council
-2620,S12000039,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,West Dunbartonshire Council
-2621,S12000040,2020-12-26,,https://www.bbc.co.uk/news/explainers-52530518,4,West Lothian Council
+2650,S12000033,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Aberdeen City Council
+2648,S12000034,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Aberdeenshire Council
+2550,S12000041,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Angus Council
+2647,S12000035,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Argyll and Bute Council
+2651,S12000036,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,City of Edinburgh Council
+2569,S12000005,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Clackmannanshire Council
+2646,S12000013,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-3/,3,Comhairle nan Eilean Siar
+2656,S12000006,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Dumfries and Galloway Council
+2573,S12000042,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Dundee City Council
+2574,S12000008,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,East Ayrshire Council
+2575,S12000045,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,East Dunbartonshire Council
+2652,S12000010,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,East Lothian Council
+2576,S12000011,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,East Renfrewshire Council
+2578,S12000014,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Falkirk Council
+2649,S12000047,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Fife Council
+2579,S12000049,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Glasgow City Council
+2643,S12000017,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Highland Council
+2582,S12000018,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Inverclyde Council
+2587,S12000019,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Midlothian Council
+2644,S12000020,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Moray Council
+2654,S12000021,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,North Ayrshire Council
+2590,S12000050,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,North Lanarkshire Council
+2645,S12000023,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-3/,3,Orkney Islands Council
+2593,S12000048,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Perth and Kinross Council
+2598,S12000038,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Renfrewshire Council
+2601,S12000026,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Scottish Borders Council
+2653,S12000027,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-3/,3,Shetland Islands Council
+2655,S12000028,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,South Ayrshire Council
+2609,S12000029,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,South Lanarkshire Council
+2610,S12000030,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Stirling Council
+2620,S12000039,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,West Dunbartonshire Council
+2621,S12000040,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,West Lothian Council
 
 2244,E10000032,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,West Sussex
 2614,E06000043,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Brighton and Hove
