@@ -1139,3 +1139,36 @@ MapIt ID,ONS code,Start date,End date,URL,Tier,Name/notes
 2250,E06000052,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Cornwall
 152225,E06000059,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Dorset
 2245,E06000054,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Wiltshire
+
+2650,S12000033,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Aberdeen City Council
+2648,S12000034,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Aberdeenshire Council
+2550,S12000041,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Angus Council
+2647,S12000035,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Argyll and Bute Council
+2651,S12000036,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,City of Edinburgh Council
+2569,S12000005,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Clackmannanshire Council
+2646,S12000013,2021-01-05,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-3/,3,Comhairle nan Eilean Siar
+2656,S12000006,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Dumfries and Galloway Council
+2573,S12000042,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Dundee City Council
+2574,S12000008,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,East Ayrshire Council
+2575,S12000045,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,East Dunbartonshire Council
+2652,S12000010,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,East Lothian Council
+2576,S12000011,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,East Renfrewshire Council
+2578,S12000014,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Falkirk Council
+2649,S12000047,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Fife Council
+2579,S12000049,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Glasgow City Council
+2643,S12000017,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Highland Council
+2582,S12000018,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Inverclyde Council
+2587,S12000019,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Midlothian Council
+2644,S12000020,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Moray Council
+2654,S12000021,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,North Ayrshire Council
+2590,S12000050,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,North Lanarkshire Council
+2645,S12000023,2021-01-05,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-3/,3,Orkney Islands Council
+2593,S12000048,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Perth and Kinross Council
+2598,S12000038,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Renfrewshire Council
+2601,S12000026,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Scottish Borders Council
+2653,S12000027,2021-01-05,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-3/,3,Shetland Islands Council
+2655,S12000028,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,South Ayrshire Council
+2609,S12000029,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,South Lanarkshire Council
+2610,S12000030,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Stirling Council
+2620,S12000039,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,West Dunbartonshire Council
+2621,S12000040,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,West Lothian Council
