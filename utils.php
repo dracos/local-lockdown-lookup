@@ -42,9 +42,8 @@ function load_areas() {
 }
 
 function load_special() {
-    global $dir, $special_postcodes, $special_areas, $parliament, $council_urls;
+    global $dir, $special_postcodes, $special_areas, $council_urls;
 
-    @include_once $dir . '/cache/parliament.php';
     @include_once $dir . '/councils.php';
 
     $special_postcodes = [
