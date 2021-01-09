@@ -568,422 +568,422 @@ MapIt ID,ONS code,Start date,End date,URL,Tier,Name/notes
 2648,S12000034,2020-12-18 18:00,,https://www.gov.scot/,3,Aberdeenshire Council
 2652,S12000010,2020-12-18 18:00,,https://www.gov.scot/,3,East Lothian
 
-2636,E06000046,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,1,Isle of Wight
-2250,E06000052,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,1,Cornwall
-2251,E06000053,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,1,Isles of Scilly
+2636,E06000046,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,1,Isle of Wight
+2250,E06000052,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,1,Cornwall
+2251,E06000053,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,1,Isles of Scilly
 
-2220,E10000006,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Cumbria
+2220,E10000006,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Cumbria
 
-2580,E06000006,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Liverpool CR
-2525,E08000011,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Liverpool CR
-2527,E08000012,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Liverpool CR
-2536,E08000014,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Liverpool CR
-2541,E08000013,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Liverpool CR
-2548,E08000015,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Liverpool CR
+2580,E06000006,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Liverpool CR
+2525,E08000011,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Liverpool CR
+2527,E08000012,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Liverpool CR
+2536,E08000014,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Liverpool CR
+2541,E08000013,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Liverpool CR
+2548,E08000015,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Liverpool CR
 
-2618,E06000007,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Warrington
-21068,E06000050,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Cheshire West
-21069,E06000049,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Cheshire East
-2625,E06000014,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,York
-2235,E10000023,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,North Yorkshire
-2246,E10000034,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Worcestershire
-2571,E06000019,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Herefordshire
-2238,E06000051,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Shropshire
-2613,E06000020,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,T&W
-2600,E06000017,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Rutland
-2234,E10000021,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Northamptonshire
+2618,E06000007,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Warrington
+21068,E06000050,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Cheshire West
+21069,E06000049,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Cheshire East
+2625,E06000014,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,York
+2235,E10000023,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,North Yorkshire
+2246,E10000034,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Worcestershire
+2571,E06000019,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Herefordshire
+2238,E06000051,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Shropshire
+2613,E06000020,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,T&W
+2600,E06000017,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Rutland
+2234,E10000021,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Northamptonshire
 
-2241,E10000029,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Suffolk
+2241,E10000029,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Suffolk
 
-2340,E07000095,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Broxbourne
-2339,E07000098,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Hertsmere
-2346,E07000103,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Watford
-2338,E07000102,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Three Rivers
-2345,E07000099,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,N Herts
-2347,E07000243,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Stevenage
-2342,E07000242,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,E Herts
-2341,E07000096,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Dacorum
-2343,E07000240,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,St Albans
-2344,E07000241,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Welwyn Hatfield
+2340,E07000095,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Broxbourne
+2339,E07000098,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Hertsmere
+2346,E07000103,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Watford
+2338,E07000102,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Three Rivers
+2345,E07000099,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,N Herts
+2347,E07000243,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Stevenage
+2342,E07000242,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,E Herts
+2341,E07000096,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Dacorum
+2343,E07000240,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,St Albans
+2344,E07000241,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Welwyn Hatfield
 
-2218,E10000003,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Cambridgeshire
-2566,E06000031,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Peterborough
-2233,E10000020,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Norfolk
+2218,E10000003,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Cambridgeshire
+2566,E06000031,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Peterborough
+2233,E10000020,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Norfolk
 
-2319,E07000066,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Basildon
-2317,E07000067,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Braintree
-2309,E07000068,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Brentwood
-2320,E07000069,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Castle Point
-2314,E07000070,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Chelmsford
-2311,E07000072,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Epping Forest
-2318,E07000073,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Harlow
-2316,E07000074,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Maldon
-2310,E07000075,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Rochford
-2607,E06000033,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Southend on Sea
-2615,E06000034,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Thurrock
-2313,E07000077,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Uttlesford
-2315,E07000071,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Colchester
-2312,E07000076,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Tendring
+2319,E07000066,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Basildon
+2317,E07000067,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Braintree
+2309,E07000068,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Brentwood
+2320,E07000069,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Castle Point
+2314,E07000070,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Chelmsford
+2311,E07000072,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Epping Forest
+2318,E07000073,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Harlow
+2316,E07000074,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Maldon
+2310,E07000075,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Rochford
+2607,E06000033,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Southend on Sea
+2615,E06000034,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Thurrock
+2313,E07000077,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Uttlesford
+2315,E07000071,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Colchester
+2312,E07000076,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Tendring
 
-2253,E06000055,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Bedford
-2588,E06000042,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Milton Keynes
-21070,E06000056,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Central Bedfordshire
-2583,E06000032,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Luton
+2253,E06000055,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Bedford
+2588,E06000042,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Milton Keynes
+21070,E06000056,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Central Bedfordshire
+2583,E06000032,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Luton
 
-2480,E09000021,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2481,E09000008,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2482,E09000006,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2483,E09000018,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2484,E09000009,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2485,E09000016,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2486,E09000017,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2487,E09000015,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2488,E09000005,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2489,E09000003,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2490,E09000022,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2491,E09000028,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2492,E09000023,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2493,E09000011,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2494,E09000004,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2495,E09000010,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2496,E09000031,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2497,E09000026,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2498,E09000029,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2499,E09000027,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2500,E09000024,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2501,E09000032,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2502,E09000013,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2503,E09000020,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2504,E09000033,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2505,E09000007,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2506,E09000030,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2507,E09000019,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2508,E09000012,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2509,E09000014,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2510,E09000025,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2511,E09000002,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
-2512,E09000001,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2480,E09000021,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2481,E09000008,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2482,E09000006,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2483,E09000018,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2484,E09000009,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2485,E09000016,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2486,E09000017,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2487,E09000015,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2488,E09000005,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2489,E09000003,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2490,E09000022,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2491,E09000028,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2492,E09000023,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2493,E09000011,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2494,E09000004,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2495,E09000010,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2496,E09000031,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2497,E09000026,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2498,E09000029,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2499,E09000027,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2500,E09000024,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2501,E09000032,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2502,E09000013,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2503,E09000020,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2504,E09000033,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2505,E09000007,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2506,E09000030,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2507,E09000019,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2508,E09000012,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2509,E09000014,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2510,E09000025,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2511,E09000002,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
+2512,E09000001,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,LBO
 
-2614,E06000043,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Brighton and Hove
-2304,E07000063,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Lewes
-2305,E07000064,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Rother
-2306,E07000065,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Wealden
-2307,E07000061,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Eastbourne
-2308,E07000062,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Hastings
+2614,E06000043,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Brighton and Hove
+2304,E07000063,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Lewes
+2305,E07000064,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Rother
+2306,E07000065,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Wealden
+2307,E07000061,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Eastbourne
+2308,E07000062,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Hastings
 
-2244,E10000032,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,West Sussex
+2244,E10000032,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,West Sussex
 
-2447,E07000216,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Waverley
-2449,E07000217,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Woking
-2450,E07000214,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Surrey Heath
-2451,E07000212,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Runnymede
-2452,E07000209,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Guildford
-2453,E07000211,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Reigate & Banstead
-2454,E07000210,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Mole Valley
-2455,E07000207,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Elmbridge
-2456,E07000213,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Spelthorne
-2457,E07000208,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Epsom & Ewell
+2447,E07000216,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Waverley
+2449,E07000217,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Woking
+2450,E07000214,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Surrey Heath
+2451,E07000212,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Runnymede
+2452,E07000209,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Guildford
+2453,E07000211,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Reigate & Banstead
+2454,E07000210,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Mole Valley
+2455,E07000207,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Elmbridge
+2456,E07000213,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Spelthorne
+2457,E07000208,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Epsom & Ewell
 
-2596,E06000038,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Reading
-2623,E06000041,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Wokingham
-2556,E06000036,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Bracknell Forest
-2622,E06000040,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Windsor and Maidenhead
-2619,E06000037,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,West Berkshire
+2596,E06000038,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Reading
+2623,E06000041,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Wokingham
+2556,E06000036,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Bracknell Forest
+2622,E06000040,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Windsor and Maidenhead
+2619,E06000037,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,West Berkshire
 
-2327,E07000084,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Basingstoke and Deane
-2328,E07000091,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,New Forest
-2329,E07000086,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Eastleigh
-2330,E07000085,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,East Hampshire
-2331,E07000094,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Winchester
-2332,E07000093,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Test Valley
-2333,E07000089,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Hart
-2334,E07000088,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Gosport
-2335,E07000087,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Fareham
-2336,E07000090,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Havant
-2337,E07000092,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Rushmoor
+2327,E07000084,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Basingstoke and Deane
+2328,E07000091,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,New Forest
+2329,E07000086,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Eastleigh
+2330,E07000085,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,East Hampshire
+2331,E07000094,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Winchester
+2332,E07000093,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Test Valley
+2333,E07000089,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Hart
+2334,E07000088,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Gosport
+2335,E07000087,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Fareham
+2336,E07000090,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Havant
+2337,E07000092,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Rushmoor
 
-2657,E06000044,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Portsmouth
-2567,E06000045,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Southampton
-163793,E06000060,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Buckinghamshire
-2237,E10000025,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Oxfordshire
+2657,E06000044,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Portsmouth
+2567,E06000045,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Southampton
+163793,E06000060,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Buckinghamshire
+2237,E10000025,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Oxfordshire
 
-2430,E07000189,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,South Somerset
-152109,E07000246,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Somerset West and Taunton
-2428,E07000187,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Mendip
-2431,E07000188,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Sedgemoor
-2551,E06000022,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Bath and North East Somerset
-152225,E06000059,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Dorset
-152188,E06000058,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Bournemouth
-2245,E06000054,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Wiltshire
-2612,E06000030,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Swindon
-2226,E10000013,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Gloucestershire
-2249,E10000008,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Devon
-2658,E06000026,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Plymouth
-2617,E06000027,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Torbay
+2430,E07000189,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,South Somerset
+152109,E07000246,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Somerset West and Taunton
+2428,E07000187,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Mendip
+2431,E07000188,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Sedgemoor
+2551,E06000022,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Bath and North East Somerset
+152225,E06000059,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Dorset
+152188,E06000058,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Bournemouth
+2245,E06000054,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Wiltshire
+2612,E06000030,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Swindon
+2226,E10000013,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Gloucestershire
+2249,E10000008,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Devon
+2658,E06000026,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Plymouth
+2617,E06000027,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Torbay
 
-2581,E06000001,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Hartlepool
-2586,E06000002,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Middlesbrough
-2611,E06000004,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Stockton-on-Tees
-2597,E06000003,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Redcar and Cleveland
-2572,E06000005,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Darlington
-2542,E08000024,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Sunderland
-2539,E08000023,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,South Tyneside
-2523,E08000037,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Gateshead
-2529,E08000021,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Newcastle upon Tyne
-2530,E08000022,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,North Tyneside
-2223,E06000047,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,County Durham
-2248,E06000057,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Northumberland
+2581,E06000001,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Hartlepool
+2586,E06000002,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Middlesbrough
+2611,E06000004,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Stockton-on-Tees
+2597,E06000003,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Redcar and Cleveland
+2572,E06000005,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Darlington
+2542,E08000024,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Sunderland
+2539,E08000023,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,South Tyneside
+2523,E08000037,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Gateshead
+2529,E08000021,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Newcastle upon Tyne
+2530,E08000022,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,North Tyneside
+2223,E06000047,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,County Durham
+2248,E06000057,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Northumberland
 
-2515,E08000001,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Bolton
-2517,E08000002,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Bury
-2528,E08000003,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Manchester
-2531,E08000004,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Oldham
-2532,E08000005,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Rochdale
-2534,E08000006,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Salford
-2540,E08000007,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Stockport
-2543,E08000008,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Tameside
-2544,E08000009,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Trafford
-2547,E08000010,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Wigan
+2515,E08000001,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Bolton
+2517,E08000002,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Bury
+2528,E08000003,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Manchester
+2531,E08000004,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Oldham
+2532,E08000005,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Rochdale
+2534,E08000006,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Salford
+2540,E08000007,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Stockport
+2543,E08000008,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Tameside
+2544,E08000009,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Trafford
+2547,E08000010,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Wigan
 
-2230,E10000017,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Lancashire^^
-2553,E06000009,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Blackpool
-2552,E06000008,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Blackburn with Darwen
+2230,E10000017,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Lancashire^^
+2553,E06000009,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Blackpool
+2552,E06000008,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Blackburn with Darwen
 
-2577,E06000011,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,East Riding
-2563,E06000010,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Hull
+2577,E06000011,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,East Riding
+2563,E06000010,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Hull
 
-2526,E08000035,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Leeds
-2545,E08000036,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Wakefield
-2516,E08000032,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Bradford
-2518,E08000033,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Calderdale
-2524,E08000034,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Kirklees
+2526,E08000035,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Leeds
+2545,E08000036,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Wakefield
+2516,E08000032,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Bradford
+2518,E08000033,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Calderdale
+2524,E08000034,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Kirklees
 
-2537,E08000019,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Sheffield
-2521,E08000017,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Doncaster
-2533,E08000018,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Rotherham
-2513,E08000016,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Barnsley
-2514,E08000025,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Birmingham
-2546,E08000030,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Walsall
-2519,E08000031,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Wolverhampton
-2522,E08000027,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Dudley
-2535,E08000028,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Sandwell
-2240,E10000028,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Staffordshire
-2568,E06000021,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Stoke-on-Trent
-2243,E10000031,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Warwickshire
-2520,E08000026,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Coventry
-2538,E08000029,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Solihull
+2537,E08000019,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Sheffield
+2521,E08000017,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Doncaster
+2533,E08000018,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Rotherham
+2513,E08000016,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Barnsley
+2514,E08000025,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Birmingham
+2546,E08000030,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Walsall
+2519,E08000031,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Wolverhampton
+2522,E08000027,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Dudley
+2535,E08000028,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Sandwell
+2240,E10000028,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Staffordshire
+2568,E06000021,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Stoke-on-Trent
+2243,E10000031,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Warwickshire
+2520,E08000026,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Coventry
+2538,E08000029,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Solihull
 
-2562,E06000015,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Derby
-2221,E10000007,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Derbyshire
-2565,E06000018,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Nottingham
-2236,E10000024,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Nottinghamshire
-2564,E06000016,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Leicester
-2231,E10000018,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Leicestershire
-2232,E10000019,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Lincolnshire
-2589,E06000012,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,NE Lincolnshire
-2591,E06000013,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,N Lincolnshire
+2562,E06000015,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Derby
+2221,E10000007,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Derbyshire
+2565,E06000018,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Nottingham
+2236,E10000024,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Nottinghamshire
+2564,E06000016,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Leicester
+2231,E10000018,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Leicestershire
+2232,E10000019,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Lincolnshire
+2589,E06000012,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,NE Lincolnshire
+2591,E06000013,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,N Lincolnshire
 
-2606,E06000039,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Slough
+2606,E06000039,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Slough
 2229,E10000016,2020-12-02,2020-12-20,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Kent
-2584,E06000035,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Medway
+2584,E06000035,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Medway
 
-2561,E06000023,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Bristol
-2608,E06000025,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,South Gloucestershire
-2642,E06000024,2020-12-02,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,North Somerset
+2561,E06000023,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Bristol
+2608,E06000025,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,South Gloucestershire
+2642,E06000024,2020-12-02,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,North Somerset
 
-2480,E09000021,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2481,E09000008,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2482,E09000006,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2483,E09000018,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2484,E09000009,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2485,E09000016,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2486,E09000017,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2487,E09000015,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2488,E09000005,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2489,E09000003,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2490,E09000022,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2491,E09000028,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2492,E09000023,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2493,E09000011,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2494,E09000004,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2495,E09000010,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2496,E09000031,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2497,E09000026,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2498,E09000029,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2499,E09000027,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2500,E09000024,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2501,E09000032,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2502,E09000013,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2503,E09000020,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2504,E09000033,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2505,E09000007,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2506,E09000030,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2507,E09000019,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2508,E09000012,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2509,E09000014,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2510,E09000025,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2511,E09000002,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
-2512,E09000001,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2480,E09000021,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2481,E09000008,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2482,E09000006,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2483,E09000018,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2484,E09000009,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2485,E09000016,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2486,E09000017,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2487,E09000015,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2488,E09000005,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2489,E09000003,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2490,E09000022,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2491,E09000028,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2492,E09000023,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2493,E09000011,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2494,E09000004,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2495,E09000010,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2496,E09000031,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2497,E09000026,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2498,E09000029,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2499,E09000027,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2500,E09000024,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2501,E09000032,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2502,E09000013,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2503,E09000020,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2504,E09000033,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2505,E09000007,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2506,E09000030,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2507,E09000019,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2508,E09000012,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2509,E09000014,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2510,E09000025,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2511,E09000002,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
+2512,E09000001,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,LBO
 
-2319,E07000066,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Basildon
-2317,E07000067,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Braintree
-2309,E07000068,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Brentwood
-2320,E07000069,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Castle Point
-2314,E07000070,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Chelmsford
-2311,E07000072,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Epping Forest
-2318,E07000073,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Harlow
-2316,E07000074,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Maldon
-2310,E07000075,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Rochford
-2607,E06000033,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Southend on Sea
-2615,E06000034,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Thurrock
+2319,E07000066,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Basildon
+2317,E07000067,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Braintree
+2309,E07000068,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Brentwood
+2320,E07000069,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Castle Point
+2314,E07000070,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Chelmsford
+2311,E07000072,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Epping Forest
+2318,E07000073,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Harlow
+2316,E07000074,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Maldon
+2310,E07000075,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Rochford
+2607,E06000033,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Southend on Sea
+2615,E06000034,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Thurrock
 
-2340,E07000095,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Broxbourne
-2339,E07000098,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Hertsmere
-2346,E07000103,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Watford
-2338,E07000102,2020-12-16,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Three Rivers
+2340,E07000095,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Broxbourne
+2339,E07000098,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Hertsmere
+2346,E07000103,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Watford
+2338,E07000102,2020-12-16,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Three Rivers
 
-2588,E06000042,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Milton Keynes
-2253,E06000055,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Bedford
-21070,E06000056,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Central Bedfordshire
-2583,E06000032,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Luton
-2596,E06000038,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Reading
-2623,E06000041,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Wokingham
-2556,E06000036,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Bracknell Forest
-2622,E06000040,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Windsor and Maidenhead
-2619,E06000037,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,West Berkshire
-163793,E06000060,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Buckinghamshire
+2588,E06000042,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Milton Keynes
+2253,E06000055,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Bedford
+21070,E06000056,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Central Bedfordshire
+2583,E06000032,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Luton
+2596,E06000038,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Reading
+2623,E06000041,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Wokingham
+2556,E06000036,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Bracknell Forest
+2622,E06000040,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Windsor and Maidenhead
+2619,E06000037,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,West Berkshire
+163793,E06000060,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Buckinghamshire
 
-2308,E07000062,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Hastings
-2305,E07000064,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Rother
+2308,E07000062,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Hastings
+2305,E07000064,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Rother
 
-2345,E07000099,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,N Herts
-2347,E07000243,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Stevenage
-2342,E07000242,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,E Herts
-2341,E07000096,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Dacorum
-2343,E07000240,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,St Albans
-2344,E07000241,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Welwyn Hatfield
+2345,E07000099,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,N Herts
+2347,E07000243,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Stevenage
+2342,E07000242,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,E Herts
+2341,E07000096,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Dacorum
+2343,E07000240,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,St Albans
+2344,E07000241,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Welwyn Hatfield
 
-2566,E06000031,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Peterborough
-2657,E06000044,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Portsmouth
-2334,E07000088,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Gosport
-2336,E07000090,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Havant
+2566,E06000031,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Peterborough
+2657,E06000044,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Portsmouth
+2334,E07000088,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Gosport
+2336,E07000090,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Havant
 
-2561,E06000023,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Bristol
-2642,E06000024,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,North Somerset
-2571,E06000019,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,1,Herefordshire
+2561,E06000023,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Bristol
+2642,E06000024,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,North Somerset
+2571,E06000019,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,1,Herefordshire
 
-2449,E07000217,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Woking
-2450,E07000214,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Surrey Heath
-2451,E07000212,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Runnymede
-2452,E07000209,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Guildford
-2453,E07000211,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Reigate & Banstead
-2454,E07000210,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Mole Valley
-2455,E07000207,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Elmbridge
-2456,E07000213,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Spelthorne
-2457,E07000208,2020-12-19,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Epsom & Ewell
+2449,E07000217,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Woking
+2450,E07000214,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Surrey Heath
+2451,E07000212,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Runnymede
+2452,E07000209,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Guildford
+2453,E07000211,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Reigate & Banstead
+2454,E07000210,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Mole Valley
+2455,E07000207,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Elmbridge
+2456,E07000213,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Spelthorne
+2457,E07000208,2020-12-19,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Epsom & Ewell
 
-2480,E09000021,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2481,E09000008,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2482,E09000006,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2483,E09000018,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2484,E09000009,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2485,E09000016,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2486,E09000017,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2487,E09000015,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2488,E09000005,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2489,E09000003,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2490,E09000022,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2491,E09000028,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2492,E09000023,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2493,E09000011,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2494,E09000004,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2495,E09000010,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2496,E09000031,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2497,E09000026,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2498,E09000029,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2499,E09000027,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2500,E09000024,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2501,E09000032,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2502,E09000013,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2503,E09000020,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2504,E09000033,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2505,E09000007,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2506,E09000030,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2507,E09000019,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2508,E09000012,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2509,E09000014,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2510,E09000025,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2511,E09000002,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
-2512,E09000001,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2480,E09000021,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2481,E09000008,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2482,E09000006,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2483,E09000018,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2484,E09000009,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2485,E09000016,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2486,E09000017,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2487,E09000015,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2488,E09000005,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2489,E09000003,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2490,E09000022,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2491,E09000028,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2492,E09000023,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2493,E09000011,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2494,E09000004,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2495,E09000010,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2496,E09000031,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2497,E09000026,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2498,E09000029,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2499,E09000027,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2500,E09000024,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2501,E09000032,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2502,E09000013,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2503,E09000020,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2504,E09000033,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2505,E09000007,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2506,E09000030,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2507,E09000019,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2508,E09000012,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2509,E09000014,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2510,E09000025,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2511,E09000002,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
+2512,E09000001,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,LBO
 
-2319,E07000066,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Basildon
-2317,E07000067,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Braintree
-2309,E07000068,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Brentwood
-2320,E07000069,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Castle Point
-2314,E07000070,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Chelmsford
-2311,E07000072,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Epping Forest
-2318,E07000073,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Harlow
-2316,E07000074,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Maldon
-2310,E07000075,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Rochford
-2607,E06000033,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Southend on Sea
-2615,E06000034,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Thurrock
+2319,E07000066,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Basildon
+2317,E07000067,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Braintree
+2309,E07000068,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Brentwood
+2320,E07000069,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Castle Point
+2314,E07000070,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Chelmsford
+2311,E07000072,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Epping Forest
+2318,E07000073,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Harlow
+2316,E07000074,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Maldon
+2310,E07000075,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Rochford
+2607,E06000033,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Southend on Sea
+2615,E06000034,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Thurrock
 
-2340,E07000095,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Broxbourne
-2339,E07000098,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Hertsmere
-2346,E07000103,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Watford
-2338,E07000102,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Three Rivers
+2340,E07000095,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Broxbourne
+2339,E07000098,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Hertsmere
+2346,E07000103,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Watford
+2338,E07000102,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Three Rivers
 
-2588,E06000042,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Milton Keynes
-2253,E06000055,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Bedford
-21070,E06000056,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Central Bedfordshire
-2583,E06000032,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Luton
-2596,E06000038,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Reading
-2623,E06000041,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Wokingham
-2556,E06000036,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Bracknell Forest
-2622,E06000040,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Windsor and Maidenhead
-2619,E06000037,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,West Berkshire
-163793,E06000060,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Buckinghamshire
+2588,E06000042,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Milton Keynes
+2253,E06000055,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Bedford
+21070,E06000056,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Central Bedfordshire
+2583,E06000032,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Luton
+2596,E06000038,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Reading
+2623,E06000041,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Wokingham
+2556,E06000036,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Bracknell Forest
+2622,E06000040,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Windsor and Maidenhead
+2619,E06000037,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,West Berkshire
+163793,E06000060,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Buckinghamshire
 
-2308,E07000062,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Hastings
-2305,E07000064,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Rother
+2308,E07000062,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Hastings
+2305,E07000064,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Rother
 
-2345,E07000099,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,N Herts
-2347,E07000243,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Stevenage
-2342,E07000242,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,E Herts
-2341,E07000096,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Dacorum
-2343,E07000240,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,St Albans
-2344,E07000241,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Welwyn Hatfield
+2345,E07000099,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,N Herts
+2347,E07000243,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Stevenage
+2342,E07000242,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,E Herts
+2341,E07000096,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Dacorum
+2343,E07000240,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,St Albans
+2344,E07000241,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Welwyn Hatfield
 
-2566,E06000031,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Peterborough
-2657,E06000044,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Portsmouth
-2334,E07000088,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Gosport
-2336,E07000090,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Havant
+2566,E06000031,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Peterborough
+2657,E06000044,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Portsmouth
+2334,E07000088,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Gosport
+2336,E07000090,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Havant
 
-2606,E06000039,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Slough
+2606,E06000039,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Slough
 
-2348,E07000116,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,T Wells
-2349,E07000112,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,F&H
-2350,E07000111,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Sevenoaks
-2351,E07000115,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,T&M
-2352,E07000114,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Thanet
-2353,E07000105,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Ashford
-2354,E07000106,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Canterbury
-2355,E07000108,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Dover
-2356,E07000110,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Maidstone
-2357,E07000113,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Swale
-2358,E07000107,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Dartford
-2359,E07000109,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Gravesham
-2584,E06000035,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Medway
+2348,E07000116,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,T Wells
+2349,E07000112,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,F&H
+2350,E07000111,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Sevenoaks
+2351,E07000115,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,T&M
+2352,E07000114,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Thanet
+2353,E07000105,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Ashford
+2354,E07000106,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Canterbury
+2355,E07000108,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Dover
+2356,E07000110,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Maidstone
+2357,E07000113,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Swale
+2358,E07000107,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Dartford
+2359,E07000109,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Gravesham
+2584,E06000035,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Medway
 
-2449,E07000217,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Woking
-2450,E07000214,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Surrey Heath
-2451,E07000212,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Runnymede
-2452,E07000209,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Guildford
-2453,E07000211,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Reigate & Banstead
-2454,E07000210,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Mole Valley
-2455,E07000207,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Elmbridge
-2456,E07000213,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Spelthorne
-2457,E07000208,2020-12-20,,https://www.bbc.co.uk/news/explainers-52530518,4,Epsom & Ewell
+2449,E07000217,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Woking
+2450,E07000214,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Surrey Heath
+2451,E07000212,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Runnymede
+2452,E07000209,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Guildford
+2453,E07000211,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Reigate & Banstead
+2454,E07000210,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Mole Valley
+2455,E07000207,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Elmbridge
+2456,E07000213,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Spelthorne
+2457,E07000208,2020-12-20,2021-01-05,https://www.bbc.co.uk/news/explainers-52530518,4,Epsom & Ewell
 
 2650,S12000033,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Aberdeen City Council
 2648,S12000034,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,Aberdeenshire Council
@@ -1018,127 +1018,127 @@ MapIt ID,ONS code,Start date,End date,URL,Tier,Name/notes
 2620,S12000039,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,West Dunbartonshire Council
 2621,S12000040,2020-12-26,,https://www.gov.scot/publications/coronavirus-covid-19-protection-levels/pages/protection-level-4/,4,West Lothian Council
 
-2244,E10000032,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,West Sussex
-2614,E06000043,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Brighton and Hove
-2304,E07000063,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Lewes
-2306,E07000065,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Wealden
-2307,E07000061,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Eastbourne
-2237,E10000025,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Oxfordshire
-2241,E10000029,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Suffolk
-2233,E10000020,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Norfolk
-2218,E10000003,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Cambridgeshire
+2244,E10000032,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,West Sussex
+2614,E06000043,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Brighton and Hove
+2304,E07000063,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Lewes
+2306,E07000065,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Wealden
+2307,E07000061,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Eastbourne
+2237,E10000025,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Oxfordshire
+2241,E10000029,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Suffolk
+2233,E10000020,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Norfolk
+2218,E10000003,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Cambridgeshire
 
-2447,E07000216,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Waverley
-2313,E07000077,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Uttlesford
-2315,E07000071,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Colchester
-2312,E07000076,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Tendring
+2447,E07000216,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Waverley
+2313,E07000077,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Uttlesford
+2315,E07000071,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Colchester
+2312,E07000076,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Tendring
 
-2327,E07000084,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Basingstoke and Deane
-2328,E07000091,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,New Forest
-2329,E07000086,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Eastleigh
-2330,E07000085,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,East Hampshire
-2331,E07000094,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Winchester
-2332,E07000093,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Test Valley
-2333,E07000089,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Hart
-2335,E07000087,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Fareham
-2337,E07000092,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Rushmoor
-2567,E06000045,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Southampton
+2327,E07000084,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Basingstoke and Deane
+2328,E07000091,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,New Forest
+2329,E07000086,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Eastleigh
+2330,E07000085,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,East Hampshire
+2331,E07000094,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Winchester
+2332,E07000093,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Test Valley
+2333,E07000089,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Hart
+2335,E07000087,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Fareham
+2337,E07000092,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Rushmoor
+2567,E06000045,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Southampton
 
-2561,E06000023,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Bristol
-2642,E06000024,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,North Somerset
-2430,E07000189,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,South Somerset
-152109,E07000246,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Somerset West and Taunton
-2428,E07000187,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Mendip
-2431,E07000188,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Sedgemoor
-2612,E06000030,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Swindon
-2226,E10000013,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Gloucestershire
-2636,E06000046,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Isle of Wight
-2234,E10000021,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Northamptonshire
-2618,E06000007,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Warrington
-21068,E06000050,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Cheshire West
-21069,E06000049,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Cheshire East
+2561,E06000023,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Bristol
+2642,E06000024,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,North Somerset
+2430,E07000189,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,South Somerset
+152109,E07000246,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Somerset West and Taunton
+2428,E07000187,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Mendip
+2431,E07000188,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Sedgemoor
+2612,E06000030,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Swindon
+2226,E10000013,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Gloucestershire
+2636,E06000046,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Isle of Wight
+2234,E10000021,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Northamptonshire
+2618,E06000007,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Warrington
+21068,E06000050,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Cheshire West
+21069,E06000049,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Cheshire East
 
-2250,E06000052,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Cornwall
-2571,E06000019,2020-12-26,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Herefordshire
+2250,E06000052,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Cornwall
+2571,E06000019,2020-12-26,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,2,Herefordshire
 
 
-2562,E06000015,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Derby
-2221,E10000007,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Derbyshire
-2565,E06000018,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Nottingham
-2236,E10000024,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Nottinghamshire
-2564,E06000016,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Leicester
-2231,E10000018,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Leicestershire
-2232,E10000019,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Lincolnshire
-2234,E10000021,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Northamptonshire
-2514,E08000025,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Birmingham
-2546,E08000030,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Walsall
-2519,E08000031,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Wolverhampton
-2522,E08000027,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Dudley
-2535,E08000028,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Sandwell
-2520,E08000026,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Coventry
-2538,E08000029,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Solihull
-2243,E10000031,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Warwickshire
-2240,E10000028,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Staffordshire
-2568,E06000021,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Stoke-on-Trent
-2230,E10000017,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Lancashire
-2553,E06000009,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Blackpool
-2552,E06000008,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Blackburn with Darwen
-2618,E06000007,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Warrington
-21068,E06000050,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Cheshire West
-21069,E06000049,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Cheshire East
-2220,E10000006,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Cumbria
-2515,E08000001,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Bolton
-2517,E08000002,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Bury
-2528,E08000003,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Manchester
-2531,E08000004,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Oldham
-2532,E08000005,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Rochdale
-2534,E08000006,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Salford
-2540,E08000007,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Stockport
-2543,E08000008,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Tameside
-2544,E08000009,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Trafford
-2547,E08000010,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Wigan
-2581,E06000001,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Hartlepool
-2586,E06000002,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Middlesbrough
-2611,E06000004,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Stockton-on-Tees
-2597,E06000003,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Redcar and Cleveland
-2572,E06000005,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Darlington
-2542,E08000024,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Sunderland
-2539,E08000023,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,South Tyneside
-2523,E08000037,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Gateshead
-2529,E08000021,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Newcastle upon Tyne
-2530,E08000022,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,North Tyneside
-2223,E06000047,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,County Durham
-2248,E06000057,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Northumberland
-2430,E07000189,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,South Somerset
-152109,E07000246,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Somerset West and Taunton
-2428,E07000187,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Mendip
-2431,E07000188,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Sedgemoor
-2612,E06000030,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Swindon
-2226,E10000013,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Gloucestershire
-2636,E06000046,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Isle of Wight
-152188,E06000058,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Bournemouth
-2328,E07000091,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,New Forest
+2562,E06000015,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Derby
+2221,E10000007,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Derbyshire
+2565,E06000018,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Nottingham
+2236,E10000024,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Nottinghamshire
+2564,E06000016,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Leicester
+2231,E10000018,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Leicestershire
+2232,E10000019,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Lincolnshire
+2234,E10000021,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Northamptonshire
+2514,E08000025,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Birmingham
+2546,E08000030,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Walsall
+2519,E08000031,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Wolverhampton
+2522,E08000027,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Dudley
+2535,E08000028,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Sandwell
+2520,E08000026,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Coventry
+2538,E08000029,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Solihull
+2243,E10000031,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Warwickshire
+2240,E10000028,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Staffordshire
+2568,E06000021,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Stoke-on-Trent
+2230,E10000017,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Lancashire
+2553,E06000009,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Blackpool
+2552,E06000008,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Blackburn with Darwen
+2618,E06000007,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Warrington
+21068,E06000050,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Cheshire West
+21069,E06000049,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Cheshire East
+2220,E10000006,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Cumbria
+2515,E08000001,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Bolton
+2517,E08000002,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Bury
+2528,E08000003,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Manchester
+2531,E08000004,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Oldham
+2532,E08000005,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Rochdale
+2534,E08000006,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Salford
+2540,E08000007,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Stockport
+2543,E08000008,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Tameside
+2544,E08000009,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Trafford
+2547,E08000010,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Wigan
+2581,E06000001,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Hartlepool
+2586,E06000002,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Middlesbrough
+2611,E06000004,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Stockton-on-Tees
+2597,E06000003,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Redcar and Cleveland
+2572,E06000005,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Darlington
+2542,E08000024,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Sunderland
+2539,E08000023,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,South Tyneside
+2523,E08000037,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Gateshead
+2529,E08000021,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Newcastle upon Tyne
+2530,E08000022,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,North Tyneside
+2223,E06000047,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,County Durham
+2248,E06000057,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Northumberland
+2430,E07000189,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,South Somerset
+152109,E07000246,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Somerset West and Taunton
+2428,E07000187,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Mendip
+2431,E07000188,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Sedgemoor
+2612,E06000030,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Swindon
+2226,E10000013,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Gloucestershire
+2636,E06000046,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Isle of Wight
+152188,E06000058,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,Bournemouth
+2328,E07000091,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,4,New Forest
 
-2600,E06000017,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Rutland
-2238,E06000051,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Shropshire
-2613,E06000020,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,T&W
-2246,E10000034,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Worcestershire
-2571,E06000019,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Herefordshire
-2580,E06000006,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Liverpool CR
-2525,E08000011,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Liverpool CR
-2527,E08000012,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Liverpool CR
-2536,E08000014,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Liverpool CR
-2541,E08000013,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Liverpool CR
-2548,E08000015,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Liverpool CR
-2625,E06000014,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,York
-2235,E10000023,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,North Yorkshire
-2551,E06000022,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Bath and North East Somerset
-2249,E10000008,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Devon
-2658,E06000026,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Plymouth
-2617,E06000027,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Torbay
-2250,E06000052,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Cornwall
-152225,E06000059,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Dorset
-2245,E06000054,2020-12-31,,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Wiltshire
+2600,E06000017,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Rutland
+2238,E06000051,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Shropshire
+2613,E06000020,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,T&W
+2246,E10000034,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Worcestershire
+2571,E06000019,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Herefordshire
+2580,E06000006,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Liverpool CR
+2525,E08000011,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Liverpool CR
+2527,E08000012,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Liverpool CR
+2536,E08000014,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Liverpool CR
+2541,E08000013,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Liverpool CR
+2548,E08000015,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Liverpool CR
+2625,E06000014,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,York
+2235,E10000023,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,North Yorkshire
+2551,E06000022,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Bath and North East Somerset
+2249,E10000008,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Devon
+2658,E06000026,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Plymouth
+2617,E06000027,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Torbay
+2250,E06000052,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Cornwall
+152225,E06000059,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Dorset
+2245,E06000054,2020-12-31,2021-01-05,https://www.gov.uk/guidance/local-restriction-tiers-what-you-need-to-know,3,Wiltshire
 
 2650,S12000033,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Aberdeen City Council
 2648,S12000034,2021-01-05,,https://www.gov.scot/news/scotland-in-lockdown/,,Aberdeenshire Council

@@ -156,8 +156,8 @@ there are currently any nationally-imposed local restrictions.
 <?php } ?>
 </div>
 
-<p>Data last updated at <strong>9pm on 1st January 2021</strong>,
-with information about all London primary schools not reopening on 4th January.
+<p>Data last updated at <strong>9pm on 4th January 2021</strong>,
+with information about new lockdown.
 </p>
 
 <h3>Notes</h3>

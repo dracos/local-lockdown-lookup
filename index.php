@@ -214,18 +214,6 @@ function matching_area($data, $id) {
 
     $result .= '.</big>';
 
-    if ($pc_country == 'E' && $data[$id]['type'] == 'LBO') {
-        $result .= '<p>Primary schools are not reopening on 4th January. <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/948580/Contingency_framework_implementation_guidance.pdf">Government Contingency</a>.
-        Secondary schools will be face to face from 4th January for vulnerable children and the children of critical workers,
-        and 11th January also for exam years.
-        </p>';
-    } elseif ($pc_country == 'E') {
-        $result .= '<p>Primary schools are reopening as normal on 4th January.
-        Secondary schools will be face to face from 4th January for vulnerable children and the children of critical workers,
-        11th January also for exam years, and 18th January for all years.
-         </p>';
-    }
-
     $parl_id = $id;
     $props = $parliament[$parl_id];
     $show_parl = (!$DATE && $props);
@@ -329,9 +317,9 @@ function check_area($data, $council, $ward=null, $showinfo=true) {
 
 function national_guidance($country) {
     $guidance = [
-        'E' => 'https://www.gov.uk/guidance/new-national-restrictions-from-5-november',
-        'W' => 'https://gov.wales/coronavirus-regulations-guidance',
-        'S' => 'https://www.gov.scot/publications/coronavirus-covid-19-what-you-can-and-cannot-do/',
+        'E' => 'https://www.gov.uk/guidance/national-lockdown-stay-at-home',
+        'W' => 'https://gov.wales/coronavirus',
+        'S' => 'https://www.gov.scot/news/scotland-in-lockdown/',
         'N' => 'https://www.nidirect.gov.uk/articles/coronavirus-covid-19-regulations-guidance-what-restrictions-mean-you',
     ];
     return $guidance[$country];
